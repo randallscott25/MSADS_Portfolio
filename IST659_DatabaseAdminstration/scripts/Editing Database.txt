@@ -1,0 +1,40 @@
+(ClientFirstName, ClientLastName, ClientAddress1, ClientAddress2, ClientEmailAddress, ClientCity, ClientState, ClientZIP)
+
+('David', 'Wearhouse', '84 Home Lane', 'Apartment 2', 'dwearhouse@mail.mail', 'New York', 'New State', '071000')
+('Edward', 'Vincent', '83 House Street', 'none', 'evin@email.mail', 'OldeTowne', 'Texas', '071002')
+('Franny', 'Ulvade', '82 State Street', '3 floor', 'fuvalde@mail.org', 'Kingston', 'Mississippi', '071001')
+('Greg', 'Thomas', '24 Basic Bia Ave', '2 floor', 'gthom@funktown.org', 'Kings Failing', 'New Hampshire', '071003')
+('Hillary', 'Samson', '12 Trail Place Ln', 'none', 'Hsam@att.com', 'Wylie', 'Texas', '071020')
+('Icabod', 'Crane', '1123 Sleepy Street Road', 'none', 'icrane@home.org', 'Sleepy Hollow', 'New York', '071001')
+('Shelly', 'Crable', '41 Patricia Ln', 'Lot 1', 'scrable@att.org', 'Westminister', 'Colorado', '90212')
+('Gavin', 'Lee', '45 West Street', 'Lot 12', 'glee@wiznet.com', 'McKinney', 'Nevada', '12010')
+('Chris', 'Tucker', '1121 Lefty Lane', 'Apt 123', 'tuckerc@me.org', 'Detriot', 'Michigan', '65520')
+('Shelby', 'Mustang', '66 Big Street', 'none', 'smustang@ford.com', 'Chicago', 'Illinois', '102801')
+
+
+
+
+------------
+
+(PersonnelFirstName, PersonnelLastName, PersonnelBarNumber)
+
+('Perry','Mason','NYS323') 
+('Della','Street','NYS232')
+('Sarah','Pause','NYS544')
+('William','Fontaine','Paralegal')
+
+
+----- 
+
+INSERT INTO PersonnelClient 
+
+(PersonnelClient_FK1, PersonnelClient_FK2) 
+ 
+
+CREATE TABLE PersonnelClient
+(
+	PersonnelClientID int IDENTITY NOT NULL,
+	CONSTRAINT PersonnelClientPK PRIMARY KEY(PersonnelClientID),
+	CONSTRAINT PersonnelClient_FK1 FOREIGN KEY (PersonnelClientID) REFERENCES Personnel(PersonnelID),
+	CONSTRAINT PersonnelClient_FK2 FOREIGN KEY (PersonnelClientID) REFERENCES Client(ClientID)
+ 

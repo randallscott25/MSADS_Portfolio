@@ -1,0 +1,374 @@
+
+ /*  Randall Taylor Database Milestone Project 'Law office'
+	Syracuse University Spring Semester 
+
+*/
+
+-- Drop Tables: drop all database object in reverse-dependency order. Drop foreign key 
+
+IF OBJECT_ID('FirmCalendarCourtHearingDate') IS NOT NULL 
+		DROP TABLE FirmCalendarCourtHearingDate;
+go
+
+IF OBJECT_ID('CourtCaseHearingDate') IS NOT NULL 
+		DROP TABLE CourtCaseHearingDate;
+go
+IF OBJECT_ID('FirmCalendarClientPersonnel') IS NOT NULL 
+		DROP TABLE FirmCalendarClientPersonnel;
+go
+
+IF OBJECT_ID('ClientCourtCase') IS NOT NULL 
+		DROP TABLE ClientCourtCase;
+go
+
+IF OBJECT_ID('DiscoveryClient') IS NOT NULL 
+		DROP TABLE DiscoveryClient;
+go
+
+IF OBJECT_ID('JudicialFormsClient') IS NOT NULL 
+		DROP TABLE JudicialFormsClient;
+go
+
+IF OBJECT_ID('BillingClient') IS NOT NULL 
+		DROP TABLE BillingClient;
+go
+
+IF OBJECT_ID('PersonnelClient') IS NOT NULL 
+		DROP TABLE PersonnelClient;
+go
+
+IF OBJECT_ID('BillingPersonnel') IS NOT NULL 
+		DROP TABLE BillingPersonnel;
+go
+
+-- at this point, below are the independent table drops
+
+
+IF OBJECT_ID('CourtHearingDate') IS NOT NULL 
+		DROP TABLE CourtHearingDate;
+go
+
+IF OBJECT_ID('FirmCalendar') IS NOT NULL 
+		DROP TABLE FirmCalendar;
+go
+
+IF OBJECT_ID('CourtCase') IS NOT NULL 
+		DROP TABLE CourtCase;
+go
+
+IF OBJECT_ID('Client') IS NOT NULL 
+		DROP TABLE Client;
+go
+
+IF OBJECT_ID('Discovery') IS NOT NULL 
+		DROP TABLE Discovery;
+go
+
+IF OBJECT_ID('JudicialForms') IS NOT NULL 
+		DROP TABLE JudicialForms;
+go
+
+IF OBJECT_ID('Billing') IS NOT NULL 
+		DROP TABLE Billing;
+go
+
+IF OBJECT_ID('Personnel') IS NOT NULL 
+		DROP TABLE Personnel;
+go
+
+
+
+
+
+/* 
+	This concludes the drop database objects;
+	
+	Now; create TABLES in DEPENDENCY ORDER: Create INDEPENDENT TABLES FIRST, then TABLES that
+	are DEPENDENT.  
+
+*/
+
+--Law Office
+
+CREATE TABLE Personnel	
+(
+	PersonnelID int IDENTITY NOT NULL,
+	PersonnelFirstName varchar(30) NOT NULL,
+	PersonnelLastName varchar(30) NOT NULL,
+	PersonnelBarNumber int,
+	CONSTRAINT PersonnelPK PRIMARY KEY (PersonnelID)
+
+);
+go
+
+CREATE TABLE Billing
+(
+	BillingID int IDENTITY NOT NULL,
+	BillingDescription1 varchar(100) NOT NULL,
+	BillingDescription2 varchar(100) NOT NULL,
+	CONSTRAINT BillingPK PRIMARY KEY (BillingID)
+
+);
+go
+
+CREATE TABLE JudicialForms
+(
+	JudicialFormsID int IDENTITY NOT NULL,
+	FormJurisdiction varchar(100) NOT NULL,
+	FormName varchar(100) NOT NULL,
+	FormStorageLocal varchar(100) NOT NULL,
+	CONSTRAINT JudicialFormsPK PRIMARY KEY (JudicialFormsID)
+
+);
+go
+
+CREATE TABLE Discovery
+(
+	DiscoveryID int IDENTITY NOT NULL,
+	DiscoveryType varchar(100) NOT NULL,
+	DiscoveryStorageLocation varchar(100) NOT NULL,
+	CONSTRAINT DiscoveryPK PRIMARY KEY (DiscoveryID)
+
+);
+go
+
+CREATE TABLE Client
+(
+	ClientID int IDENTITY NOT NULL,
+	ClientFirstName varchar(100) NOT NULL,
+	ClientLastName varchar(100) NOT NULL,
+	ClientAddress1 varchar(50) NOT NULL,
+	ClientAddress2 varchar(50), 
+	ClientEmailAddress varchar(100) NOT NULL,
+	ClientCity varchar(100) NOT NULL,
+	ClientState varchar(100) NOT NULL,
+	ClientProvince varchar(50), 
+	ClientZIP varchar(20) NOT NULL,
+	CONSTRAINT ClientPK PRIMARY KEY (ClientID),
+	CONSTRAINT ClientEmailAddressU1 UNIQUE (ClientEmailAddress), 
+);
+go
+
+CREATE TABLE CourtCase
+(
+	CourtCaseID int IDENTITY NOT NULL,
+	CourtName1 varchar(50) NOT NULL,
+	CourtName2 varchar (50) NOT NULL,
+	CourtNumber varchar(20) NOT NULL,
+	CourtJudicialOfficer1 varchar(40) NOT NULL,
+	CourtJudicialOfficer2 varchar(40),
+	CourtCaseNumber varchar(50) NOT NULL, 
+	CONSTRAINT CourtCasePK PRIMARY KEY (CourtCaseID)
+
+);
+go
+
+CREATE TABLE FirmCalendar
+(
+	FirmCalendarID int IDENTITY NOT NULL, 
+	FirmCalendarDate DATETIME NOT NULL,
+	FirmCalendarMeetingTime DATETIME NOT NULL,
+	CONSTRAINT FirmCalendarPK PRIMARY KEY (FirmCalendarID)
+
+);
+go
+
+CREATE TABLE CourtHearingDate
+(
+	CourtHearingDateID int IDENTITY NOT NULL,
+	CourtHearingDateDescription varchar(100) NOT NULL, 
+	CourtHearingHeard DATETIME NOT NULL,
+	CONSTRAINT CourtHearingDatePK PRIMARY KEY (CourtHearingDateID)
+
+);
+go
+
+-- It is at this point that all Dependent Tables will be created 
+
+CREATE TABLE BillingPersonnel
+(
+	BillingPersonnelID int IDENTITY NOT NULL,
+	BillingPersonnelRate int NOT NULL,
+	BillingPersonnelHoursOwed int NOT NULL,
+	CONSTRAINT BillingPersonnelPK PRIMARY KEY (BillingPersonnelID),
+	CONSTRAINT BillingPersonnelFK1 FOREIGN KEY (BillingPersonnelID) REFERENCES Personnel (PersonnelID),
+	CONSTRAINT BillingPersonnelFK2 FOREIGN KEY (BillingPersonnelID) REFERENCES Billing(BillingID) 
+	
+
+);
+go
+
+CREATE TABLE PersonnelClient
+(
+	PersonnelClientID int IDENTITY NOT NULL,
+	PersonnelID int NOT NULL,
+	ClientID int NOT NULL,
+    	CONSTRAINT PersonnelIDU1 UNIQUE(PersonnelID),
+	CONSTRAINT ClientIDU2 UNIQUE(ClientID),
+	CONSTRAINT PersonnelClientPK PRIMARY KEY(PersonnelClientID),
+	CONSTRAINT PersonnelClient_FK1 FOREIGN KEY (PersonnelID) REFERENCES Personnel(PersonnelID),
+	CONSTRAINT PersonnelClient_FK2 FOREIGN KEY (ClientID) REFERENCES Client(ClientID)
+);
+go
+
+CREATE TABLE BillingClient
+(
+	BillingClientID int IDENTITY NOT NULL,
+	BillingClientHoursBilled int NOT NULL,
+	CONSTRAINT BillingClientPK PRIMARY KEY (BillingClientID),
+	CONSTRAINT BillingClient_FK1 FOREIGN KEY (BillingClientID) REFERENCES Billing(BillingID),
+	CONSTRAINT BillingClient_FK2 FOREIGN KEY(BillingClientID) REFERENCES Client(ClientID)
+
+);
+go
+
+CREATE TABLE JudicialFormsClient
+(
+	JudicialFormsClientID int IDENTITY NOT NULL,
+	CONSTRAINT JudicialFormsClientPK PRIMARY KEY (JudicialFormsClientID),
+	CONSTRAINT JudicialFormsClient_FK1 FOREIGN KEY (JudicialFormsClientID) REFERENCES JudicialForms, 
+	CONSTRAINT JudicialFormsClient_FK2 FOREIGN KEY (JudicialFormsClientID) REFERENCES Client
+
+);
+go
+
+CREATE TABLE DiscoveryClient 
+(
+	DiscoveryClientID int IDENTITY NOT NULL, 
+	CONSTRAINT DiscoveryClientPK PRIMARY KEY (DiscoveryClientID),
+	CONSTRAINT DiscoveryClientFK1 FOREIGN KEY (DiscoveryClientID) REFERENCES Discovery(DiscoveryID), 
+	CONSTRAINT DiscoveryClientFK2 FOREIGN KEY (DiscoveryClientID) REFERENCES Client(ClientID)
+
+);
+go
+
+CREATE TABLE ClientCourtCase
+(
+	ClientCourtCaseID int IDENTITY NOT NULL,
+	CONSTRAINT ClientCourtCasePK PRIMARY KEY (ClientCourtCaseID),
+	CONSTRAINT ClientCourtCaseFK1 FOREIGN KEY (ClientCourtCaseID) REFERENCES CourtCase(CourtCaseID),
+	CONSTRAINT ClientCourtCaseFK2 FOREIGN KEY (ClientCourtCaseID) REFERENCES Client(ClientID)
+
+);
+go
+
+CREATE TABLE FirmCalendarClientPersonnel
+(
+	FirmCalendarClientPersonnelID int IDENTITY NOT NULL,
+	PersonnelHoursSpent DATETIME  NOT NULL,
+	CONSTRAINT FirmCalendarClientPersonnelPK PRIMARY KEY (FirmCalendarClientPersonnelID),
+	CONSTRAINT FirmCalendarClientPersonnelFK1 FOREIGN KEY (FirmCalendarClientPersonnelID) REFERENCES Client(ClientID),
+	CONSTRAINT FirmCalendarClientPersonnelFK2 FOREIGN KEY (FirmCalendarClientPersonnelID) REFERENCES Personnel(PersonnelID),
+	CONSTRAINT FirmCalendarClientPersonnelFK3 FOREIGN KEY( FirmCalendarClientPersonnelID) REFERENCES FirmCalendar(FirmCalendarID)
+
+);
+go
+
+CREATE TABLE CourtCaseHearingDate
+(
+	CourtCaseHearingDateID int IDENTITY NOT NULL,
+	CONSTRAINT CourtCaseHearingDatePK PRIMARY KEY (CourtCaseHearingDateID),
+	CONSTRAINT CourtCaseHearingDateFK1 FOREIGN KEY (CourtCaseHearingDateID) REFERENCES CourtCase(CourtCaseID), 
+	CONSTRAINT CourtCaseHearingDateFK2 FOREIGN KEY (CourtCaseHearingDateID) REFERENCES CourtHearingDate(CourtHearingDateID)
+
+);
+go
+
+CREATE TABLE FirmCalendarCourtHearingDate
+(
+	FirmCalendarCourtHearingDateID int IDENTITY NOT NULL,
+	CONSTRAINT FirmCalendarCourtHearingDatePK PRIMARY KEY (FirmCalendarCourtHearingDateID),
+	CONSTRAINT FirmCalendarCourtHearingDateFK1 FOREIGN KEY (FirmCalendarCourtHearingDateID) REFERENCES FirmCalendar(FirmCalendarID),
+	CONSTRAINT FirmCalendarCourtHearingDateFK2 FOREIGN KEY (FirmCalendarCourtHearingDateID) REFERENCES CourtHearingDate(CourtHearingDateID)
+
+
+);
+go
+
+
+/*
+	 This ends the body of the Law Office Database. 
+
+	 Moving Forward we will see our 
+	 INSERT statements
+	 PROCEDURES 
+	 VIEWS
+	 AGGREGATES
+
+*/
+
+/* 
+	DATA CREATION 
+
+	In order to answer data questions; there has to be data present that can be aggregatly ran against. 
+*/
+
+--creating client data 
+
+INSERT INTO Client
+(ClientFirstName, ClientLastName, ClientAddress1, ClientAddress2, ClientEmailAddress, ClientCity, ClientState, ClientZIP)
+
+VALUES
+
+('David', 'Wearhouse', '84 Home Lane', 'Apartment 2', 'dwearhouse@mail.mail', 'New York', 'New State', '071000'),
+('Edward', 'Vincent', '83 House Street', 'none', 'evin@email.mail', 'OldeTowne', 'Texas', '071002'),
+('Franny', 'Ulvade', '82 State Street', '3 floor', 'fuvalde@mail.org', 'Kingston', 'Mississippi', '071001'),
+('Greg', 'Thomas', '24 Basic Bia Ave', '2 floor', 'gthom@funktown.org', 'Kings Failing', 'New Hampshire', '071003'),
+('Hillary', 'Samson', '12 Trail Place Ln', 'none', 'Hsam@att.com', 'Wylie', 'Texas', '071020'),
+('Icabod', 'Crane', '1123 Sleepy Street Road', 'none', 'icrane@home.org', 'Sleepy Hollow', 'New York', '071001'),
+('Shelly', 'Crable', '41 Patricia Ln', 'Lot 1', 'scrable@att.org', 'Westminister', 'Colorado', '90212'),
+('Gavin', 'Lee', '45 West Street', 'Lot 12', 'glee@wiznet.com', 'McKinney', 'Nevada', '12010'),
+('Chris', 'Tucker', '1121 Lefty Lane', 'Apt 123', 'tuckerc@me.org', 'Detriot', 'Michigan', '65520'),
+('Shelby', 'Mustang', '66 Big Street', 'none', 'smustang@ford.com', 'Chicago', 'Illinois', '102801')
+
+go
+
+-- I would like to see that the attribute values successfully added to the Client table
+
+SELECT * 
+FROM Client
+
+-- Per the SELECT * confirmation, 10 rows of Client Data was successfully added to the Client table 
+
+-- Need to add personnel to the personnel table 
+
+INSERT INTO Personnel
+(PersonnelFirstName, PersonnelLastName, PersonnelBarNumber)
+VALUES
+('Perry','Mason','NYS323'), 
+('Della','Street','NYS232'),
+('Sarah','Pause','NYS544'),
+('William','Fontaine','Paralegal')
+go
+
+-- Conversion Error received (initially) regarding Column PersonellBarNumber, being set as an int data value; change below to a varchar(20) should resolve the error 
+
+ALTER TABLE Personnel
+ALTER COLUMN PersonnelBarNumber varchar(20)
+go 
+
+-- Confirming entry to Personnel Table
+
+SELECT *
+FROM PersonnelClient
+
+---- Confirmation of data within Personnel complete. 
+
+--adding Personnel to Client relationships
+
+INSERT INTO PersonnelClient (PersonnelID, ClientID) VALUES ('2','1');
+
+INSERT INTO PersonnelClient 
+(PersonnelID, ClientID)
+VALUES
+
+('2','1'),
+('2','2')
+go
+
+
+
+
+
+
+
