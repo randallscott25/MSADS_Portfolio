@@ -1,0 +1,907 @@
+---
+title: "Project-CHSI"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+---
+# Introduction
+
+**What is CDC?**
+CDC(Centers for Disease control and prevention) helps protect America from health, safety and security threats, both foreign and in the U.S. whether diseases start at home or abroad, are chronic or acute, curable or preventable, human error or deliberate attack, CDC fights disease and supports communities and citizens to do the same.
+
+CDC increases the health security of our nation. As the nation’s health protection agency, CDC saves lives and protects people from health threats. To accomplish our mission, CDC conducts critical science and provides health information that protects our nation against expensive and dangerous health threats, and responds when these arise. Centers for Disease Control and Prevention (CDC) Community Health Status Indicators is a website that provides health profiles for all U.S. counties, including health outcomes, population health status, healthcare access and quality, health behaviors, social factors and the physical environment
+
+**CDC’s Role:**
+* Detecting and responding to new and emerging health threats
+* Tackling the biggest health problems causing death and disability for Americans
+* Putting science and advanced technology into action to prevent disease
+* Promoting healthy and safe behaviors, communities and environment
+* Developing leaders and training the public health workforce, including disease detectives
+* Taking the health pulse of our nation
+
+CDC produces Community Health Status Indicators (CHSI) for all 3,143 counties in the United States. Each profile includes key indicators of health outcomes, which describes the population health status of a county and factors that have the potential to influence health outcomes, such as health care access and quality, health behaviors, social factors, and the physical environment.
+
+```{r setup, include=FALSE}
+####################### Initial Import Data (Below)  ######################## ######################################################################
+# load required packages using a bulk check/install function
+packages <- c("cowplot", "googleway", "ggplot2", "ggrepel", "lwgeom", "sf", "rnaturalearth",
+              "rnaturalearthdata","maps","dplyr", "sqldf","readr","reshape","neuralnet","dplyr","e1071","kernlab",
+              "googleway","rgeos","rgdal","maptools","scales","shiny","Rcmdr","readr", "tidyverse","RcmdrMisc")
+## function to check for libraries and install if necessary.
+package.check <- lapply(packages, FUN = function(x) {
+  if (!require(x, character.only = TRUE)) {
+    install.packages(x, dependencies = TRUE)
+    library(x, character.only = TRUE)
+  }
+})
+```
+This script imports data from the chsi dataset and combines several sheets to make it easier to work with. You need to run it from within the folder that contains all the individual csv files
+```{r}
+#!!change to your own directory where the CSV files are located!!
+setwd("/Users/Caitlin Casey/Desktop/SYRACUSE/IST707/Project")
+#dir_local <- DirSource("chsi_dataset")
+#this is the one that explains what columns mean
+key = read.csv("DATAELEMENTDESCRIPTION.csv")
+
+#Healthypeople is a reference sheet; we shouldn't join it. Instead, we'll use it
+#later for comparison to standards
+healthypeople = read_csv("HEALTHYPEOPLE2010.csv")
+
+#These 5 will be combined
+demographics = read_csv("DEMOGRAPHICS.csv")
+vulnpopsandenvhealth = read_csv("VUNERABLEPOPSANDENVHEALTH.csv")
+riskfactors = read_csv("RISKFACTORSANDACCESSTOCARE.csv")
+leadingcausesofdeath = read_csv("LEADINGCAUSESOFDEATH.csv")
+summarymeasures = read_csv("SUMMARYMEASURESOFHEALTH.csv")
+  
+combined <- sqldf('
+select
+   d.county_fips_code
+  ,d.state_fips_code
+  ,d.chsi_county_name
+  ,d.chsi_state_name
+  ,d.chsi_state_abbr
+  ,d.strata_id_number
+  ,d.strata_determining_factors
+  ,d.number_counties
+  ,d.population_size
+  ,d.population_density
+  ,d.poverty
+  ,d.Age_19_Under
+  ,d.Age_19_64                 
+  ,d.Age_65_84                 
+  ,d.Age_85_and_Over
+  ,d.White
+  ,d.Black
+  ,d.Native_American
+  ,d.Asian
+  ,d.Hispanic
+  ,v.No_HS_Diploma
+  ,v.Unemployed
+  ,v.Sev_Work_Disabled
+  ,v.Major_Depression
+  ,v.Recent_Drug_Use
+  ,v.Ecol_Rpt 
+  ,v.Ecol_Rpt_Ind
+  ,v.Ecol_Exp 
+  ,v.Salm_Rpt 
+  ,v.Salm_Rpt_Ind              
+  ,v.Salm_Exp 
+  ,v.Shig_Rpt 
+  ,v.Shig_Rpt_Ind 
+  ,v.Shig_Exp 
+  ,v.Toxic_Chem 
+  ,v.Carbon_Monoxide_Ind 
+  ,v.Nitrogen_Dioxide_Ind 
+  ,v.Sulfur_Dioxide_Ind 
+  ,v.Ozone_Ind 
+  ,v.Particulate_Matter_Ind 
+  ,v.Lead_Ind 
+  ,v.EH_Time_Span  
+  ,r.No_Exercise
+  ,r.Few_Fruit_Veg
+  ,r.Obesity
+  ,r.High_Blood_Pres
+  ,r.Smoker
+  ,r.Diabetes
+  ,r.Uninsured
+  ,r.Elderly_Medicare
+  ,r.Disabled_Medicare
+  ,r.Prim_Care_Phys_Rate
+  ,r.Dentist_Rate
+  ,r.Community_Health_Center_Ind
+  ,r.HPSA_Ind
+  ,l.A_Wh_Comp
+  ,l.A_Bl_Comp
+  ,l.A_Ot_Comp
+  ,l.A_Hi_Comp
+  ,l.A_Wh_BirthDef
+  ,l.A_Bl_BirthDef
+  ,l.A_Ot_BirthDef
+  ,l.A_Hi_BirthDef
+  ,l.B_Wh_Injury
+  ,l.B_Bl_Injury
+  ,l.B_Ot_Injury
+  ,l.B_Hi_Injury
+  ,l.B_Wh_Cancer
+  ,l.B_Bl_Cancer
+  ,l.B_Ot_Cancer
+  ,l.B_Hi_Cancer
+  ,l.B_Wh_Homicide
+  ,l.B_Bl_Homicide
+  ,l.B_Ot_Homicide
+  ,l.B_Hi_Homicide
+  ,l.C_Wh_Injury
+  ,l.C_Bl_Injury
+  ,l.C_Ot_Injury
+  ,l.C_Hi_Injury
+  ,l.C_Wh_Homicide
+  ,l.C_Bl_Homicide
+  ,l.C_Ot_homicide
+  ,l.C_Hi_Homicide
+  ,l.C_Wh_Suicide
+  ,l.C_Bl_Suicide
+  ,l.C_Ot_Suicide
+  ,l.C_Hi_Suicide
+  ,l.C_Wh_Cancer
+  ,l.C_Bl_Cancer
+  ,l.C_Ot_Cancer
+  ,l.C_Hi_Cancer
+  ,l.D_Wh_Injury
+  ,l.D_Bl_Injury
+  ,l.D_Ot_Injury
+  ,l.D_Hi_Injury
+  ,l.D_Wh_Cancer
+  ,l.D_Bl_Cancer
+  ,l.D_Ot_Cancer
+  ,l.D_Hi_Cancer
+  ,l.D_Wh_HeartDis
+  ,l.D_Bl_HeartDis
+  ,l.D_Ot_HeartDis
+  ,l.D_Hi_HeartDis
+  ,l.D_Wh_Suicide
+  ,l.D_Bl_Suicide
+  ,l.D_Ot_Suicide
+  ,l.D_Hi_Suicide
+  ,l.D_Wh_HIV
+  ,l.D_Bl_HIV
+  ,l.D_Ot_HIV
+  ,l.D_Hi_HIV
+  ,l.D_Wh_Homicide
+  ,l.D_Bl_Homicide
+  ,l.D_Ot_Homicide
+  ,l.D_Hi_Homicide
+  ,l.E_Wh_Cancer
+  ,l.E_Bl_Cancer
+  ,l.E_Ot_Cancer
+  ,l.E_Hi_Cancer
+  ,l.E_Wh_HeartDis
+  ,l.E_Bl_HeartDis
+  ,l.E_Ot_HeartDis
+  ,l.E_Hi_HeartDis
+  ,l.F_Wh_HeartDis
+  ,l.F_Bl_HeartDis
+  ,l.F_Ot_HeartDis
+  ,l.F_Hi_HeartDis
+  ,l.F_Wh_Cancer
+  ,l.F_Bl_Cancer
+  ,l.F_Ot_Cancer
+  ,l.F_Hi_Cancer
+  ,l.LCD_Time_Span
+  ,s.ALE 
+  ,s.US_ALE
+  ,s.All_Death 
+  ,s.US_All_Death 
+  ,s.Health_Status 
+  ,s.US_Health_Status 
+  ,s.Unhealthy_Days 
+  ,s.US_Unhealthy_Days
+
+
+from demographics d
+
+left join vulnpopsandenvhealth v on v.county_fips_code=d.county_fips_code and v.state_fips_code=d.state_fips_code
+left join riskfactors r on r.county_fips_code=d.county_fips_code and r.state_fips_code=d.state_fips_code
+left join leadingcausesofdeath l on l.county_fips_code=d.county_fips_code and l.state_fips_code=d.state_fips_code
+left join summarymeasures s on s.county_fips_code=d.county_fips_code and s.state_fips_code=d.state_fips_code
+')
+```
+
+
+Analysis and Models
+
+## Overview
+Our team was interested in finding a data set in the area of public health. We were looking for a data set that would help us better understand a broad set of health conditions, populations, and potential correlations. This project is an exercise in taking a large pool of data across a variety of metrics and generating relevant questions. Through the use of tools and techniques learned in this course, we will use those insights, which could be used to drive actions for specific populations.
+
+The data set we chose was the Community Health Status Indicators (CHSI) to combat obesity, heart disease, and cancer that are major components of the Community Health Data Initiative. This dataset provides key health indicators for local communities and encourages dialogue about actions that can be taken to improve community health (e.g., obesity, heart disease, cancer). 
+
+The data set has a broad array of health metrics as well as statistics around vulnerable populations, life expectancy and death rates. In reviewing the raw data we felt the goal was to give local public health agencies a set of tools that could help improve the health of their community by identifying root causes and at-risk populations.
+
+Website: https://healthdata.gov/dataset/community-health-status-indicators-chsi-combat-obesity-heart-disease-and-cancer
+
+The file was a zip file that contained several CSV files:
+*DATA_ELEMENT_DESCRIPTION.csv defines each data element and indicates where its description is found in Data Sources, Definitions, and Notes.
+*DEFINED_DATA_VALUE.csv defines the meaning of specific values (such as missing or suppressed data).  
+*HEALTHY_PEOPLE_2010.csv identifies the Healthy People 2010 Targets and the U.S. Percentages or Rates.
+*DEMOGRAPHICS.csv identifies the data elements and values in the Demographics indicator domain.
+*LEADING_CAUSES_OF_DEATH.csv identifies the data elements and values in the Leading Causes of Death indicator domain.
+*SUMMARY_MEASURES_OF_HEALTH.csv identifies the data elements and values in the Summary Measures of Health indicator domain.
+*MEASURES_OF_BIRTH_AND_DEATH.csv identifies the data elements and values in the Measures of Birth and Death indicator domain.
+*RELATIVE_HEALTH_IMPORTANCE.csv identifies the data elements and values in the Relative Health Importance indicator domain.
+*VULNERABLE_POPS_AND_ENV_HEALTH.csv identifies the data elements and values in the Vulnerable Populations and Environmental Health indicator domain.
+*PREVENTIVE_SERVICES_USE.csv identifies the data elements and values in the Preventive Services indicator domain.
+*RISK_FACTORS_AND_ACCESS_TO_CARE.csv identifies the data elements and values in the Risk Factors and Access to Care indicator domain.
+
+## Data Acquisition, Cleaning, Transformation
+In order to provide a robust dataset for our project, we chose a large health dataset containing 573 unique columns for every county in the United States. This broad scope of our dataset was so large that we needed to reduce it in order to focus on key health indicators. 
+
+The subset of data we selected included health afflictions, descriptive characteristics, and risk factors. Health afflictions included diseases such as cancer, high blood pressure, and various STIs. Descriptive characteristics in the data included identifiers like poverty, lack of high school education, unemployment, and depression rates. Other data included risk factors such as a lack of healthy eating--defined as few fruits and vegetables--lack of exercise, smoking rates, and frequent drug use. Many of the indicators in our dataset included measures related to ethnicity and age. For example, we can look at the number of white people under 18 with cancer in each county.
+
+Ultimately we selected a subset that helped us understand the factors that represent and influence US county health. 
+
+## Exploratory Data Analysis - Demographics
+At the beginning of the project, we ran simple analytics to better understand the data and distribution. The bar chart (Figure 1) highlights the average age of the US population and the distribution. The largest bucket is 19-64 (+50%) of the population. It would have been more beneficial if this data had been broken down further; we would have changed the buckets to showcase by ~10-year increments
+
+Next, we looked at another demographic variable, ethnicity. The combination of age/ethnicity would become important for the design of any health program or intervention that is targeted within a certain community. As such, we looked to better understand the national averages and distribution before we dove into a region or county (Figure 2).
+
+So far our statistical analysis has highlighted a largely white population in the age range of 19-64, which is not all that surprising (data ~ 2010). 
+
+```{r, include=FALSE}
+#####Bar Graphs for Demographics######
+#Transform demographics for valid columns
+# subset data to only include some columns
+demographics <- subset(combined, select = 
+                               c(CHSI_County_Name:CHSI_State_Abbr, Population_Size, 
+                                 Population_Density, Poverty, Age_19_Under, Age_19_64, 
+                                 Age_65_84, Age_85_and_Over, White, Black, Native_American, Asian, Hispanic))
+# clean names of the subset
+nms_demo_dat <- c("county.name","state.name","state.abbr","pop.size","pop.density",
+                  "poverty","age.19_under","age.19_64","age.65_84","age.85_over",
+                  "white","black","nat.amer","asian","hispanic")
+# change col names
+names(demographics)<-nms_demo_dat
+#This data is a representation at the county level
+#we have to do some work to find it at state level
+mean(demographics$pop.size)
+max(demographics$pop.size)
+min(demographics$pop.size)
+sd(demographics$pop.size)
+#made with help from R Studio Community
+library(tidyverse)
+# build vectors  
+county <- c(demographics$county.name)
+state <- c(demographics$state.name)
+pop <- c(demographics$pop.size)
+# now we assemble into data frame from vectors
+df <- data.frame(county, state, pop)
+# assembled pipe 
+stateandmeanpop <- df %>% group_by(state) %>% summarize(mean_pop = mean(pop))
+stateandsumpop <- df %>% group_by(state) %>% summarize(mean_pop = sum(pop))
+#Now we have a dataframe we can make different charts from
+#with each states mean population
+#This is the true mean of the population in our dataset  
+mean(stateandmeanpop$mean_pop)
+#This is the range of the population in our dataset
+max(stateandmeanpop$mean_pop)
+min(stateandmeanpop$mean_pop)
+sd(stateandmeanpop$mean_pop)
+#B.	Show mean age, and ranges (a distribution would be a good visual for this as well)
+#We can do the same with age. 
+demographics$age.19_underraw = (demographics$pop.size*demographics$age.19_under/100)
+demographics$age.19_64raw = (demographics$pop.size*demographics$age.19_64/100)
+demographics$age.65_84raw = (demographics$pop.size*demographics$age.65_84/100)
+demographics$age.85_overraw = (demographics$pop.size*demographics$age.85_over/100)
+xviiii_U <- mean(demographics$age.19_under)
+max(demographics$age.19_under)
+min(demographics$age.19_under)
+
+xvii_lxiv <- mean(demographics$age.19_64)
+max(demographics$age.19_64)
+min(demographics$age.19_64)
+
+lxv_lxxxiv <- mean(demographics$age.65_84)
+max(demographics$age.65_84)
+min(demographics$age.65_84)
+
+lxxxv_O <- mean(demographics$age.85_over)
+max(demographics$age.85_over)
+min(demographics$age.85_over)
+meanofage <- c(xviiii_U, xvii_lxiv, lxv_lxxxiv, lxxxv_O)
+barplot (meanofage,
+         main = "Figure 1 - National Age %",
+         xlab = "Mean % Age",
+         ylab = "Population %",
+         names.arg = c("Under19", "19-64", "65-84", "Over85"),
+         col = "blue",
+         horiz = FALSE)
+#Show ethnicity nationally (e.g. 87% white, etc.) - bar chart for visual
+#How to create raw population numbers for age and ethnicity
+#First we have to add new columns in the data.frame with the raw data
+demographics$whiteraw = (demographics$pop.size*demographics$white/100)
+demographics$blackraw = (demographics$pop.size*demographics$black/100)
+demographics$hispanicraw = (demographics$pop.size*demographics$hispanic/100)
+demographics$asianraw = (demographics$pop.size*demographics$asian/100)
+demographics$nat.amerraw = (demographics$pop.size*demographics$nat.amer/100)
+total_population <- sum(demographics$whiteraw) + sum(demographics$blackraw) + sum(demographics$hispanicraw) + sum(demographics$asianraw) + sum(demographics$nat.amerraw)
+#Create mean vectors for each ethnicity
+w <- mean(demographics$whiteraw)
+b <- mean(demographics$blackraw)
+h <- mean(demographics$hispanicraw)
+a <- mean(demographics$asianraw)
+n.a <- mean(demographics$nat.amerraw)
+#Create dataframe
+meanofrace <- c(w,b,h,a,n.a)
+#converting into percentages
+w_percent <- (sum(demographics$whiteraw)/total_population)*100
+b_percent <- (sum(demographics$blackraw)/total_population)*100
+h_percent <- (sum(demographics$hispanicraw)/total_population)*100
+a_percent <- (sum(demographics$asianraw)/total_population)*100
+nat_percent <- (sum(demographics$nat.amerraw)/total_population)*100
+percentofrace <- c(w_percent,b_percent,h_percent,a_percent,nat_percent)
+#Create bar chart 
+barplot (percentofrace,
+        main = "Figure 2 - National Mean Ethnicity",
+        xlab = "Ethnicity",
+        ylab = "Population(%)",
+        names.arg = c("White", "Black", "Hispanic", "Asian", "NativeAmerican"),
+        col = "darkred",
+        horiz = FALSE)
+
+```
+
+
+
+## Exploratory Data Analysis - Population Health Statistics
+
+The data set contained rich information pertaining to life expectancy and major risk factors contributing to the reduction in life expectancy. The goal, is to use this data to better understand how to reduce the risk of premature death. In looking at the major contributors to premature death; High Blood pressure, No Exercise, Obesity, and Smoking led the way (Figure 3). 
+
+It was analyzed to see what percent of the population of the death was caused due to Suicide and homicide(Figure 5). This actually shows the mental state of the population to a certain extent. ~25% of death is caused due to suicide and homicide which is a high number of the population. Below states seem to have a higher rate in 2015
+* Texas
+* New England
+* Montana
+* Colorado
+
+```{r, include=FALSE}
+############# Barchart Summary of Variables Most Affecting Death######
+
+#Now we consider BOTH population and percent of population as this would be a true average of the population as values are originally presented #as percentage of county.
+#This calculates the count then takes percent of the US
+library(tidyverse)
+vuln <- sqldf('
+          	select
+            	county_fips_code
+            	,state_fips_code
+            	,chsi_county_name
+            	,chsi_state_name
+            	,population_size
+            	,poverty
+            	,No_HS_Diploma
+            	,Unemployed
+            	,Sev_Work_Disabled
+            	,Major_Depression
+            	,Recent_Drug_Use
+            	,No_Exercise
+            	,Few_Fruit_Veg
+            	,Obesity
+            	,High_Blood_Pres
+            	,Smoker
+            	,Diabetes
+            	,Uninsured
+            	,Elderly_Medicare
+            	,Disabled_Medicare
+            	,Prim_Care_Phys_Rate
+            	,Dentist_Rate
+            	,ALE
+            	,All_Death
+            	,US_All_Death
+          	from combined')
+
+str(vuln)
+#Convert raw count data into percentages so we can compare it across counties with different populations
+vuln$No_HS_Diploma <- vuln$No_HS_Diploma/vuln$Population_Size*100
+vuln$Unemployed <- vuln$Unemployed/vuln$Population_Size*100
+vuln$Sev_Work_Disabled <-vuln$Sev_Work_Disabled/vuln$Population_Size*100
+vuln$Major_Depression <- vuln$Major_Depression/vuln$Population_Size*100
+vuln$Recent_Drug_Use <- vuln$Recent_Drug_Use/vuln$Population_Size*100
+vuln$Uninsured <- vuln$Uninsured/vuln$Population_Size*100
+vuln$Elderly_Medicare <- vuln$Elderly_Medicare/vuln$Population_Size*100
+vuln$Disabled_Medicare <- vuln$Disabled_Medicare/vuln$Population_Size*100
+vuln$DeathRate <- vuln$All_Death/vuln$Population_Size*100
+
+DF_Bar <- sqldf( 'select Poverty,Unemployed,Sev_Work_Disabled,Recent_Drug_Use,No_Exercise,Obesity,High_Blood_Pres,Smoker,Diabetes,Uninsured,Elderly_Medicare, Disabled_Medicare 
+                 from vuln')
+PLot_Bar <- replace(DF_Bar, TRUE, lapply(DF_Bar, na_mean_swap))
+#calculate mean of each column
+PLot_Bar <- colMeans(PLot_Bar)
+#assistance from Quick-R by DataCamp
+#used melt from 
+library(reshape)
+#this makes each row a unique id-variable combination
+PLot_Bar <- melt(PLot_Bar)
+PLot_Bar$Variables <- rownames(PLot_Bar)
+#used Cookbook for R, Colors(ggplot2) for assistance
+#toned the colors down to be a bit darker and match the colors of our other graphs
+BarPlotFin<- ggplot(data=PLot_Bar) + geom_bar(aes(x = Variables,y=value,fill=Variables),stat="identity") + coord_flip() +scale_fill_hue(l=45) + ggtitle('Figure 3 - Population Health Statistics')
+BarPlotFin
+
+############### Plot Average Life Expectancy by State ####################
+#assistance from https://www.datanovia.com/en/blog/ggplot-themes-gallery/
+Life_Exp_States <- ggplot(data = mean_clean, aes(x=CHSI_State_Abbr, y = ALE, color = ALE, group=CHSI_State_Abbr)) + 
+  geom_point() +
+  scale_color_continuous(name = "Average Age") +
+  theme_classic() +
+  xlab(label = "States") +
+  ylab(label = "Average Life Expectancy") + 
+  ggtitle(label = "Figure 4 - State Average Life Expectancy") +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+Life_Exp_States
+################### plot ALE Under 1st Quartile #######################
+#################################################################
+Life_Exp_75 <- ggplot(data = mean_clean[mean_clean$ALE<75,], aes(x=CHSI_State_Abbr, y = ALE, color = ALE, group=CHSI_State_Abbr)) + 
+  geom_point() +
+  scale_color_continuous(name = "Average Age") +
+  theme_classic() +
+  xlab(label = "States") +
+  ylab(label = "Average Life Expectancy") + 
+  scale_y_reverse() +
+  ggtitle(label = "State ALE Below Nation's 1st Quartile") +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+Life_Exp_75
+```
+
+###Death rate- Comparing Suicide, Homicide to the total death in population###
+```{r}
+mean_clean$totalSuicide <- mean_clean$C_Bl_Suicide+mean_clean$C_Hi_Suicide+mean_clean$C_Ot_Suicide+mean_clean$C_Wh_Suicide+mean_clean$D_Bl_Suicide+mean_clean$D_Wh_Suicide+mean_clean$D_Hi_Suicide+mean_clean$D_Ot_Suicide
+mean_clean$percentSuicide <- (mean_clean$totalSuicide/mean_clean$Population_Size)*100
+#Homicide
+mean_clean$totalHomicide <- mean_clean$C_Bl_Homicide+mean_clean$C_Hi_Homicide+mean_clean$C_Wh_Homicide+mean_clean$D_Bl_Homicide+mean_clean$D_Wh_Homicide+mean_clean$D_Hi_Homicide
+mean_clean$percentHomicide <- (mean_clean$totalHomicide/mean_clean$Population_Size)*100
+mean_clean$percentAllDeath <- (mean_clean$All_Death/mean_clean$Population_Size)*100
+deathDf <- sqldf('select percentSuicide, percentHomicide, percentAllDeath from mean_clean')
+deathDfMeans <- colMeans(deathDf)
+deathDfMeans <- melt(deathDfMeans)
+deathDfMeans$variables <- rownames(deathDfMeans)
+BarPlotDeath<- ggplot(data=deathDfMeans) + geom_bar(aes(x = variables,y=value,fill=variables),stat="identity") + coord_flip() +scale_fill_hue(l=45) + ggtitle('Figure 5 - Suicide/Homicide Statistics')
+BarPlotDeath
+
+##### Suicide by State####
+#excluding outliers#
+mean_clean_noOutliers <- mean_clean[which(mean_clean$percentSuicide < "100"),]
+Suicide_by_States <- ggplot(data = mean_clean_noOutliers, aes(x=CHSI_State_Abbr, y = percentSuicide, color = percentSuicide, group=CHSI_State_Abbr)) + 
+  geom_point() +
+  scale_color_continuous(name = "Percent Suicide") +
+  theme_classic() +
+  xlab(label = "States") +
+  ylab(label = "% of Suicides") + 
+  ggtitle(label = "Figure 5 - Suicides by State") +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+Suicide_by_States
+
+##### Homicide by State####
+Homicide_by_States <- ggplot(data = mean_clean, aes(x=CHSI_State_Abbr, y = percentHomicide, color = percentHomicide, group=CHSI_State_Abbr)) + 
+  geom_point() +
+  scale_color_continuous(name = "Percent Homicide") +
+  theme_classic() +
+  xlab(label = "States") +
+  ylab(label = "% of Homicide") + 
+  ggtitle(label = "Figure 6 - Homicides by State") +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+Homicide_by_States
+################ Plot of Smokers relating to ALE and Exercise ################ 
+#Shows a plot of no exercise to ALE. Less smoking in green, heavy smoking in blue. 
+#determine the range of smokers 
+summary(combined$Smoker)
+#plot 
+#assistance from https://www.datanovia.com/en/blog/ggplot-themes-gallery/
+gtt <- ggplot(data = combined, aes(x=No_Exercise, y = ALE,   color = Smoker)) + 
+  theme_classic() +  
+  geom_point() +  
+  xlab(label = "Percent not Exercising") +
+  #scale_x_reverse() + #x_axis reversed to show positive correlation
+  ylab(label = "Average Life Expectancy") + 
+  scale_colour_gradient(limits=c(3.6,46.2), low="green", high="red") + #Smoker Range
+  ggtitle(label = "Negative Affects of Smoking and Not Working Out on ALE")
+gtt
+```
+
+# Linear regression
+
+A linear model was built using variables like Age, Demographics, Drug Usage, Use of Toxic Chem, No Exercise, Fruit intake, Blood Pressure, Diabetes and an R-squared value of 71.2% was obtained that explained the variability on Average life expectancy in a county.
+*Etnicity does not impact ALE much but it is seen that impact of longer ALE is in the order of Native American, White, Hispanic, Black and Asian*
+*It is seen that as the number of people having HIV, Cancer, Diabetes, Heart Disease increases ALE decreases.The order of negative impact on ALE is Heart disease, Smoking, Diabetes, BP, Obesity, HIV*
+```{r linear, include=TRUE}
+mean_clean$HIV <- ndf$D_Hi_HIV+ndf$D_Bl_HIV+ndf$D_Hi_HIV
+mean_clean$E_Cancer <- ndf$E_Wh_Cancer + ndf$E_Bl_Cancer + ndf$E_Ot_Cancer + ndf$E_Hi_Cancer
+mean_clean$E_HeartDis <- ndf$E_Wh_HeartDis + ndf$E_Bl_HeartDis + ndf$E_Ot_HeartDis + ndf$E_Hi_HeartDis
+mean_clean$F_HeartDis <- ndf$F_Wh_HeartDis + ndf$F_Bl_HeartDis + ndf$F_Ot_HeartDis + ndf$F_Hi_HeartDis
+mean_clean$F_Cancer <- ndf$F_Wh_Cancer + ndf$F_Bl_Cancer + ndf$F_Ot_Cancer + ndf$F_Hi_Cancer
+ndf <- mean_clean[,c('Poverty','Age_19_Under','Age_19_64','Age_65_84','Age_85_and_Over','White','Black','Native_American','Asian','Hispanic','Recent_Drug_Use','Toxic_Chem','No_Exercise','Few_Fruit_Veg','Obesity','High_Blood_Pres','Smoker','Diabetes','HIV','E_HeartDis','F_HeartDis','ALE')]
+
+linear_ndf <- lm(ALE~.,ndf)
+summary(linear_ndf)$r.squared 
+```
+# svm model
+Linear and Polynomial kernel gave an error of 0.03% for a cost of 1 and 50. So we decided to go with a cost of 1 with the linear model.
+```{ r svm results, include=FALSE}
+#create a dataframe with required variables
+ndf <- mean_clean[,c('Poverty','Age_19_Under','Age_19_64','Age_65_84','Age_85_and_Over','White','Black','Native_American','Asian','Hispanic','Recent_Drug_Use','Toxic_Chem','No_Exercise','Few_Fruit_Veg','Obesity','High_Blood_Pres','Smoker','Diabetes','D_Wh_HIV','D_Bl_HIV','D_Hi_HIV','E_Wh_Cancer','E_Bl_Cancer','E_Ot_Cancer','E_Hi_Cancer','E_Wh_HeartDis','E_Bl_HeartDis','E_Ot_HeartDis','E_Hi_HeartDis','F_Wh_HeartDis','F_Bl_HeartDis','F_Ot_HeartDis','F_Hi_HeartDis','F_Wh_Cancer','F_Bl_Cancer','F_Ot_Cancer','F_Hi_Cancer','ALE')]
+
+file = "/Users/Caitlin Casey/Desktop/SYRACUSE/IST707/Project/ndf.csv"
+write_csv(ndf,"/Users/Caitlin Casey/Desktop/SYRACUSE/IST707/Project/ndf.csv")
+str(ndf)
+
+# svm- linear kernel, cost = 1
+library(e1071)
+testset1 <- ndf[1:1000,]
+trainset1 <- ndf[1001:3142,]
+svm1 <- svm(ALE ~., data = trainset1, kernel = "linear", type = "eps", cost=1)
+pred=predict(svm1, testset1[,-38], type=c("eps"))
+pred
+library(caret)
+conf <- data.frame(pred,testset1$ALE)
+sqrt((mean(conf$pred-conf$testset1.ALE)^2))
+plot(pred~testset1$ALE)
+
+# svm-linear, cost = 20
+testset1 <- ndf[1:1000,]
+trainset1 <- ndf[1001:3142,]
+svm1 <- svm(ALE ~., data = trainset1, kernel = "linear", type = "eps", cost = 20)
+pred=predict(svm1, testset1, type=c("eps"))
+library(caret)
+conf.linear <- data.frame(pred,testset1$ALE)
+sqrt((mean(conf.linear$pred-conf.linear$testset1.ALE)^2))
+
+# svm-polynomial, cost = 50-0.03
+testset1 <- ndf[1:1000,]
+trainset1 <- ndf[1001:3142,]
+svm1 <- svm(ALE ~., data = trainset1, kernel = "polynomial", type = "eps", cost = 50)
+pred=predict(svm1, testset1[,-38], type=c("eps"))
+library(caret)
+conf.polynomial <- data.frame(pred,testset1$ALE)
+sqrt((mean(conf.linear$pred-conf.linear$testset1.ALE)^2))
+
+# svm-polynomial, cost = 50- 0.039
+testset1 <- ndf[1:1000,]
+trainset1 <- ndf[1001:3142,]
+svm1 <- svm(ALE ~., data = trainset1, kernel = "radial", type = "eps", cost = 50)
+pred=predict(svm1, testset1[,-38], type=c("eps"))
+library(caret)
+conf.radial <- data.frame(pred,testset1$ALE)
+sqrt((mean(pred-testset1$ALE)^2))
+```
+
+# decision tree-8% error rate
+```{r decisionTree, include=TRUE}
+install.packages('rpart')
+install.packages('rpart.plot')
+library(rpart)
+library(rpart.plot)
+set.seed(50)
+dt <- rpart(ALE~.,trainset1,method  = "anova", control = rpart.control(cp = 0, maxdepth = 7,minsplit = 200))
+rpart.plot(dt)
+pred_dt <- predict(dt, testset1[,-38])
+library(caret)
+conf.dt <- data.frame(pred,testset1$ALE)
+sqrt((mean(pred_dt-testset1$ALE)^2))
+
+```
+
+# random forest- err 8.3%, model accuracy = 92%
+```{r randomForest, include=TRUE}
+library(randomForest)
+library(caret)
+set.seed(50)
+rfm_chsi <- randomForest(ALE~., data=trainset1, ntree=11, na.action=na.exclude)
+print(rfm_chsi)
+predRF <- predict(rfm_chsi, testset1[,-38])
+conf.RF <- data.frame(pred,testset1$ALE)
+sqrt((mean(predRF-testset1$ALE)^2))
+plot(pred,testset1$ALE, col='red', main="Random Forest")
+```
+
+
+```{r}
+###NAIVE BAYES & k-fold crossvalidation###
+###Played with datasets
+
+filename="LEADINGCAUSESOFDEATH.csv"
+LCoD<- read.csv(filename, header = TRUE, stringsAsFactors = TRUE)
+(head(LCoD))
+(str(LCoD))
+(nrow(LCoD))
+LCoD$A_Wh_Comp <- as.numeric(LCoD$A_Wh_Comp)
+LCoD$CI_Min_A_Wh_Comp <- as.numeric(LCoD$CI_Min_A_Wh_Comp)
+LCoD$CI_Max_A_Wh_Comp	<- as.numeric(LCoD$CI_Max_A_Wh_Comp)
+LCoD$A_Bl_Comp <- as.numeric(LCoD$A_Bl_Comp)
+LCoD$CI_Min_A_Bl_Comp	<- as.numeric(LCoD$CI_Min_A_Bl_Comp)
+LCoD$CI_Max_A_Bl_Comp <- as.numeric(LCoD$CI_Max_A_Bl_Comp)	
+LCoD$A_Ot_Comp <- as.numeric(LCoD$A_Ot_Comp)	
+LCoD$CI_Min_A_Ot_Comp	<- as.numeric(LCoD$CI_Min_A_Ot_Comp)
+LCoD$CI_Max_A_Ot_Comp <- as.numeric(LCoD$CI_Max_A_Ot_Comp)	
+LCoD$A_Hi_Comp <- as.numeric(LCoD$A_Hi_Comp)	
+LCoD$CI_Min_A_Hi_Comp <- as.numeric(LCoD$CI_Min_A_Hi_Comp)	
+LCoD$CI_Max_A_Hi_Comp	<- as.numeric(LCoD$CI_Max_A_Hi_Comp)	
+LCoD$A_Wh_BirthDef <- as.numeric(LCoD$A_Wh_BirthDef)	
+LCoD$CI_Min_A_Wh_BirthDef <- as.numeric(LCoD$CI_Min_A_Wh_BirthDef)	
+LCoD$CI_Max_A_Wh_BirthDef <- as.numeric(LCoD$CI_Max_A_Wh_BirthDef)	
+LCoD$A_Bl_BirthDef <- as.numeric(LCoD$A_Bl_BirthDef)
+LCoD$CI_Min_A_Bl_BirthDef <- as.numeric(LCoD$CI_Min_A_Bl_BirthDef)	
+LCoD$CI_Max_A_Bl_BirthDef <- as.numeric(LCoD$CI_Max_A_Bl_BirthDef)	
+LCoD$A_Ot_BirthDef <- as.numeric(LCoD$A_Ot_BirthDef)	
+LCoD$CI_Min_A_Ot_BirthDef <- as.numeric(LCoD$CI_Min_A_Ot_BirthDef)	
+LCoD$CI_Max_A_Ot_BirthDef <- as.numeric(LCoD$CI_Max_A_Ot_BirthDef)	
+LCoD$A_Hi_BirthDef <- as.numeric(LCoD$A_Hi_BirthDef)	
+LCoD$CI_Min_A_Hi_BirthDef <- as.numeric(LCoD$CI_Min_A_Hi_BirthDef)	
+LCoD$CI_Max_A_Hi_BirthDef <- as.numeric(LCoD$CI_Max_A_Hi_BirthDef)	
+LCoD$B_Wh_Injury <- as.numeric(LCoD$B_Wh_Injury)	
+LCoD$CI_Min_B_Wh_Injury <- as.numeric(LCoD$CI_Min_B_Wh_Injury)	
+LCoD$CI_Max_B_Wh_Injury <- as.numeric(LCoD$CI_Max_B_Wh_Injury)
+LCoD$B_Bl_Injury <- as.numeric(LCoD$B_Bl_Injury)
+LCoD$CI_Min_B_Bl_Injury <- as.numeric(LCoD$CI_Min_B_Bl_Injury)	
+LCoD$CI_Max_B_Bl_Injury <- as.numeric(LCoD$CI_Max_B_Bl_Injury)	
+LCoD$B_Ot_Injury <- as.numeric(LCoD$B_Ot_Injury)	
+LCoD$CI_Min_B_Ot_Injury <- as.numeric(LCoD$CI_Min_B_Ot_Injury)	
+LCoD$CI_Max_B_Ot_Injury <- as.numeric(LCoD$CI_Max_B_Ot_Injury)	
+LCoD$B_Hi_Injury <- as.numeric(LCoD$B_Hi_Injury)	
+LCoD$CI_Min_B_Hi_Injury <- as.numeric(LCoD$CI_Min_B_Hi_Injury)	
+LCoD$CI_Max_B_Hi_Injury <- as.numeric(LCoD$CI_Max_B_Hi_Injury)	
+LCoD$B_Wh_Cancer <- as.numeric(LCoD$B_Wh_Cancer)	
+LCoD$CI_Min_B_Wh_Cancer <- as.numeric(LCoD$CI_Min_B_Wh_Cancer)	
+LCoD$CI_Max_B_Wh_Cancer <- as.numeric(LCoD$CI_Max_B_Wh_Cancer)	
+LCoD$B_Bl_Cancer <- as.numeric(LCoD$B_Bl_Cancer)	
+LCoD$CI_Min_B_Bl_Cancer <- as.numeric(LCoD$CI_Min_B_Bl_Cancer)
+LCoD$CI_Max_B_Bl_Cancer <- as.numeric(LCoD$CI_Max_B_Bl_Cancer)	
+LCoD$B_Ot_Cancer <- as.numeric(LCoD$B_Ot_Cancer)	
+LCoD$CI_Min_B_Ot_Cancer <- as.numeric(LCoD$CI_Min_B_Ot_Cancer)	
+LCoD$CI_Max_B_Ot_Cancer <- as.numeric(LCoD$CI_Max_B_Ot_Cancer)	
+LCoD$B_Hi_Cancer <- as.numeric(LCoD$B_Hi_Cancer)	
+LCoD$CI_Min_B_Hi_Cancer <- as.numeric(LCoD$CI_Min_B_Hi_Cancer)	
+LCoD$CI_Max_B_Hi_Cancer <- as.numeric(LCoD$CI_Max_B_Hi_Cancer)	
+LCoD$B_Wh_Homicide <- as.numeric(LCoD$B_Wh_Homicide)	
+LCoD$CI_Min_B_Wh_Homicide <- as.numeric(LCoD$CI_Min_B_Wh_Homicide)	
+LCoD$CI_Max_B_Wh_Homicide <- as.numeric(LCoD$CI_Max_B_Wh_Homicide)	
+LCoD$B_Bl_Homicide <- as.numeric(LCoD$B_Bl_Homicide)	
+LCoD$CI_Min_B_Bl_Homicide <- as.numeric(LCoD$CI_Min_B_Bl_Homicide)	
+LCoD$CI_Max_B_Bl_Homicide <- as.numeric(LCoD$CI_Max_B_Bl_Homicide)	
+LCoD$B_Ot_Homicide <- as.numeric(LCoD$B_Ot_Homicide)	
+LCoD$CI_Min_B_Ot_Homicide <- as.numeric(LCoD$CI_Min_B_Ot_Homicide)
+LCoD$CI_Max_B_Ot_Homicide <- as.numeric(LCoD$CI_Max_B_Ot_Homicide)
+LCoD$B_Hi_Homicide <- as.numeric(LCoD$B_Hi_Homicide)	
+LCoD$CI_Min_B_Hi_Homicide <- as.numeric(LCoD$CI_Min_B_Hi_Homicide)	
+LCoD$CI_Max_B_Hi_Homicide <- as.numeric(LCoD$CI_Max_B_Hi_Homicide)	
+LCoD$C_Wh_Injury <- as.numeric(LCoD$C_Wh_Injury)
+LCoD$CI_Min_C_Wh_Injury <- as.numeric(LCoD$CI_Min_C_Wh_Injury)	
+LCoD$CI_Max_C_Wh_Injury <- as.numeric(LCoD$CI_Max_C_Wh_Injury)
+LCoD$C_Bl_Injury <- as.numeric(LCoD$C_Bl_Injury)
+LCoD$CI_Min_C_Bl_Injury <- as.numeric(LCoD$CI_Min_C_Bl_Injury)
+LCoD$CI_Max_C_Bl_Injury <- as.numeric(LCoD$CI_Max_C_Bl_Injury)
+LCoD$C_Ot_Injury <- as.numeric(LCoD$C_Ot_Injury)
+LCoD$CI_Min_C_Ot_Injury <- as.numeric(LCoD$CI_Min_C_Ot_Injury)
+LCoD$CI_Max_C_Ot_Injury <- as.numeric(LCoD$CI_Max_C_Ot_Injury)
+LCoD$C_Hi_Injury <- as.numeric(LCoD$C_Hi_Injury)
+LCoD$CI_Min_C_Hi_Injury <- as.numeric(LCoD$CI_Min_C_Hi_Injury)	
+LCoD$CI_Max_C_Hi_Injury <- as.numeric(LCoD$CI_Max_C_Hi_Injury)	
+LCoD$C_Wh_Homicide <- as.numeric(LCoD$C_Wh_Homicide)	
+LCoD$CI_Min_C_Wh_Homicide	<- as.numeric(LCoD$CI_Min_C_Wh_Homicide)
+LCoD$CI_Max_C_Wh_Homicide <- as.numeric(LCoD$CI_Max_C_Wh_Homicide)	
+LCoD$C_Bl_Homicide <- as.numeric(LCoD$C_Bl_Homicide)	
+LCoD$CI_Min_C_Bl_Homicide <- as.numeric(LCoD$CI_Min_C_Bl_Homicide)	
+LCoD$CI_Max_C_Bl_Homicide <- as.numeric(LCoD$CI_Max_C_Bl_Homicide)
+LCoD$C_Ot_homicide <- as.numeric(LCoD$C_Ot_homicide)	
+LCoD$CI_Min_C_Ot_homicide <- as.numeric(LCoD$CI_Min_C_Ot_homicide)	
+LCoD$CI_Max_C_Ot_homicide <- as.numeric(LCoD$CI_Max_C_Ot_homicide)	
+LCoD$C_Hi_Homicide <- as.numeric(LCoD$C_Hi_Homicide)	
+LCoD$CI_Min_C_Hi_Homicide <- as.numeric(LCoD$CI_Min_C_Hi_Homicide)	
+LCoD$CI_Max_C_Hi_Homicide <- as.numeric(LCoD$CI_Max_C_Hi_Homicide)	
+LCoD$C_Wh_Suicide <- as.numeric(LCoD$C_Wh_Suicide)	
+LCoD$CI_Min_C_Wh_Suicide <- as.numeric(LCoD$CI_Min_C_Wh_Suicide)	
+LCoD$CI_Max_C_Wh_Suicide <- as.numeric(LCoD$CI_Max_C_Wh_Suicide)	
+LCoD$C_Bl_Suicide <- as.numeric(LCoD$C_Bl_Suicide)	
+LCoD$CI_Min_C_Bl_Suicide <- as.numeric(LCoD$CI_Min_C_Bl_Suicide)	
+LCoD$CI_Max_C_Bl_Suicide <- as.numeric(LCoD$CI_Max_C_Bl_Suicide)	
+LCoD$C_Ot_Suicide <- as.numeric(LCoD$C_Ot_Suicide)	
+LCoD$CI_Min_C_Ot_Suicide <- as.numeric(LCoD$CI_Min_C_Ot_Suicide)	
+LCoD$CI_Max_C_Ot_Suicide <- as.numeric(LCoD$CI_Max_C_Ot_Suicide)	
+LCoD$C_Hi_Suicide <- as.numeric(LCoD$C_Hi_Suicide)	
+LCoD$CI_Min_C_Hi_Suicide <- as.numeric(LCoD$CI_Min_C_Hi_Suicide)	
+LCoD$CI_Max_C_Hi_Suicide <- as.numeric(LCoD$CI_Max_C_Hi_Suicide)	
+LCoD$C_Wh_Cancer <- as.numeric(LCoD$C_Wh_Cancer)	
+LCoD$CI_Min_C_Wh_Cancer <- as.numeric(LCoD$CI_Min_C_Wh_Cancer)	
+LCoD$CI_Max_C_Wh_Cancer <- as.numeric(LCoD$CI_Max_C_Wh_Cancer)	
+LCoD$C_Bl_Cancer <- as.numeric(LCoD$C_Bl_Cancer)	
+LCoD$CI_Min_C_Bl_Cancer <- as.numeric(LCoD$CI_Min_C_Bl_Cancer)	
+LCoD$CI_Max_C_Bl_Cancer <- as.numeric(LCoD$CI_Max_C_Bl_Cancer)	
+LCoD$C_Ot_Cancer <- as.numeric(LCoD$C_Ot_Cancer)	
+LCoD$CI_Min_C_Ot_Cancer <- as.numeric(LCoD$CI_Min_C_Ot_Cancer)	
+LCoD$CI_Max_C_Ot_Cancer <- as.numeric(LCoD$CI_Max_C_Ot_Cancer)	
+LCoD$C_Hi_Cancer <- as.numeric(LCoD$C_Hi_Cancer)
+LCoD$CI_Min_C_Hi_Cancer <- as.numeric(LCoD$CI_Min_C_Hi_Cancer)	
+LCoD$CI_Max_C_Hi_Cancer <- as.numeric(LCoD$CI_Max_C_Hi_Cancer)	
+LCoD$D_Wh_Injury <- as.numeric(LCoD$D_Wh_Injury)	
+LCoD$CI_Min_D_Wh_Injury <- as.numeric(LCoD$CI_Min_D_Wh_Injury)	
+LCoD$CI_Max_D_Wh_Injury <- as.numeric(LCoD$CI_Max_D_Wh_Injury)	
+LCoD$D_Bl_Injury <- as.numeric(LCoD$D_Bl_Injury)	
+LCoD$CI_Min_D_Bl_Injury <- as.numeric(LCoD$CI_Min_D_Bl_Injury)	
+LCoD$CI_Max_D_Bl_Injury <- as.numeric(LCoD$CI_Max_D_Bl_Injury)	
+LCoD$D_Ot_Injury <- as.numeric(LCoD$D_Ot_Injury)	
+LCoD$CI_Min_D_Ot_Injury <- as.numeric(LCoD$CI_Min_D_Ot_Injury)	
+LCoD$CI_Max_D_Ot_Injury <- as.numeric(LCoD$CI_Max_D_Ot_Injury)	
+LCoD$D_Hi_Injury <- as.numeric(LCoD$D_Hi_Injury)	
+LCoD$CI_Min_D_Hi_Injury <- as.numeric(LCoD$CI_Min_D_Hi_Injury)	
+LCoD$CI_Max_D_Hi_Injury <- as.numeric(LCoD$CI_Max_D_Hi_Injury)	
+LCoD$D_Wh_Cancer <- as.numeric(LCoD$D_Wh_Cancer)	
+LCoD$CI_Min_D_Wh_Cancer <- as.numeric(LCoD$CI_Min_D_Wh_Cancer)	
+LCoD$CI_Max_D_Wh_Cancer <- as.numeric(LCoD$CI_Max_D_Wh_Cancer)	
+LCoD$D_Bl_Cancer <- as.numeric(LCoD$D_Bl_Cancer)	
+LCoD$CI_Min_D_Bl_Cancer <- as.numeric(LCoD$CI_Min_D_Bl_Cancer)	
+LCoD$CI_Max_D_Bl_Cancer <- as.numeric(LCoD$CI_Max_D_Bl_Cancer)	
+LCoD$D_Ot_Cancer <- as.numeric(LCoD$D_Ot_Cancer)
+LCoD$CI_Min_D_Ot_Cancer <- as.numeric(LCoD$CI_Min_D_Ot_Cancer)
+LCoD$CI_Max_D_Ot_Cancer <- as.numeric(LCoD$CI_Max_D_Ot_Cancer)	
+LCoD$D_Hi_Cancer <- as.numeric(LCoD$D_Hi_Cancer)	
+LCoD$CI_Min_D_Hi_Cancer <- as.numeric(LCoD$CI_Min_D_Hi_Cancer)	
+LCoD$CI_Max_D_Hi_Cancer <- as.numeric(LCoD$CI_Max_D_Hi_Cancer)
+LCoD$D_Wh_HeartDis <- as.numeric(LCoD$D_Wh_HeartDis)
+LCoD$CI_Min_D_Wh_HeartDis <- as.numeric(LCoD$CI_Min_D_Wh_HeartDis)
+LCoD$CI_Max_D_Wh_HeartDis <- as.numeric(LCoD$CI_Max_D_Wh_HeartDis)
+LCoD$D_Bl_HeartDis <- as.numeric(LCoD$D_Bl_HeartDis)	
+LCoD$CI_Min_D_Bl_HeartDis <- as.numeric(LCoD$CI_Min_D_Bl_HeartDis)
+LCoD$CI_Max_D_Bl_HeartDis <- as.numeric(LCoD$CI_Max_D_Bl_HeartDis)
+LCoD$D_Ot_HeartDis <- as.numeric(LCoD$D_Ot_HeartDis)	
+LCoD$CI_Min_D_Ot_HeartDis <- as.numeric(LCoD$CI_Min_D_Ot_HeartDis)	
+LCoD$CI_Max_D_Ot_HeartDis <- as.numeric(LCoD$CI_Max_D_Ot_HeartDis)
+LCoD$D_Hi_HeartDis <- as.numeric(LCoD$D_Hi_HeartDis)	
+LCoD$CI_Min_D_Hi_HeartDis <- as.numeric(LCoD$CI_Min_D_Hi_HeartDis)	
+LCoD$CI_Max_D_Hi_HeartDis <- as.numeric(LCoD$CI_Max_D_Hi_HeartDis)	
+LCoD$D_Wh_Suicide <- as.numeric(LCoD$D_Wh_Suicide)
+LCoD$CI_Min_D_Wh_Suicide <- as.numeric(LCoD$CI_Min_D_Wh_Suicide)	
+LCoD$CI_Max_D_Wh_Suicide <- as.numeric(LCoD$CI_Max_D_Wh_Suicide)
+LCoD$D_Bl_Suicide <- as.numeric(LCoD$D_Bl_Suicide)	
+LCoD$CI_Min_D_Bl_Suicide <- as.numeric(LCoD$CI_Min_D_Bl_Suicide)	
+LCoD$CI_Max_D_Bl_Suicide <- as.numeric(LCoD$CI_Max_D_Bl_Suicide)	
+LCoD$D_Ot_Suicide <- as.numeric(LCoD$D_Ot_Suicide)
+LCoD$CI_Min_D_Ot_Suicide <- as.numeric(LCoD$CI_Min_D_Ot_Suicide)	
+LCoD$CI_Max_D_Ot_Suicide <- as.numeric(LCoD$CI_Max_D_Ot_Suicide)	
+LCoD$D_Hi_Suicide <- as.numeric(LCoD$D_Hi_Suicide)
+LCoD$CI_Min_D_Hi_Suicide <- as.numeric(LCoD$CI_Min_D_Hi_Suicide)	
+LCoD$CI_Max_D_Hi_Suicide <- as.numeric(LCoD$CI_Max_D_Hi_Suicide)	
+LCoD$D_Wh_HIV <- as.numeric(LCoD$D_Wh_HIV)	
+LCoD$CI_Min_D_Wh_HIV <- as.numeric(LCoD$CI_Min_D_Wh_HIV)	
+LCoD$CI_Max_D_Wh_HIV <- as.numeric(LCoD$CI_Max_D_Wh_HIV)	
+LCoD$D_Bl_HIV <- as.numeric(LCoD$D_Bl_HIV)	
+LCoD$CI_Min_D_Bl_HIV <- as.numeric(LCoD$CI_Min_D_Bl_HIV)	
+LCoD$CI_Max_D_Bl_HIV <- as.numeric(LCoD$CI_Max_D_Bl_HIV)
+LCoD$D_Ot_HIV <- as.numeric(LCoD$ D_Ot_HIV)
+LCoD$CI_Min_D_Ot_HIV <- as.numeric(LCoD$CI_Min_D_Ot_HIV)	
+LCoD$CI_Max_D_Ot_HIV <- as.numeric(LCoD$CI_Max_D_Ot_HIV)	
+LCoD$D_Hi_HIV <- as.numeric(LCoD$D_Hi_HIV)	
+LCoD$CI_Min_D_Hi_HIV <- as.numeric(LCoD$CI_Min_D_Hi_HIV)	
+LCoD$CI_Max_D_Hi_HIV <- as.numeric(LCoD$CI_Max_D_Hi_HIV)	
+LCoD$D_Wh_Homicide <- as.numeric(LCoD$D_Wh_Homicide)	
+LCoD$CI_Min_D_Wh_Homicide <- as.numeric(LCoD$CI_Min_D_Wh_Homicide)
+LCoD$CI_Max_D_Wh_Homicide <- as.numeric(LCoD$CI_Max_D_Wh_Homicide)	
+LCoD$D_Bl_Homicide <- as.numeric(LCoD$D_Bl_Homicide)	
+LCoD$CI_Min_D_Bl_Homicide <- as.numeric(LCoD$CI_Min_D_Bl_Homicide)	
+LCoD$CI_Max_D_Bl_Homicide <- as.numeric(LCoD$CI_Max_D_Bl_Homicide)
+LCoD$D_Ot_Homicide <- as.numeric(LCoD$D_Ot_Homicide) 
+LCoD$CI_Min_D_Ot_Homicide <- as.numeric(LCoD$CI_Min_D_Ot_Homicide)	
+LCoD$CI_Max_D_Ot_Homicide <- as.numeric(LCoD$CI_Max_D_Ot_Homicide)
+LCoD$D_Hi_Homicide <- as.numeric(LCoD$D_Hi_Homicide)	
+LCoD$CI_Min_D_Hi_Homicide <- as.numeric(LCoD$CI_Min_D_Hi_Homicide)	
+LCoD$CI_Max_D_Hi_Homicide <- as.numeric(LCoD$CI_Max_D_Hi_Homicide	)
+LCoD$E_Wh_Cancer <- as.numeric(LCoD$E_Wh_Cancer)	
+LCoD$CI_Min_E_Wh_Cancer <- as.numeric(LCoD$CI_Min_E_Wh_Cancer)	
+LCoD$CI_Max_E_Wh_Cancer <- as.numeric(LCoD$CI_Max_E_Wh_Cancer)
+LCoD$E_Bl_Cancer <- as.numeric(LCoD$E_Bl_Cancer)
+LCoD$CI_Min_E_Bl_Cancer <- as.numeric(LCoD$CI_Min_E_Bl_Cancer)	
+LCoD$CI_Max_E_Bl_Cancer <- as.numeric(LCoD$CI_Max_E_Bl_Cancer)
+LCoD$E_Ot_Cancer <- as.numeric(LCoD$E_Ot_Cancer)	
+LCoD$CI_Min_E_Ot_Cancer <- as.numeric(LCoD$CI_Min_E_Ot_Cancer)	
+LCoD$CI_Max_E_Ot_Cancer <- as.numeric(LCoD$CI_Max_E_Ot_Cancer)	
+LCoD$E_Hi_Cancer	<- as.numeric(LCoD$E_Hi_Cancer)
+LCoD$CI_Min_E_Hi_Cancer <- as.numeric(LCoD$CI_Min_E_Hi_Cancer)	
+LCoD$CI_Max_E_Hi_Cancer <- as.numeric(LCoD$CI_Max_E_Hi_Cancer)
+LCoD$E_Wh_HeartDis <- as.numeric(LCoD$E_Wh_HeartDis)	
+LCoD$CI_Min_E_Wh_HeartDis <- as.numeric(LCoD$CI_Min_E_Wh_HeartDis)	
+LCoD$CI_Max_E_Wh_HeartDis <- as.numeric(LCoD$CI_Max_E_Wh_HeartDis)
+LCoD$E_Bl_HeartDis <- as.numeric(LCoD$E_Bl_HeartDis)	
+LCoD$CI_Min_E_Bl_HeartDis <- as.numeric(LCoD$CI_Min_E_Bl_HeartDis)
+LCoD$CI_Max_E_Bl_HeartDis <- as.numeric(LCoD$CI_Max_E_Bl_HeartDis)
+LCoD$E_Ot_HeartDis <- as.numeric(LCoD$E_Ot_HeartDis)	
+LCoD$CI_Min_E_Ot_HeartDis <- as.numeric(LCoD$CI_Min_E_Ot_HeartDis)
+LCoD$CI_Max_E_Ot_HeartDis	<- as.numeric(LCoD$CI_Max_E_Ot_HeartDis	)
+LCoD$E_Hi_HeartDis <- as.numeric(LCoD$E_Hi_HeartDis)	
+LCoD$CI_Min_E_Hi_HeartDis <- as.numeric(LCoD$CI_Min_E_Hi_HeartDis)
+LCoD$CI_Max_E_Hi_HeartDis <- as.numeric(LCoD$CI_Max_E_Hi_HeartDis)	
+LCoD$F_Wh_HeartDis <- as.numeric(LCoD$F_Wh_HeartDis)	
+LCoD$CI_Min_F_Wh_HeartDis <- as.numeric(LCoD$CI_Min_F_Wh_HeartDis)	
+LCoD$CI_Max_F_Wh_HeartDis <- as.numeric(LCoD$CI_Max_F_Wh_HeartDis)
+LCoD$F_Bl_HeartDis <- as.numeric(LCoD$F_Bl_HeartDis)
+LCoD$CI_Min_F_Bl_HeartDis <- as.numeric(LCoD$CI_Min_F_Bl_HeartDis)	
+LCoD$CI_Max_F_Bl_HeartDis <- as.numeric(LCoD$CI_Max_F_Bl_HeartDis)
+LCoD$F_Ot_HeartDis <- as.numeric(LCoD$F_Ot_HeartDis)	
+LCoD$CI_Min_F_Ot_HeartDis <- as.numeric(LCoD$CI_Min_F_Ot_HeartDis)	
+LCoD$CI_Max_F_Ot_HeartDis <- as.numeric(LCoD$CI_Max_F_Ot_HeartDis)
+LCoD$F_Hi_HeartDis <- as.numeric(LCoD$F_Hi_HeartDis)	
+LCoD$CI_Min_F_Hi_HeartDis <- as.numeric(LCoD$CI_Min_F_Hi_HeartDis)
+LCoD$CI_Max_F_Hi_HeartDis <- as.numeric(LCoD$CI_Max_F_Hi_HeartDis)
+LCoD$F_Wh_Cancer <- as.numeric(LCoD$F_Wh_Cancer)	
+LCoD$CI_Min_F_Wh_Cancer <- as.numeric(LCoD$CI_Min_F_Wh_Cancer)
+LCoD$CI_Max_F_Wh_Cancer <- as.numeric(LCoD$CI_Max_F_Wh_Cancer)	
+LCoD$F_Bl_Cancer <- as.numeric(LCoD$F_Bl_Cancer)
+LCoD$CI_Min_F_Bl_Cancer <- as.numeric(LCoD$CI_Min_F_Bl_Cancer)
+LCoD$CI_Max_F_Bl_Cancer	<- as.numeric(LCoD$CI_Max_F_Bl_Cancer)
+LCoD$F_Ot_Cancer <- as.numeric(LCoD$F_Ot_Cancer)
+LCoD$CI_Min_F_Ot_Cancer <- as.numeric(LCoD$CI_Min_F_Ot_Cancer)
+LCoD$CI_Max_F_Ot_Cancer <- as.numeric(LCoD$CI_Max_F_Ot_Cancer)
+LCoD$F_Hi_Cancer <- as.numeric(LCoD$F_Hi_Cancer)	
+LCoD$CI_Min_F_Hi_Cancer <- as.numeric(LCoD$CI_Min_F_Hi_Cancer)	
+LCoD$CI_Max_F_Hi_Cancer <- as.numeric(LCoD$CI_Max_F_Hi_Cancer)
+LCoD$LCD_Time_Span <- as.numeric(LCoD$LCD_Time_Span)
+(str(LCoD))
+```
+## K-Folds ## Crossvalidation ##
+
+```{r}
+#Number of observations
+N <- nrow(LCoD)
+#Number of Desired Splits
+kfolds <- 5
+#Generate indices of holdout observations
+#Note that if N is not a multiple of folds, you will get a warning...but that is ok!
+holdout <- split(sample(1:N), 1:kfolds)
+
+```
+
+## Experimental Validation ## Naive Bayes ##
+
+```{r}
+##### Run training and testing for each of the k-folds
+#######################################
+#Source: https://stats.stackexchange.com/questions/61090/how-to-split-a-data-set-to-do-10-fold-cross-validation
+
+#Randomly shuffle the data
+LCoD<-LCoD[sample(nrow(LCoD)),]
+#Create 10 equally size folds
+folds <- cut(seq(1,nrow(LCoD)),breaks=10,labels=FALSE)
+#Perform 10 fold cross validation
+for(i in 1:10){
+    #Segement your data by fold using the which() function 
+    testIndexes <- which(folds==i,arr.ind=TRUE)
+    LCoD_testData <- LCoD[testIndexes, ]
+    LCoD_trainData <- LCoD[-testIndexes, ]
+    #Use the test and train data partitions however you desire...
+}
+
+#######################################################
+#######
+####### Train a DT and check it on the test set #######
+#######################################################
+n <- nrow(LCoD)
+shuffled_LCoD <- LCoD[sample(n), ]
+train_indices <- 1:round(0.7 * n)
+train <- shuffled_LCoD[train_indices, ]
+test_indices <- (round(0.7 * n) + 1):n
+test <- shuffled_LCoD[test_indices, ]
+
+########################################################
+#######
+#######  Use Naive Bayes to try to predict the Fed   ###
+########################################################
+
+## We will use the same test and train data
+(LCoD_testData)
+(head(LCoD_trainData, n=15))
+
+## WAY 1 NB
+NB_LCoD_classfier <- naiveBayes( ~.,data=Fed_TRAIN)
+NB_LCoD_predictTrainSet <-predict(NB_LCoD_classfier, LCoD_TRAIN[-1])
+table(NB_LCoD_predictTrainSet,LCoD_TRAIN$author)
+
+## Now try to predict the test set
+NB_LCoD_Prediction <- predict(NB_LCoD_classfier, LCoD_TEST)
+(table(NB_LCoD_Prediction))
+plot(NB_LCoD_Prediction)
+```
+
