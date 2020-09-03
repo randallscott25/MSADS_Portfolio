@@ -8,17 +8,6 @@ rstaylor@syr.edu
 randallscott25@gmail.com
 
 ## Description
-
-# IST 652: Scripting For Data Analysis
-## Randall Scott Taylor
-
-965757884
-
-rstaylor@syr.edu
-
-randallscott25@gmail.com
-
-## Description
 # **Covid Project ETL and EDA**
 
 MEMBERS OF THE TEAM | CONTRIBUTION 
@@ -95,7 +84,9 @@ _State and county files contain FIPS codes, a standard geographic identifier, to
 !pip install --upgrade shapely
 !pip install heatmapz
 
+* the above are all required.
 
+* all aspects of the notebook are Cloud based. No local installs. 
 
 ## Table of Contents
 
