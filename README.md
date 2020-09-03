@@ -2,7 +2,7 @@
 # Graduate Student - Portfolio Milestone Repository
 
 
-[Randall Taylor: LinkedIn](https://www.linkedin.com/in/randall-taylor-ab1794163/)
+[Randall Scott Taylor: LinkedIn](https://www.linkedin.com/in/randall-taylor-ab1794163/)
 
 [Syracuse Univserity, Masters of Applied Data Science](https://ischool.syr.edu/academics/applied-data-science-masters-degree/)
 
@@ -17,3 +17,7 @@ Graduates of the MS Applied Data Science program at Syracuse University School o
 The intent of this Portfolio Milestone is for the student to assemble evidence and reflect on how each course they have taken has contributed to their acquisition of the cognitive strategies defined in the program learning outcomes, and how this has enabled them to become professionally prepared in their chosen area of specialty. Within the Learning Objectives section of this document, the student will use references from their course projects or assignments and reflect on how their work has demonstrated their mastery of these concepts.
 
 Links to details about my Portfolio and the video narrated presentation:
+
+[Learning Goals]
+[Presentation, with narrative]
+[Presentation, without narrative]
