@@ -1,9 +1,10 @@
 # Randall Scott Taylor
 # Graduate Student - Portfolio Milestone Repository
 
-https://www.linkedin.com/in/randall-taylor-ab1794163/
 
-https://ischool.syr.edu/academics/applied-data-science-masters-degree/
+[Randall Taylor: LinkedIn](https://www.linkedin.com/in/randall-taylor-ab1794163/)
+
+[Syracuse Univserity, Masters of Applied Data Science](https://ischool.syr.edu/academics/applied-data-science-masters-degree/)
 
 _*SYRACUSE UNIVERSITY School of Information Studies*_ 
 
