@@ -1,0 +1,3144 @@
+﻿SHOULDBE ,STATE,ABBR,CURRENTNAME,fips,lat,long
+Autauga,Alabama,AL,Autauga County,1001,32.532237,-86.64644
+Baldwin,Alabama,AL,Baldwin County,1003,30.659218,-87.746067
+Barbour,Alabama,AL,Barbour County,1005,31.870253,-85.405104
+Bibb,Alabama,AL,Bibb County,1007,33.015893,-87.127148
+Blount,Alabama,AL,Blount County,1009,33.977358,-86.56644
+Bullock,Alabama,AL,Bullock County,1011,32.101759,-85.717261
+Butler,Alabama,AL,Butler County,1013,31.751667,-86.681969
+Calhoun,Alabama,AL,Calhoun County,1015,33.770516,-85.827909
+Chambers,Alabama,AL,Chambers County,1017,32.915504,-85.394032
+Cherokee,Alabama,AL,Cherokee County,1019,34.069515,-85.654242
+Chilton,Alabama,AL,Chilton County,1021,32.854051,-86.726607
+Choctaw,Alabama,AL,Choctaw County,1023,31.990954,-88.248889
+Clarke,Alabama,AL,Clarke County,1025,31.685521,-87.818624
+Clay,Alabama,AL,Clay County,1027,33.2704,-85.863525
+Cleburne,Alabama,AL,Cleburne County,1029,33.671964,-85.516126
+Coffee,Alabama,AL,Coffee County,1031,31.402258,-85.989602
+Colbert,Alabama,AL,Colbert County,1033,34.703112,-87.801457
+Conecuh,Alabama,AL,Conecuh County,1035,31.430926,-86.988722
+Coosa,Alabama,AL,Coosa County,1037,32.931445,-86.243482
+Covington,Alabama,AL,Covington County,1039,31.243987,-86.448721
+Crenshaw,Alabama,AL,Crenshaw County,1041,31.732826,-86.319222
+Cullman,Alabama,AL,Cullman County,1043,34.131923,-86.869267
+Dale,Alabama,AL,Dale County,1045,31.430654,-85.609476
+Dallas,Alabama,AL,Dallas County,1047,32.33354,-87.114356
+DeKalb,Alabama,AL,DeKalb County,1049,34.460929,-85.803992
+Elmore,Alabama,AL,Elmore County,1051,32.597229,-86.142735
+Escambia,Alabama,AL,Escambia County,1053,31.122287,-87.16841
+Etowah,Alabama,AL,Etowah County,1055,34.047641,-86.034263
+Fayette,Alabama,AL,Fayette County,1057,33.716157,-87.764292
+Franklin,Alabama,AL,Franklin County,1059,34.441989,-87.842814
+Geneva,Alabama,AL,Geneva County,1061,31.092382,-85.821022
+Greene,Alabama,AL,Greene County,1063,32.844497,-87.9642
+Hale,Alabama,AL,Hale County,1065,32.752796,-87.623061
+Henry,Alabama,AL,Henry County,1067,31.516978,-85.239971
+Houston,Alabama,AL,Houston County,1069,31.158183,-85.296411
+Jackson,Alabama,AL,Jackson County,1071,34.764114,-85.980056
+Jefferson,Alabama,AL,Jefferson County,1073,33.553444,-86.896536
+Lamar,Alabama,AL,Lamar County,1075,33.787085,-88.087431
+Lauderdale,Alabama,AL,Lauderdale County,1077,34.904122,-87.650997
+Lawrence,Alabama,AL,Lawrence County,1079,34.529776,-87.321865
+Lee,Alabama,AL,Lee County,1081,32.604064,-85.353048
+Limestone,Alabama,AL,Limestone County,1083,34.810239,-86.981399
+Lowndes,Alabama,AL,Lowndes County,1085,32.147888,-86.650586
+Macon,Alabama,AL,Macon County,1087,32.387027,-85.692887
+Madison,Alabama,AL,Madison County,1089,34.764238,-86.55108
+Marengo,Alabama,AL,Marengo County,1091,32.247591,-87.791091
+Marion,Alabama,AL,Marion County,1093,34.138219,-87.881551
+Marshall,Alabama,AL,Marshall County,1095,34.309564,-86.321668
+Mobile,Alabama,AL,Mobile County,1097,30.684572,-88.196568
+Monroe,Alabama,AL,Monroe County,1099,31.580332,-87.383266
+Montgomery,Alabama,AL,Montgomery County,1101,32.202881,-86.204461
+Morgan,Alabama,AL,Morgan County,1103,34.454484,-86.846402
+Perry,Alabama,AL,Perry County,1105,32.639005,-87.293827
+Pickens,Alabama,AL,Pickens County,1107,33.296793,-88.096863
+Pike,Alabama,AL,Pike County,1109,31.798651,-85.941604
+Randolph,Alabama,AL,Randolph County,1111,33.296475,-85.464068
+Russell,Alabama,AL,Russell County,1113,32.289811,-85.18698
+Shelby,Alabama,AL,St. Clair County,1115,33.712963,-86.315663
+St. Clair,Alabama,AL,Shelby County,1117,33.263043,-86.678089
+Sumter,Alabama,AL,Sumter County,1119,32.597481,-88.200057
+Talladega,Alabama,AL,Talladega County,1121,33.369314,-86.17593
+Tallapoosa,Alabama,AL,Tallapoosa County,1123,32.863308,-85.799618
+Tuscaloosa,Alabama,AL,Tuscaloosa County,1125,33.29022,-87.522783
+Walker,Alabama,AL,Walker County,1127,33.791558,-87.301094
+Washington,Alabama,AL,Washington County,1129,31.405217,-88.197564
+Wilcox,Alabama,AL,Wilcox County,1131,31.990082,-87.304935
+Winston,Alabama,AL,Winston County,1133,34.154566,-87.365346
+Aleutians East Borough,Alaska,AK,Aleutians East Borough,2013,55.245044,-161.997477
+Aleutians West Census Area,Alaska,AK,Aleutians West Census Area,2016,51.948964,179.621188
+Anchorage,Alaska,AK,Anchorage Municipality,2020,61.17425,-149.284329
+Bethel Census Area,Alaska,AK,Bethel Census Area,2050,60.929141,-160.152625
+Bristol Bay Borough,Alaska,AK,Bristol Bay Borough,2060,58.741647,-156.966909
+Denali Borough,Alaska,AK,Denali Borough,2068,63.682039,-150.027016
+Dillingham Census Area,Alaska,AK,Dillingham Census Area,2070,59.543326,-158.267123
+Fairbanks North Star Borough,Alaska,AK,Fairbanks North Star Borough,2090,64.676044,-146.548159
+Haines Borough,Alaska,AK,Haines Borough,2100,59.098404,-135.575791
+Juneau City and Borough,Alaska,AK,Hoonah-Angoon Census Area,2105,58.253462,-136.320731
+Kenai Peninsula Borough,Alaska,AK,Juneau City and Borough,2110,58.37291,-134.178445
+Ketchikan Gateway Borough,Alaska,AK,Kenai Peninsula Borough,2122,60.360766,-152.05264
+Kodiak Island Borough,Alaska,AK,Ketchikan Gateway Borough,2130,55.449938,-131.106685
+Kusilvak Census Area,Alaska,AK,Kodiak Island Borough,2150,57.7044,-153.918372
+Lake and Peninsula Borough,Alaska,AK,Kusilvak Census Area,2158,62.283588,-163.190171
+Matanuska-Susitna Borough,Alaska,AK,Lake and Peninsula Borough,2164,58.108507,-156.413413
+Nome Census Area,Alaska,AK,Matanuska-Susitna Borough,2170,62.279094,-149.619094
+North Slope Borough,Alaska,AK,Nome Census Area,2180,64.783686,-164.188912
+Northwest Arctic Borough,Alaska,AK,North Slope Borough,2185,69.449343,-153.47283
+Petersburg Borough,Alaska,AK,Northwest Arctic Borough,2188,67.005066,-160.021086
+Prince of Wales-Hyder Census Area,Alaska,AK,Petersburg Borough,2195,57.112458,-133.008598
+Sitka City and Borough,Alaska,AK,Prince of Wales-Hyder Census Area,2198,55.682773,-133.162389
+Southeast Fairbanks Census Area,Alaska,AK,Sitka City and Borough,2220,57.193204,-135.367396
+Unknown,Alaska,AK,Skagway Municipality,2230,59.560379,-135.338279
+Valdez-Cordova Census Area,Alaska,AK,Southeast Fairbanks Census Area,2240,63.864997,-143.218628
+Wrangell City and Borough,Alaska,AK,Valdez-Cordova Census Area,2261,61.349843,-145.023109
+Yukon-Koyukuk Census Area,Alaska,AK,Wrangell City and Borough,2275,56.317416,-132.343978
+Apache,Arizona,AK,Yakutat City and Borough,2282,60.017453,-140.416942
+Cochise,Arizona,AK,Yukon-Koyukuk Census Area,2290,65.375727,-151.57785
+Coconino,Arizona,AZ,Apache County,4001,35.385084,-109.490172
+Gila,Arizona,AZ,Cochise County,4003,31.840129,-109.775163
+Graham,Arizona,AZ,Coconino County,4005,35.829692,-111.773728
+Greenlee,Arizona,AZ,Gila County,4007,33.789618,-110.81187
+La Paz,Arizona,AZ,Graham County,4009,32.931828,-109.87831
+Maricopa,Arizona,AZ,Greenlee County,4011,33.238872,-109.242323
+Mohave,Arizona,AZ,La Paz County,4012,33.72761,-114.038806
+Navajo,Arizona,AZ,Maricopa County,4013,33.345176,-112.49893
+Pima,Arizona,AZ,Mohave County,4015,35.717705,-113.749689
+Pinal,Arizona,AZ,Navajo County,4017,35.390785,-110.321025
+Santa Cruz,Arizona,AZ,Pima County,4019,32.128043,-111.783657
+Yavapai,Arizona,AZ,Pinal County,4021,32.918521,-111.36634
+Yuma,Arizona,AZ,Santa Cruz County,4023,31.525733,-110.845228
+Arkansas,Arkansas,AZ,Yavapai County,4025,34.631071,-112.577225
+Ashley,Arkansas,AZ,Yuma County,4027,32.773942,-113.910905
+Baxter,Arkansas,AR,Arkansas County,5001,34.28957,-91.376547
+Benton,Arkansas,AR,Ashley County,5003,33.190835,-91.772267
+Boone,Arkansas,AR,Baxter County,5005,36.280268,-92.329949
+Bradley,Arkansas,AR,Benton County,5007,36.337819,-94.256298
+Calhoun,Arkansas,AR,Boone County,5009,36.304299,-93.079236
+Carroll,Arkansas,AR,Bradley County,5011,33.466549,-92.169156
+Chicot,Arkansas,AR,Calhoun County,5013,33.56046,-92.513879
+Clark,Arkansas,AR,Carroll County,5015,36.33737,-93.540972
+Clay,Arkansas,AR,Chicot County,5017,33.267139,-91.297158
+Cleburne,Arkansas,AR,Clark County,5019,34.053316,-93.176208
+Cleveland,Arkansas,AR,Clay County,5021,36.367302,-90.418704
+Columbia,Arkansas,AR,Cleburne County,5023,35.566315,-92.05995
+Conway,Arkansas,AR,Cleveland County,5025,33.893201,-92.188714
+Craighead,Arkansas,AR,Columbia County,5027,33.223038,-93.232843
+Crawford,Arkansas,AR,Conway County,5029,35.265702,-92.689248
+Crittenden,Arkansas,AR,Craighead County,5031,35.827729,-90.631421
+Cross,Arkansas,AR,Crawford County,5033,35.583011,-94.236219
+Dallas,Arkansas,AR,Crittenden County,5035,35.211879,-90.315332
+Desha,Arkansas,AR,Cross County,5037,35.285692,-90.763984
+Drew,Arkansas,AR,Dallas County,5039,33.967823,-92.653999
+Faulkner,Arkansas,AR,Desha County,5041,33.828752,-91.244103
+Franklin,Arkansas,AR,Drew County,5043,33.587242,-91.722778
+Fulton,Arkansas,AR,Faulkner County,5045,35.146548,-92.336928
+Garland,Arkansas,AR,Franklin County,5047,35.508558,-93.887665
+Grant,Arkansas,AR,Fulton County,5049,36.383619,-91.819664
+Greene,Arkansas,AR,Garland County,5051,34.578852,-93.146932
+Hempstead,Arkansas,AR,Grant County,5053,34.285568,-92.422979
+Hot Spring,Arkansas,AR,Greene County,5055,36.120607,-90.566346
+Howard,Arkansas,AR,Hempstead County,5057,33.735953,-93.664355
+Independence,Arkansas,AR,Hot Spring County,5059,34.315177,-92.944147
+Izard,Arkansas,AR,Howard County,5061,34.083064,-93.990931
+Jackson,Arkansas,AR,Independence County,5063,35.737499,-91.559942
+Jefferson,Arkansas,AR,Izard County,5065,36.094879,-91.913625
+Johnson,Arkansas,AR,Jackson County,5067,35.596467,-91.223205
+Lafayette,Arkansas,AR,Jefferson County,5069,34.277239,-91.929673
+Lawrence,Arkansas,AR,Johnson County,5071,35.573359,-93.466322
+Lee,Arkansas,AR,Lafayette County,5073,33.240629,-93.611514
+Lincoln,Arkansas,AR,Lawrence County,5075,36.041098,-91.101153
+Little River,Arkansas,AR,Lee County,5077,34.779505,-90.779717
+Logan,Arkansas,AR,Lincoln County,5079,33.957675,-91.727626
+Lonoke,Arkansas,AR,Little River County,5081,33.699497,-94.229774
+Madison,Arkansas,AR,Logan County,5083,35.218654,-93.72091
+Marion,Arkansas,AR,Lonoke County,5085,34.755114,-91.894132
+Miller,Arkansas,AR,Madison County,5087,36.012545,-93.724053
+Mississippi,Arkansas,AR,Marion County,5089,36.266664,-92.678577
+Monroe,Arkansas,AR,Miller County,5091,33.305505,-93.901502
+Montgomery,Arkansas,AR,Mississippi County,5093,35.766944,-90.052207
+Nevada,Arkansas,AR,Monroe County,5095,34.679512,-91.20331
+Newton,Arkansas,AR,Montgomery County,5097,34.545656,-93.664153
+Ouachita,Arkansas,AR,Nevada County,5099,33.666699,-93.305072
+Perry,Arkansas,AR,Newton County,5101,35.910742,-93.215898
+Phillips,Arkansas,AR,Ouachita County,5103,33.591168,-92.878413
+Pike,Arkansas,AR,Perry County,5105,34.946363,-92.926877
+Poinsett,Arkansas,AR,Phillips County,5107,34.423687,-90.855593
+Polk,Arkansas,AR,Pike County,5109,34.158191,-93.658659
+Pope,Arkansas,AR,Poinsett County,5111,35.56887,-90.681104
+Prairie,Arkansas,AR,Polk County,5113,34.490915,-94.230884
+Pulaski,Arkansas,AR,Pope County,5115,35.456557,-93.026818
+Randolph,Arkansas,AR,Prairie County,5117,34.831116,-91.55362
+Saline,Arkansas,AR,Pulaski County,5119,34.770311,-92.312996
+Scott,Arkansas,AR,Randolph County,5121,36.341298,-91.028441
+Searcy,Arkansas,AR,St. Francis County,5123,35.022838,-90.751505
+Sebastian,Arkansas,AR,Saline County,5125,34.648525,-92.674463
+Sevier,Arkansas,AR,Scott County,5127,34.858869,-94.063641
+Sharp,Arkansas,AR,Searcy County,5129,35.896387,-92.695888
+St. Francis,Arkansas,AR,Sebastian County,5131,35.196981,-94.274989
+Stone,Arkansas,AR,Sevier County,5133,33.994877,-94.243279
+Union,Arkansas,AR,Sharp County,5135,36.173399,-91.471069
+Unknown,Arkansas,AR,Stone County,5137,35.857001,-92.140482
+Van Buren,Arkansas,AR,Union County,5139,33.168219,-92.598145
+Washington,Arkansas,AR,Van Buren County,5141,35.582953,-92.515976
+White,Arkansas,AR,Washington County,5143,35.978001,-94.217269
+Woodruff,Arkansas,AR,White County,5145,35.255118,-91.753034
+Yell,Arkansas,AR,Woodruff County,5147,35.192777,-91.244535
+Alameda,California,AR,Yell County,5149,34.997713,-93.408303
+Alpine,California,CA,Alameda County,6001,37.647139,-121.912488
+Amador,California,CA,Alpine County,6003,38.621783,-119.798352
+Butte,California,CA,Amador County,6005,38.44355,-120.653856
+Calaveras,California,CA,Butte County,6007,39.665959,-121.601919
+Colusa,California,CA,Calaveras County,6009,38.1839,-120.561441
+Contra Costa,California,CA,Colusa County,6011,39.177739,-122.237563
+Del Norte,California,CA,Contra Costa County,6013,37.919479,-121.951543
+El Dorado,California,CA,Del Norte County,6015,41.763958,-124.003614
+Fresno,California,CA,El Dorado County,6017,38.785612,-120.534225
+Glenn,California,CA,Fresno County,6019,36.761006,-119.655019
+Humboldt,California,CA,Glenn County,6021,39.602546,-122.4017
+Imperial,California,CA,Humboldt County,6023,40.706655,-123.926176
+Inyo,California,CA,Imperial County,6025,33.040814,-115.3554
+Kern,California,CA,Inyo County,6027,36.561977,-117.403927
+Kings,California,CA,Kern County,6029,35.346629,-118.729506
+Lake,California,CA,Kings County,6031,36.072478,-119.81553
+Lassen,California,CA,Lake County,6033,39.094802,-122.746757
+Los Angeles,California,CA,Lassen County,6035,40.721086,-120.629952
+Madera,California,CA,Los Angeles County,6037,34.196398,-118.261862
+Marin,California,CA,Madera County,6039,37.209821,-119.749802
+Mariposa,California,CA,Marin County,6041,38.051817,-122.745974
+Mendocino,California,CA,Mariposa County,6043,37.57003,-119.912861
+Merced,California,CA,Mendocino County,6045,39.432388,-123.442881
+Modoc,California,CA,Merced County,6047,37.194806,-120.722802
+Mono,California,CA,Modoc County,6049,41.592918,-120.71837
+Monterey,California,CA,Mono County,6051,37.915836,-118.875167
+Napa,California,CA,Monterey County,6053,36.240107,-121.315572
+Nevada,California,CA,Napa County,6055,38.5071,-122.325904
+Orange,California,CA,Nevada County,6057,39.297508,-120.771343
+Placer,California,CA,Orange County,6059,33.675687,-117.777207
+Plumas,California,CA,Placer County,6061,39.062032,-120.722718
+Riverside,California,CA,Plumas County,6063,39.992295,-120.824371
+Sacramento,California,CA,Riverside County,6065,33.729828,-116.002239
+San Benito,California,CA,Sacramento County,6067,38.450016,-121.340441
+San Bernardino,California,CA,San Benito County,6069,36.611651,-121.085811
+San Diego,California,CA,San Bernardino County,6071,34.85722,-116.181197
+San Francisco,California,CA,San Diego County,6073,33.023604,-116.776117
+San Joaquin,California,CA,San Francisco County,6075,37.727239,-123.032229
+San Luis Obispo,California,CA,San Joaquin County,6077,37.934982,-121.272244
+San Mateo,California,CA,San Luis Obispo County,6079,35.385224,-120.447544
+Santa Barbara,California,CA,San Mateo County,6081,37.414672,-122.371546
+Santa Clara,California,CA,Santa Barbara County,6083,34.537057,-120.039973
+Santa Cruz,California,CA,Santa Clara County,6085,37.220695,-121.69051
+Shasta,California,CA,Santa Cruz County,6087,37.012488,-122.007205
+Sierra,California,CA,Shasta County,6089,40.760514,-122.043556
+Siskiyou,California,CA,Sierra County,6091,39.576925,-120.521993
+Solano,California,CA,Siskiyou County,6093,41.587986,-122.533287
+Sonoma,California,CA,Solano County,6095,38.267226,-121.939594
+Stanislaus,California,CA,Sonoma County,6097,38.525182,-122.92611
+Sutter,California,CA,Stanislaus County,6099,37.562316,-121.002831
+Tehama,California,CA,Sutter County,6101,39.03619,-121.70394
+Trinity,California,CA,Tehama County,6103,40.126157,-122.232274
+Tulare,California,CA,Trinity County,6105,40.647803,-123.114476
+Tuolumne,California,CA,Tulare County,6107,36.228834,-118.781055
+Ventura,California,CA,Tuolumne County,6109,38.021434,-119.964733
+Yolo,California,CA,Ventura County,6111,34.358741,-119.133143
+Yuba,California,CA,Yolo County,6113,38.679596,-121.902441
+Adams,Colorado,CA,Yuba County,6115,39.27013,-121.344259
+Alamosa,Colorado,CO,Adams County,8001,39.874325,-104.331872
+Arapahoe,Colorado,CO,Alamosa County,8003,37.568442,-105.788041
+Archuleta,Colorado,CO,Arapahoe County,8005,39.644554,-104.331706
+Baca,Colorado,CO,Archuleta County,8007,37.202395,-107.050863
+Bent,Colorado,CO,Baca County,8009,37.30978,-102.543741
+Boulder,Colorado,CO,Bent County,8011,37.931891,-103.077584
+Broomfield,Colorado,CO,Boulder County,8013,40.09497,-105.397691
+Chaffee,Colorado,CO,Broomfield County,8014,39.953593,-105.050787
+Cheyenne,Colorado,CO,Chaffee County,8015,38.738223,-106.316683
+Clear Creek,Colorado,CO,Cheyenne County,8017,38.835646,-102.601791
+Conejos,Colorado,CO,Clear Creek County,8019,39.669732,-105.69257
+Costilla,Colorado,CO,Conejos County,8021,37.213406,-106.176447
+Crowley,Colorado,CO,Costilla County,8023,37.277547,-105.42894
+Custer,Colorado,CO,Crowley County,8025,38.30618,-103.772736
+Delta,Colorado,CO,Custer County,8027,38.101996,-105.373512
+Denver,Colorado,CO,Delta County,8029,38.861595,-107.864892
+Dolores,Colorado,CO,Denver County,8031,39.76185,-104.881105
+Douglas,Colorado,CO,Dolores County,8033,37.711723,-108.524116
+Eagle,Colorado,CO,Douglas County,8035,39.325414,-104.925987
+Elbert,Colorado,CO,Eagle County,8037,39.626992,-106.695169
+El Paso,Colorado,CO,Elbert County,8039,39.315157,-104.114076
+Fremont,Colorado,CO,El Paso County,8041,38.827383,-104.527472
+Garfield,Colorado,CO,Fremont County,8043,38.45517,-105.424958
+Gilpin,Colorado,CO,Garfield County,8045,39.599352,-107.90978
+Grand,Colorado,CO,Gilpin County,8047,39.861156,-105.528878
+Gunnison,Colorado,CO,Grand County,8049,40.113065,-106.110837
+Hinsdale,Colorado,CO,Gunnison County,8051,38.670499,-107.05688
+Huerfano,Colorado,CO,Hinsdale County,8053,37.821165,-107.338261
+Jackson,Colorado,CO,Huerfano County,8055,37.687815,-104.959928
+Jefferson,Colorado,CO,Jackson County,8057,40.663432,-106.329248
+Kit Carson,Colorado,CO,Jefferson County,8059,39.579511,-105.245462
+Lake,Colorado,CO,Kiowa County,8061,38.387663,-102.756849
+La Plata,Colorado,CO,Kit Carson County,8063,39.30534,-102.603023
+Larimer,Colorado,CO,Lake County,8065,39.205341,-106.350079
+Las Animas,Colorado,CO,La Plata County,8067,37.287367,-107.839718
+Lincoln,Colorado,CO,Larimer County,8069,40.658093,-105.486764
+Logan,Colorado,CO,Las Animas County,8071,37.318831,-104.04411
+Mesa,Colorado,CO,Lincoln County,8073,38.99374,-103.507555
+Mineral,Colorado,CO,Logan County,8075,40.728091,-103.090464
+Moffat,Colorado,CO,Mesa County,8077,39.019524,-108.460571
+Montezuma,Colorado,CO,Mineral County,8079,37.549067,-107.003236
+Montrose,Colorado,CO,Moffat County,8081,40.610864,-108.217154
+Morgan,Colorado,CO,Montezuma County,8083,37.338025,-108.595786
+Otero,Colorado,CO,Montrose County,8085,38.407507,-108.266282
+Ouray,Colorado,CO,Morgan County,8087,40.263159,-103.81221
+Park,Colorado,CO,Otero County,8089,37.88417,-103.72126
+Phillips,Colorado,CO,Ouray County,8091,38.154731,-107.78848
+Pitkin,Colorado,CO,Park County,8093,39.118914,-105.717648
+Prowers,Colorado,CO,Phillips County,8095,40.594712,-102.345105
+Pueblo,Colorado,CO,Pitkin County,8097,39.217538,-106.916159
+Rio Blanco,Colorado,CO,Prowers County,8099,37.958181,-102.392161
+Rio Grande,Colorado,CO,Pueblo County,8101,38.170658,-104.489892
+Routt,Colorado,CO,Rio Blanco County,8103,39.972622,-108.200716
+Saguache,Colorado,CO,Rio Grande County,8105,37.485853,-106.453128
+San Juan,Colorado,CO,Routt County,8107,40.483664,-106.987702
+San Miguel,Colorado,CO,Saguache County,8109,38.031651,-106.234666
+Sedgwick,Colorado,CO,San Juan County,8111,37.781049,-107.670257
+Summit,Colorado,CO,San Miguel County,8113,38.009319,-108.427263
+Teller,Colorado,CO,Sedgwick County,8115,40.871568,-102.355358
+Washington,Colorado,CO,Summit County,8117,39.621023,-106.137555
+Weld,Colorado,CO,Teller County,8119,38.869976,-105.187365
+Yuma,Colorado,CO,Washington County,8121,39.96579,-103.209744
+Fairfield,Connecticut,CO,Weld County,8123,40.555961,-104.383666
+Hartford,Connecticut,CO,Yuma County,8125,40.00077,-102.421649
+Litchfield,Connecticut,CT,Fairfield County,9001,41.227413,-73.367061
+Middlesex,Connecticut,CT,Hartford County,9003,41.806053,-72.732916
+New Haven,Connecticut,CT,Litchfield County,9005,41.791883,-73.235404
+New London,Connecticut,CT,Middlesex County,9007,41.433003,-72.52278
+Tolland,Connecticut,CT,New Haven County,9009,41.349718,-72.900203
+Unknown,Connecticut,CT,New London County,9011,41.472652,-72.108634
+Windham,Connecticut,CT,Tolland County,9013,41.858081,-72.340978
+Kent,Delaware,CT,Windham County,9015,41.824999,-71.990702
+New Castle,Delaware,DE,Kent County,10001,39.097088,-75.502982
+Sussex,Delaware,DE,New Castle County,10003,39.575915,-75.644132
+Unknown,Delaware,DE,Sussex County,10005,38.673227,-75.337024
+District of Columbia,District of Columbia,DC,District of Columbia,11001,38.904247,-77.016517
+Alachua,Florida,FL,Alachua County,12001,29.67574,-82.357221
+Baker,Florida,FL,Baker County,12003,30.324442,-82.302284
+Bay,Florida,FL,Bay County,12005,30.238218,-85.63168
+Bradford,Florida,FL,Bradford County,12007,29.952386,-82.166679
+Brevard,Florida,FL,Brevard County,12009,28.298311,-80.700333
+Broward,Florida,FL,Broward County,12011,26.193535,-80.476683
+Calhoun,Florida,FL,Calhoun County,12013,30.388801,-85.197915
+Charlotte,Florida,FL,Charlotte County,12015,26.868974,-81.941278
+Citrus,Florida,FL,Citrus County,12017,28.84364,-82.52481
+Clay,Florida,FL,Clay County,12019,29.986584,-81.865036
+Collier,Florida,FL,Collier County,12021,26.118786,-81.400955
+Columbia,Florida,FL,Columbia County,12023,30.221651,-82.623371
+DeSoto,Florida,FL,DeSoto County,12027,27.190581,-81.806253
+Dixie,Florida,FL,Dixie County,12029,29.580899,-83.195666
+Duval,Florida,FL,Duval County,12031,30.335245,-81.648113
+Escambia,Florida,FL,Escambia County,12033,30.611638,-87.3389
+Flagler,Florida,FL,Flagler County,12035,29.474891,-81.286253
+Franklin,Florida,FL,Franklin County,12037,29.810176,-84.799174
+Gadsden,Florida,FL,Gadsden County,12039,30.578687,-84.612607
+Gilchrist,Florida,FL,Gilchrist County,12041,29.723456,-82.795801
+Glades,Florida,FL,Glades County,12043,26.95481,-81.19082
+Gulf,Florida,FL,Gulf County,12045,29.907257,-85.256537
+Hamilton,Florida,FL,Hamilton County,12047,30.491187,-82.951071
+Hardee,Florida,FL,Hardee County,12049,27.492846,-81.82158
+Hendry,Florida,FL,Hendry County,12051,26.539967,-81.152114
+Hernando,Florida,FL,Hernando County,12053,28.573043,-82.466227
+Highlands,Florida,FL,Highlands County,12055,27.34108,-81.342353
+Hillsborough,Florida,FL,Hillsborough County,12057,27.906607,-82.349719
+Holmes,Florida,FL,Holmes County,12059,30.862007,-85.815939
+Indian River,Florida,FL,Indian River County,12061,27.700528,-80.574789
+Jackson,Florida,FL,Jackson County,12063,30.789249,-85.208814
+Jefferson,Florida,FL,Jefferson County,12065,30.424558,-83.890859
+Lafayette,Florida,FL,Lafayette County,12067,29.990066,-83.17851
+Lake,Florida,FL,Lake County,12069,28.764113,-81.712282
+Lee,Florida,FL,Lee County,12071,26.559035,-81.891994
+Leon,Florida,FL,Leon County,12073,30.45931,-84.2778
+Levy,Florida,FL,Levy County,12075,29.284457,-82.783462
+Liberty,Florida,FL,Liberty County,12077,30.259849,-84.86858
+Madison,Florida,FL,Madison County,12079,30.447233,-83.470416
+Manatee,Florida,FL,Manatee County,12081,27.481682,-82.368767
+Marion,Florida,FL,Marion County,12083,29.202805,-82.0431
+Martin,Florida,FL,Martin County,12085,27.083604,-80.398201
+Miami-Dade,Florida,FL,Miami-Dade County,12086,25.61058,-80.497099
+Monroe,Florida,FL,Monroe County,12087,24.768883,-80.95327
+Nassau,Florida,FL,Nassau County,12089,30.605963,-81.765087
+Okaloosa,Florida,FL,Okaloosa County,12091,30.665851,-86.594187
+Okeechobee,Florida,FL,Okeechobee County,12093,27.385592,-80.887388
+Orange,Florida,FL,Orange County,12095,28.514391,-81.323284
+Osceola,Florida,FL,Osceola County,12097,28.059027,-81.139312
+Palm Beach,Florida,FL,Palm Beach County,12099,26.649126,-80.448354
+Pasco,Florida,FL,Pasco County,12101,28.307711,-82.464832
+Pinellas,Florida,FL,Pinellas County,12103,27.903108,-82.739519
+Polk,Florida,FL,Polk County,12105,27.953649,-81.693534
+Putnam,Florida,FL,Putnam County,12107,29.593896,-81.732039
+Santa Rosa,Florida,FL,St. Johns County,12109,29.890487,-81.40004
+Sarasota,Florida,FL,St. Lucie County,12111,27.379814,-80.443536
+Seminole,Florida,FL,Santa Rosa County,12113,30.701269,-87.01289
+St. Johns,Florida,FL,Sarasota County,12115,27.184386,-82.365835
+St. Lucie,Florida,FL,Seminole County,12117,28.690092,-81.131989
+Sumter,Florida,FL,Sumter County,12119,28.714101,-82.074347
+Suwannee,Florida,FL,Suwannee County,12121,30.189244,-82.992754
+Taylor,Florida,FL,Taylor County,12123,30.009908,-83.609483
+Union,Florida,FL,Union County,12125,30.05428,-82.366918
+Unknown,Florida,FL,Volusia County,12127,29.057769,-81.161792
+Volusia,Florida,FL,Wakulla County,12129,30.139432,-84.374846
+Wakulla,Florida,FL,Walton County,12131,30.631211,-86.176614
+Walton,Florida,FL,Washington County,12133,30.602217,-85.662797
+Washington,Florida,GA,Appling County,13001,31.739712,-82.290103
+Appling,Georgia,GA,Atkinson County,13003,31.296806,-82.878151
+Atkinson,Georgia,GA,Bacon County,13005,31.55021,-82.451433
+Bacon,Georgia,GA,Baker County,13007,31.31958,-84.454881
+Baker,Georgia,GA,Baldwin County,13009,33.05949,-83.255457
+Baldwin,Georgia,GA,Banks County,13011,34.351922,-83.498441
+Banks,Georgia,GA,Barrow County,13013,33.992009,-83.712303
+Barrow,Georgia,GA,Bartow County,13015,34.240917,-84.838188
+Bartow,Georgia,GA,Ben Hill County,13017,31.740772,-83.147197
+Ben Hill,Georgia,GA,Berrien County,13019,31.288652,-83.22787
+Berrien,Georgia,GA,Bibb County,13021,32.808845,-83.694194
+Bibb,Georgia,GA,Bleckley County,13023,32.435403,-83.331717
+Bleckley,Georgia,GA,Brantley County,13025,31.197334,-81.982978
+Brantley,Georgia,GA,Brooks County,13027,30.822934,-83.581905
+Brooks,Georgia,GA,Bryan County,13029,32.017969,-81.438543
+Bryan,Georgia,GA,Bulloch County,13031,32.391711,-81.744021
+Bulloch,Georgia,GA,Burke County,13033,33.060181,-82.000164
+Burke,Georgia,GA,Butts County,13035,33.290355,-83.958221
+Butts,Georgia,GA,Calhoun County,13037,31.521279,-84.62629
+Calhoun,Georgia,GA,Camden County,13039,30.913358,-81.642019
+Camden,Georgia,GA,Candler County,13043,32.40395,-82.071266
+Candler,Georgia,GA,Carroll County,13045,33.582237,-85.080527
+Carroll,Georgia,GA,Catoosa County,13047,34.900218,-85.139386
+Catoosa,Georgia,GA,Charlton County,13049,30.779904,-82.139644
+Charlton,Georgia,GA,Chatham County,13051,31.980404,-81.085184
+Chatham,Georgia,GA,Chattahoochee County,13053,32.347445,-84.788021
+Chattahoochee,Georgia,GA,Chattooga County,13055,34.474178,-85.345289
+Chattooga,Georgia,GA,Cherokee County,13057,34.244317,-84.475057
+Cherokee,Georgia,GA,Clarke County,13059,33.952185,-83.367152
+Clarke,Georgia,GA,Clay County,13061,31.619831,-84.992583
+Clay,Georgia,GA,Clayton County,13063,33.542686,-84.355573
+Clayton,Georgia,GA,Clinch County,13065,30.917653,-82.702614
+Clinch,Georgia,GA,Cobb County,13067,33.93993,-84.574112
+Cobb,Georgia,GA,Coffee County,13069,31.549245,-82.84494
+Coffee,Georgia,GA,Colquitt County,13071,31.189707,-83.769773
+Colquitt,Georgia,GA,Columbia County,13073,33.547631,-82.252296
+Columbia,Georgia,GA,Cook County,13075,31.152516,-83.429445
+Cook,Georgia,GA,Coweta County,13077,33.352897,-84.762138
+Coweta,Georgia,GA,Crawford County,13079,32.709428,-83.979187
+Crawford,Georgia,GA,Crisp County,13081,31.915148,-83.753531
+Crisp,Georgia,GA,Dade County,13083,34.852424,-85.506201
+Dade,Georgia,GA,Dawson County,13085,34.442608,-84.173261
+Dawson,Georgia,GA,Decatur County,13087,30.880643,-84.58389
+Decatur,Georgia,GA,DeKalb County,13089,33.770661,-84.226343
+DeKalb,Georgia,GA,Dodge County,13091,32.164369,-83.167866
+Dodge,Georgia,GA,Dooly County,13093,32.151995,-83.807167
+Dooly,Georgia,GA,Dougherty County,13095,31.532588,-84.20904
+Dougherty,Georgia,GA,Douglas County,13097,33.701242,-84.767314
+Douglas,Georgia,GA,Early County,13099,31.324191,-84.906723
+Early,Georgia,GA,Echols County,13101,30.714008,-82.897376
+Echols,Georgia,GA,Effingham County,13103,32.36168,-81.343372
+Effingham,Georgia,GA,Elbert County,13105,34.116413,-82.841909
+Elbert,Georgia,GA,Emanuel County,13107,32.5911,-82.299763
+Emanuel,Georgia,GA,Evans County,13109,32.153083,-81.890153
+Evans,Georgia,GA,Fannin County,13111,34.866543,-84.317331
+Fannin,Georgia,GA,Fayette County,13113,33.412717,-84.493941
+Fayette,Georgia,GA,Floyd County,13115,34.263692,-85.213685
+Floyd,Georgia,GA,Forsyth County,13117,34.225143,-84.127408
+Forsyth,Georgia,GA,Franklin County,13119,34.375266,-83.227532
+Franklin,Georgia,GA,Fulton County,13121,33.790034,-84.468182
+Fulton,Georgia,GA,Gilmer County,13123,34.690506,-84.454624
+Gilmer,Georgia,GA,Glascock County,13125,33.227491,-82.606913
+Glascock,Georgia,GA,Glynn County,13127,31.21271,-81.49645
+Glynn,Georgia,GA,Gordon County,13129,34.509667,-84.873862
+Gordon,Georgia,GA,Grady County,13131,30.875908,-84.24508
+Grady,Georgia,GA,Greene County,13133,33.57674,-83.166613
+Greene,Georgia,GA,Gwinnett County,13135,33.959146,-84.023087
+Gwinnett,Georgia,GA,Habersham County,13137,34.634392,-83.525875
+Habersham,Georgia,GA,Hall County,13139,34.317569,-83.8185
+Hall,Georgia,GA,Hancock County,13141,33.26922,-83.000465
+Hancock,Georgia,GA,Haralson County,13143,33.795165,-85.220063
+Haralson,Georgia,GA,Harris County,13145,32.731549,-84.912432
+Harris,Georgia,GA,Hart County,13147,34.348733,-82.96329
+Hart,Georgia,GA,Heard County,13149,33.291347,-85.137886
+Heard,Georgia,GA,Henry County,13151,33.452947,-84.154021
+Henry,Georgia,GA,Houston County,13153,32.458287,-83.662522
+Houston,Georgia,GA,Irwin County,13155,31.604306,-83.277037
+Irwin,Georgia,GA,Jackson County,13157,34.130905,-83.562557
+Jackson,Georgia,GA,Jasper County,13159,33.316981,-83.689151
+Jasper,Georgia,GA,Jeff Davis County,13161,31.811615,-82.636825
+Jeff Davis,Georgia,GA,Jefferson County,13163,33.058176,-82.420004
+Jefferson,Georgia,GA,Jenkins County,13165,32.794563,-81.971524
+Jenkins,Georgia,GA,Johnson County,13167,32.694584,-82.66397
+Johnson,Georgia,GA,Jones County,13169,33.021664,-83.562196
+Jones,Georgia,GA,Lamar County,13171,33.07444,-84.146689
+Lamar,Georgia,GA,Lanier County,13173,31.038197,-83.063164
+Lanier,Georgia,GA,Laurens County,13175,32.39322,-82.926317
+Laurens,Georgia,GA,Lee County,13177,31.818419,-84.146681
+Lee,Georgia,GA,Liberty County,13179,31.807458,-81.457871
+Liberty,Georgia,GA,Lincoln County,13181,33.792151,-82.448299
+Lincoln,Georgia,GA,Long County,13183,31.749563,-81.74287
+Long,Georgia,GA,Lowndes County,13185,30.833145,-83.268995
+Lowndes,Georgia,GA,Lumpkin County,13187,34.56814,-83.998925
+Lumpkin,Georgia,GA,McDuffie County,13189,33.479623,-82.478733
+Macon,Georgia,GA,McIntosh County,13191,31.488506,-81.372289
+Madison,Georgia,GA,Macon County,13193,32.362686,-84.051231
+Marion,Georgia,GA,Madison County,13195,34.128526,-83.203737
+McDuffie,Georgia,GA,Marion County,13197,32.359312,-84.528735
+McIntosh,Georgia,GA,Meriwether County,13199,33.029267,-84.667058
+Meriwether,Georgia,GA,Miller County,13201,31.162931,-84.730398
+Miller,Georgia,GA,Mitchell County,13205,31.228997,-84.192038
+Mitchell,Georgia,GA,Monroe County,13207,33.017435,-83.922938
+Monroe,Georgia,GA,Montgomery County,13209,32.172108,-82.533349
+Montgomery,Georgia,GA,Morgan County,13211,33.598696,-83.499435
+Morgan,Georgia,GA,Murray County,13213,34.797097,-84.73799
+Murray,Georgia,GA,Muscogee County,13215,32.510197,-84.874946
+Muscogee,Georgia,GA,Newton County,13217,33.544041,-83.855184
+Newton,Georgia,GA,Oconee County,13219,33.834125,-83.437728
+Oconee,Georgia,GA,Oglethorpe County,13221,33.866806,-83.074081
+Oglethorpe,Georgia,GA,Paulding County,13223,33.92103,-84.867169
+Paulding,Georgia,GA,Peach County,13225,32.571324,-83.831978
+Peach,Georgia,GA,Pickens County,13227,34.456746,-84.490351
+Pickens,Georgia,GA,Pierce County,13229,31.353998,-82.21037
+Pierce,Georgia,GA,Pike County,13231,33.081224,-84.389848
+Pike,Georgia,GA,Polk County,13233,33.996015,-85.188338
+Polk,Georgia,GA,Pulaski County,13235,32.238803,-83.481845
+Pulaski,Georgia,GA,Putnam County,13237,33.32106,-83.37179
+Putnam,Georgia,GA,Quitman County,13239,31.862938,-85.004798
+Quitman,Georgia,GA,Rabun County,13241,34.883934,-83.40487
+Rabun,Georgia,GA,Randolph County,13243,31.762651,-84.752311
+Randolph,Georgia,GA,Richmond County,13245,33.361486,-82.074998
+Richmond,Georgia,GA,Rockdale County,13247,33.652081,-84.02637
+Rockdale,Georgia,GA,Schley County,13249,32.263444,-84.322708
+Schley,Georgia,GA,Screven County,13251,32.744751,-81.617585
+Screven,Georgia,GA,Seminole County,13253,30.93396,-84.867685
+Seminole,Georgia,GA,Spalding County,13255,33.262348,-84.284905
+Spalding,Georgia,GA,Stephens County,13257,34.552914,-83.290216
+Stephens,Georgia,GA,Stewart County,13259,32.073225,-84.834912
+Stewart,Georgia,GA,Sumter County,13261,32.042266,-84.204294
+Sumter,Georgia,GA,Talbot County,13263,32.704603,-84.530029
+Talbot,Georgia,GA,Taliaferro County,13265,33.559319,-82.875272
+Taliaferro,Georgia,GA,Tattnall County,13267,32.043768,-82.059208
+Tattnall,Georgia,GA,Taylor County,13269,32.554667,-84.251426
+Taylor,Georgia,GA,Telfair County,13271,31.913641,-82.931063
+Telfair,Georgia,GA,Terrell County,13273,31.777191,-84.439446
+Terrell,Georgia,GA,Thomas County,13275,30.864619,-83.919815
+Thomas,Georgia,GA,Tift County,13277,31.457003,-83.525931
+Tift,Georgia,GA,Toombs County,13279,32.117812,-82.330626
+Toombs,Georgia,GA,Towns County,13281,34.902529,-83.732264
+Towns,Georgia,GA,Treutlen County,13283,32.409586,-82.570882
+Treutlen,Georgia,GA,Troup County,13285,33.034482,-85.02836
+Troup,Georgia,GA,Turner County,13287,31.7248,-83.620319
+Turner,Georgia,GA,Twiggs County,13289,32.665847,-83.425879
+Twiggs,Georgia,GA,Union County,13291,34.833333,-83.989257
+Union,Georgia,GA,Upson County,13293,32.881837,-84.292283
+Unknown,Georgia,GA,Walker County,13295,34.735802,-85.305456
+Upson,Georgia,GA,Walton County,13297,33.783887,-83.731829
+Walker,Georgia,GA,Ware County,13299,31.050881,-82.421507
+Walton,Georgia,GA,Warren County,13301,33.419169,-82.688012
+Ware,Georgia,GA,Washington County,13303,32.971843,-82.798112
+Warren,Georgia,GA,Wayne County,13305,31.547845,-81.912376
+Washington,Georgia,GA,Webster County,13307,32.046691,-84.553828
+Wayne,Georgia,GA,Wheeler County,13309,32.105258,-82.733849
+Webster,Georgia,GA,White County,13311,34.643776,-83.743417
+Wheeler,Georgia,GA,Whitfield County,13313,34.801726,-84.968541
+White,Georgia,GA,Wilcox County,13315,31.96272,-83.438259
+Whitfield,Georgia,GA,Wilkes County,13317,33.779031,-82.747921
+Wilcox,Georgia,GA,Wilkinson County,13319,32.804266,-83.175512
+Wilkes,Georgia,GA,Worth County,13321,31.551773,-83.84996
+Wilkinson,Georgia,HI,Hawaii County,15001,19.597764,-155.502443
+Worth,Georgia,HI,Honolulu County,15003,21.580023,-158.123406
+Unknown,Guam,HI,Kalawao County,15005,21.218764,-156.97401
+Hawaii,Hawaii,HI,Kauai County,15007,22.012038,-159.705965
+Honolulu,Hawaii,HI,Maui County,15009,20.855931,-156.60155
+Kauai,Hawaii,ID,Ada County,16001,43.451477,-116.244376
+Maui,Hawaii,ID,Adams County,16003,44.877004,-116.461624
+Ada,Idaho,ID,Bannock County,16005,42.692921,-112.228982
+Adams,Idaho,ID,Bear Lake County,16007,42.285892,-111.327517
+Bannock,Idaho,ID,Benewah County,16009,47.218451,-116.633541
+Bear Lake,Idaho,ID,Bingham County,16011,43.216357,-112.399206
+Benewah,Idaho,ID,Blaine County,16013,43.394192,-113.955371
+Bingham,Idaho,ID,Boise County,16015,43.987275,-115.71511
+Blaine,Idaho,ID,Bonner County,16017,48.316796,-116.612364
+Boise,Idaho,ID,Bonneville County,16019,43.395171,-111.621878
+Bonner,Idaho,ID,Boundary County,16021,48.773131,-116.524668
+Bonneville,Idaho,ID,Butte County,16023,43.685101,-113.177631
+Boundary,Idaho,ID,Camas County,16025,43.502552,-114.772135
+Butte,Idaho,ID,Canyon County,16027,43.625796,-116.709058
+Camas,Idaho,ID,Caribou County,16029,42.786072,-111.544273
+Canyon,Idaho,ID,Cassia County,16031,42.282313,-113.626328
+Caribou,Idaho,ID,Clark County,16033,44.290218,-112.354613
+Cassia,Idaho,ID,Clearwater County,16035,46.67257,-115.6535
+Clark,Idaho,ID,Custer County,16037,44.273351,-114.252267
+Clearwater,Idaho,ID,Elmore County,16039,43.394698,-115.471205
+Custer,Idaho,ID,Franklin County,16041,42.173609,-111.822965
+Elmore,Idaho,ID,Fremont County,16043,44.218091,-111.484429
+Franklin,Idaho,ID,Gem County,16045,44.061473,-116.398784
+Fremont,Idaho,ID,Gooding County,16047,42.973185,-114.82142
+Gem,Idaho,ID,Idaho County,16049,45.849644,-115.467337
+Gooding,Idaho,ID,Jefferson County,16051,43.796965,-112.318588
+Idaho,Idaho,ID,Jerome County,16053,42.691395,-114.262086
+Jefferson,Idaho,ID,Kootenai County,16055,47.675966,-116.695922
+Jerome,Idaho,ID,Latah County,16057,46.81892,-116.730974
+Kootenai,Idaho,ID,Lemhi County,16059,44.928506,-113.887042
+Latah,Idaho,ID,Lewis County,16061,46.236328,-116.42376
+Lemhi,Idaho,ID,Lincoln County,16063,42.986181,-114.153899
+Lewis,Idaho,ID,Madison County,16065,43.788614,-111.656993
+Lincoln,Idaho,ID,Minidoka County,16067,42.857211,-113.63984
+Madison,Idaho,ID,Nez Perce County,16069,46.333791,-116.760909
+Minidoka,Idaho,ID,Oneida County,16071,42.183895,-112.520449
+Nez Perce,Idaho,ID,Owyhee County,16073,42.572851,-116.18969
+Oneida,Idaho,ID,Payette County,16075,44.00243,-116.750238
+Owyhee,Idaho,ID,Power County,16077,42.694126,-112.844407
+Payette,Idaho,ID,Shoshone County,16079,47.347694,-115.885092
+Power,Idaho,ID,Teton County,16081,43.760994,-111.211765
+Shoshone,Idaho,ID,Twin Falls County,16083,42.352309,-114.665639
+Teton,Idaho,ID,Valley County,16085,44.85596,-115.618061
+Twin Falls,Idaho,ID,Washington County,16087,44.448223,-116.797792
+Valley,Idaho,IL,Adams County,17001,39.986052,-91.194961
+Washington,Idaho,IL,Alexander County,17003,37.183658,-89.349516
+Adams,Illinois,IL,Bond County,17005,38.885924,-89.436592
+Alexander,Illinois,IL,Boone County,17007,42.318983,-88.824295
+Bond,Illinois,IL,Brown County,17009,39.962069,-90.750309
+Boone,Illinois,IL,Bureau County,17011,41.401304,-89.528377
+Brown,Illinois,IL,Calhoun County,17013,39.164262,-90.666295
+Bureau,Illinois,IL,Carroll County,17015,42.0709,-89.924189
+Calhoun,Illinois,IL,Cass County,17017,39.969202,-90.245704
+Carroll,Illinois,IL,Champaign County,17019,40.138985,-88.196975
+Cass,Illinois,IL,Christian County,17021,39.545524,-89.279593
+Champaign,Illinois,IL,Clark County,17023,39.332334,-87.791683
+Christian,Illinois,IL,Clay County,17025,38.746819,-88.482325
+Clark,Illinois,IL,Clinton County,17027,38.606295,-89.426228
+Clay,Illinois,IL,Coles County,17029,39.51368,-88.220782
+Clinton,Illinois,IL,Cook County,17031,41.894294,-87.645455
+Coles,Illinois,IL,Crawford County,17033,39.002787,-87.760619
+Cook,Illinois,IL,Cumberland County,17035,39.273121,-88.240619
+Crawford,Illinois,IL,DeKalb County,17037,41.894612,-88.768991
+Cumberland,Illinois,IL,De Witt County,17039,40.181499,-88.901853
+DeKalb,Illinois,IL,Douglas County,17041,39.766078,-88.222866
+De Witt,Illinois,IL,DuPage County,17043,41.852058,-88.086039
+Douglas,Illinois,IL,Edgar County,17045,39.679037,-87.74711
+DuPage,Illinois,IL,Edwards County,17047,38.417095,-88.047941
+Edgar,Illinois,IL,Effingham County,17049,39.047945,-88.592849
+Edwards,Illinois,IL,Fayette County,17051,39.001125,-89.017923
+Effingham,Illinois,IL,Ford County,17053,40.596539,-88.224588
+Fayette,Illinois,IL,Franklin County,17055,37.991852,-88.926321
+Ford,Illinois,IL,Fulton County,17057,40.46524,-90.202269
+Franklin,Illinois,IL,Gallatin County,17059,37.768677,-88.227964
+Fulton,Illinois,IL,Greene County,17061,39.355439,-90.387682
+Gallatin,Illinois,IL,Grundy County,17063,41.29241,-88.401054
+Greene,Illinois,IL,Hamilton County,17065,38.085227,-88.539009
+Grundy,Illinois,IL,Hancock County,17067,40.401318,-91.168801
+Hamilton,Illinois,IL,Hardin County,17069,37.517852,-88.266148
+Hancock,Illinois,IL,Henderson County,17071,40.814471,-90.941246
+Hardin,Illinois,IL,Henry County,17073,41.350021,-90.130838
+Henderson,Illinois,IL,Iroquois County,17075,40.748867,-87.833601
+Henry,Illinois,IL,Jackson County,17077,37.786096,-89.381212
+Iroquois,Illinois,IL,Jasper County,17079,39.004874,-88.150763
+Jackson,Illinois,IL,Jefferson County,17081,38.30078,-88.92421
+Jasper,Illinois,IL,Jersey County,17083,39.080195,-90.361385
+Jefferson,Illinois,IL,Jo Daviess County,17085,42.362391,-90.21147
+Jersey,Illinois,IL,Johnson County,17087,37.460709,-88.882131
+Jo Daviess,Illinois,IL,Kane County,17089,41.939594,-88.42804
+Johnson,Illinois,IL,Kankakee County,17091,41.13951,-87.861117
+Kane,Illinois,IL,Kendall County,17093,41.58814,-88.430626
+Kankakee,Illinois,IL,Knox County,17095,40.930945,-90.213792
+Kendall,Illinois,IL,Lake County,17097,42.326441,-87.435976
+Knox,Illinois,IL,LaSalle County,17099,41.343341,-88.885931
+Lake,Illinois,IL,Lawrence County,17101,38.718954,-87.730221
+LaSalle,Illinois,IL,Lee County,17103,41.747447,-89.299362
+Lawrence,Illinois,IL,Livingston County,17105,40.894376,-88.552852
+Lee,Illinois,IL,Logan County,17107,40.129277,-89.365309
+Livingston,Illinois,IL,McDonough County,17109,40.455808,-90.678954
+Logan,Illinois,IL,McHenry County,17111,42.324298,-88.452245
+Macon,Illinois,IL,McLean County,17113,40.494559,-88.844539
+Macoupin,Illinois,IL,Macon County,17115,39.860237,-88.961529
+Madison,Illinois,IL,Macoupin County,17117,39.265914,-89.92633
+Marion,Illinois,IL,Madison County,17119,38.82712,-89.900227
+Marshall,Illinois,IL,Marion County,17121,38.648236,-88.920362
+Mason,Illinois,IL,Marshall County,17123,41.031119,-89.342371
+Massac,Illinois,IL,Mason County,17125,40.236993,-89.913575
+McDonough,Illinois,IL,Massac County,17127,37.216119,-88.705658
+McHenry,Illinois,IL,Menard County,17129,40.022569,-89.794133
+McLean,Illinois,IL,Mercer County,17131,41.205605,-90.74177
+Menard,Illinois,IL,Monroe County,17133,38.277983,-90.179078
+Mercer,Illinois,IL,Montgomery County,17135,39.228068,-89.478141
+Monroe,Illinois,IL,Morgan County,17137,39.717668,-90.205005
+Montgomery,Illinois,IL,Moultrie County,17139,39.636896,-88.625726
+Morgan,Illinois,IL,Ogle County,17141,42.041884,-89.320176
+Moultrie,Illinois,IL,Peoria County,17143,40.785972,-89.766993
+Ogle,Illinois,IL,Perry County,17145,38.084381,-89.368525
+Peoria,Illinois,IL,Piatt County,17147,40.009033,-88.592355
+Perry,Illinois,IL,Pike County,17149,39.625106,-90.889034
+Piatt,Illinois,IL,Pope County,17151,37.417169,-88.542374
+Pike,Illinois,IL,Pulaski County,17153,37.215615,-89.127755
+Pope,Illinois,IL,Putnam County,17155,41.198961,-89.298347
+Pulaski,Illinois,IL,Randolph County,17157,38.056515,-89.82121
+Putnam,Illinois,IL,Richland County,17159,38.712187,-88.085452
+Randolph,Illinois,IL,Rock Island County,17161,41.468421,-90.572125
+Richland,Illinois,IL,St. Clair County,17163,38.470198,-89.928546
+Rock Island,Illinois,IL,Saline County,17165,37.751508,-88.545024
+Saline,Illinois,IL,Sangamon County,17167,39.756867,-89.662425
+Sangamon,Illinois,IL,Schuyler County,17169,40.156905,-90.613464
+Schuyler,Illinois,IL,Scott County,17171,39.637002,-90.477771
+Scott,Illinois,IL,Shelby County,17173,39.384926,-88.798862
+Shelby,Illinois,IL,Stark County,17175,41.096908,-89.797411
+Stark,Illinois,IL,Stephenson County,17177,42.349726,-89.665994
+St. Clair,Illinois,IL,Tazewell County,17179,40.508074,-89.51626
+Stephenson,Illinois,IL,Union County,17181,37.485652,-89.244639
+Tazewell,Illinois,IL,Vermilion County,17183,40.186754,-87.726778
+Union,Illinois,IL,Wabash County,17185,38.445821,-87.839167
+Unknown,Illinois,IL,Warren County,17187,40.850441,-90.620223
+Vermilion,Illinois,IL,Washington County,17189,38.35314,-89.417187
+Wabash,Illinois,IL,Wayne County,17191,38.431857,-88.43243
+Warren,Illinois,IL,White County,17193,38.087326,-88.178623
+Washington,Illinois,IL,Whiteside County,17195,41.750673,-89.911005
+Wayne,Illinois,IL,Will County,17197,41.448474,-87.978456
+White,Illinois,IL,Williamson County,17199,37.730353,-88.930018
+Whiteside,Illinois,IL,Winnebago County,17201,42.337396,-89.161205
+Will,Illinois,IL,Woodford County,17203,40.789787,-89.210587
+Williamson,Illinois,IN,Adams County,18001,40.745733,-84.93613
+Winnebago,Illinois,IN,Allen County,18003,41.091909,-85.071791
+Woodford,Illinois,IN,Bartholomew County,18005,39.205843,-85.897999
+Adams,Indiana,IN,Benton County,18007,40.600939,-87.314786
+Allen,Indiana,IN,Blackford County,18009,40.472672,-85.32373
+Bartholomew,Indiana,IN,Boone County,18011,40.050892,-86.469014
+Benton,Indiana,IN,Brown County,18013,39.195113,-86.230121
+Blackford,Indiana,IN,Carroll County,18015,40.58498,-86.565141
+Boone,Indiana,IN,Cass County,18017,40.753799,-86.355168
+Brown,Indiana,IN,Clark County,18019,38.476217,-85.711122
+Carroll,Indiana,IN,Clay County,18021,39.393928,-87.115858
+Cass,Indiana,IN,Clinton County,18023,40.305944,-86.477567
+Clark,Indiana,IN,Crawford County,18025,38.289433,-86.440871
+Clay,Indiana,IN,Daviess County,18027,38.69609,-87.076943
+Clinton,Indiana,IN,Dearborn County,18029,39.14832,-84.973498
+Crawford,Indiana,IN,Decatur County,18031,39.30598,-85.499831
+Daviess,Indiana,IN,DeKalb County,18033,41.401189,-85.000185
+Dearborn,Indiana,IN,Delaware County,18035,40.227543,-85.399262
+Decatur,Indiana,IN,Dubois County,18037,38.373344,-86.873385
+DeKalb,Indiana,IN,Elkhart County,18039,41.600693,-85.863986
+Delaware,Indiana,IN,Fayette County,18041,39.639655,-85.185032
+Dubois,Indiana,IN,Floyd County,18043,38.318081,-85.911847
+Elkhart,Indiana,IN,Fountain County,18045,40.121237,-87.234872
+Fayette,Indiana,IN,Franklin County,18047,39.409762,-85.066964
+Floyd,Indiana,IN,Fulton County,18049,41.050384,-86.265006
+Fountain,Indiana,IN,Gibson County,18051,38.317398,-87.580523
+Franklin,Indiana,IN,Grant County,18053,40.515758,-85.654946
+Fulton,Indiana,IN,Greene County,18055,39.047147,-87.004771
+Gibson,Indiana,IN,Hamilton County,18057,40.053507,-86.021713
+Grant,Indiana,IN,Hancock County,18059,39.822529,-85.77315
+Greene,Indiana,IN,Harrison County,18061,38.186454,-86.103766
+Hamilton,Indiana,IN,Hendricks County,18063,39.768963,-86.509908
+Hancock,Indiana,IN,Henry County,18065,39.929591,-85.397363
+Harrison,Indiana,IN,Howard County,18067,40.483537,-86.114118
+Hendricks,Indiana,IN,Huntington County,18069,40.826394,-85.478597
+Henry,Indiana,IN,Jackson County,18071,38.911957,-86.042516
+Howard,Indiana,IN,Jasper County,18073,41.017688,-87.118814
+Huntington,Indiana,IN,Jay County,18075,40.434956,-85.002331
+Jackson,Indiana,IN,Jefferson County,18077,38.783604,-85.44009
+Jasper,Indiana,IN,Jennings County,18079,38.996229,-85.628103
+Jay,Indiana,IN,Johnson County,18081,39.496092,-86.094264
+Jefferson,Indiana,IN,Knox County,18083,38.688391,-87.420354
+Jennings,Indiana,IN,Kosciusko County,18085,41.244293,-85.861575
+Johnson,Indiana,IN,LaGrange County,18087,41.642462,-85.427845
+Knox,Indiana,IN,Lake County,18089,41.472247,-87.374337
+Kosciusko,Indiana,IN,LaPorte County,18091,41.549013,-86.744739
+LaGrange,Indiana,IN,Lawrence County,18093,38.839815,-86.48782
+Lake,Indiana,IN,Madison County,18095,40.166203,-85.722454
+LaPorte,Indiana,IN,Marion County,18097,39.782976,-86.135794
+Lawrence,Indiana,IN,Marshall County,18099,41.325003,-86.269036
+Madison,Indiana,IN,Martin County,18101,38.705322,-86.801847
+Marion,Indiana,IN,Miami County,18103,40.772883,-86.044258
+Marshall,Indiana,IN,Monroe County,18105,39.160729,-86.52331
+Martin,Indiana,IN,Montgomery County,18107,40.040296,-86.892715
+Miami,Indiana,IN,Morgan County,18109,39.482646,-86.447457
+Monroe,Indiana,IN,Newton County,18111,40.962399,-87.402172
+Montgomery,Indiana,IN,Noble County,18113,41.404679,-85.417271
+Morgan,Indiana,IN,Ohio County,18115,38.940527,-84.964299
+Newton,Indiana,IN,Orange County,18117,38.547381,-86.489257
+Noble,Indiana,IN,Owen County,18119,39.317339,-86.838845
+Ohio,Indiana,IN,Parke County,18121,39.77425,-87.19695
+Orange,Indiana,IN,Perry County,18123,38.081436,-86.62654
+Owen,Indiana,IN,Pike County,18125,38.397961,-87.232547
+Parke,Indiana,IN,Porter County,18127,41.509914,-87.071313
+Perry,Indiana,IN,Posey County,18129,38.027614,-87.868653
+Pike,Indiana,IN,Pulaski County,18131,41.045272,-86.692538
+Porter,Indiana,IN,Putnam County,18133,39.665548,-86.853373
+Posey,Indiana,IN,Randolph County,18135,40.164079,-85.00579
+Pulaski,Indiana,IN,Ripley County,18137,39.100226,-85.260494
+Putnam,Indiana,IN,Rush County,18139,39.622379,-85.466446
+Randolph,Indiana,IN,St. Joseph County,18141,41.617723,-86.288048
+Ripley,Indiana,IN,Scott County,18143,38.679431,-85.751898
+Rush,Indiana,IN,Shelby County,18145,39.524135,-85.792174
+Scott,Indiana,IN,Spencer County,18147,38.009697,-87.010375
+Shelby,Indiana,IN,Starke County,18149,41.284478,-86.644636
+Spencer,Indiana,IN,Steuben County,18151,41.643467,-85.002405
+Starke,Indiana,IN,Sullivan County,18153,39.089225,-87.415843
+Steuben,Indiana,IN,Switzerland County,18155,38.825854,-85.029681
+St. Joseph,Indiana,IN,Tippecanoe County,18157,40.389133,-86.893554
+Sullivan,Indiana,IN,Tipton County,18159,40.310229,-86.056207
+Switzerland,Indiana,IN,Union County,18161,39.623111,-84.925152
+Tippecanoe,Indiana,IN,Vanderburgh County,18163,38.02007,-87.586166
+Tipton,Indiana,IN,Vermillion County,18165,39.854045,-87.462071
+Union,Indiana,IN,Vigo County,18167,39.429143,-87.390375
+Vanderburgh,Indiana,IN,Wabash County,18169,40.843747,-85.795192
+Vermillion,Indiana,IN,Warren County,18171,40.352658,-87.375847
+Vigo,Indiana,IN,Warrick County,18173,38.097728,-87.272049
+Wabash,Indiana,IN,Washington County,18175,38.600613,-86.104751
+Warren,Indiana,IN,Wayne County,18177,39.863091,-85.006735
+Warrick,Indiana,IN,Wells County,18179,40.735273,-85.212974
+Washington,Indiana,IN,White County,18181,40.75095,-86.864293
+Wayne,Indiana,IN,Whitley County,18183,41.136426,-85.501892
+Wells,Indiana,IA,Adair County,19001,41.328528,-94.478164
+White,Indiana,IA,Adams County,19003,41.021656,-94.696906
+Whitley,Indiana,IA,Allamakee County,19005,43.274964,-91.382751
+Adair,Iowa,IA,Appanoose County,19007,40.744296,-92.873061
+Adams,Iowa,IA,Audubon County,19009,41.679178,-94.904312
+Allamakee,Iowa,IA,Benton County,19011,42.092547,-92.05763
+Appanoose,Iowa,IA,Black Hawk County,19013,42.471132,-92.3076
+Audubon,Iowa,IA,Boone County,19015,42.038642,-93.938358
+Benton,Iowa,IA,Bremer County,19017,42.780895,-92.327356
+Black Hawk,Iowa,IA,Buchanan County,19019,42.470328,-91.838666
+Boone,Iowa,IA,Buena Vista County,19021,42.741522,-95.141432
+Bremer,Iowa,IA,Butler County,19023,42.734757,-92.780153
+Buchanan,Iowa,IA,Calhoun County,19025,42.38617,-94.643683
+Buena Vista,Iowa,IA,Carroll County,19027,42.039492,-94.867647
+Butler,Iowa,IA,Cass County,19029,41.333824,-94.933302
+Calhoun,Iowa,IA,Cedar County,19031,41.77236,-91.132611
+Carroll,Iowa,IA,Cerro Gordo County,19033,43.074975,-93.250965
+Cass,Iowa,IA,Cherokee County,19035,42.742737,-95.633262
+Cedar,Iowa,IA,Chickasaw County,19037,43.059741,-92.31721
+Cerro Gordo,Iowa,IA,Clarke County,19039,41.029191,-93.784096
+Cherokee,Iowa,IA,Clay County,19041,43.081224,-95.149875
+Chickasaw,Iowa,IA,Clayton County,19043,42.840985,-91.323576
+Clarke,Iowa,IA,Clinton County,19045,41.898073,-90.534243
+Clay,Iowa,IA,Crawford County,19047,42.043119,-95.38909
+Clayton,Iowa,IA,Dallas County,19049,41.68532,-94.040706
+Clinton,Iowa,IA,Davis County,19051,40.748089,-92.410345
+Crawford,Iowa,IA,Decatur County,19053,40.736379,-93.78458
+Dallas,Iowa,IA,Delaware County,19055,42.472937,-91.366767
+Davis,Iowa,IA,Des Moines County,19057,40.915339,-91.186925
+Decatur,Iowa,IA,Dickinson County,19059,43.389611,-95.196057
+Delaware,Iowa,IA,Dubuque County,19061,42.463481,-90.878771
+Des Moines,Iowa,IA,Emmet County,19063,43.377984,-94.66937
+Dickinson,Iowa,IA,Fayette County,19065,42.864122,-91.840376
+Dubuque,Iowa,IA,Floyd County,19067,43.052741,-92.787367
+Emmet,Iowa,IA,Franklin County,19069,42.736545,-93.271415
+Fayette,Iowa,IA,Fremont County,19071,40.74259,-95.599182
+Floyd,Iowa,IA,Greene County,19073,42.042494,-94.388703
+Franklin,Iowa,IA,Grundy County,19075,42.403339,-92.790244
+Fremont,Iowa,IA,Guthrie County,19077,41.683573,-94.501272
+Greene,Iowa,IA,Hamilton County,19079,42.390768,-93.709198
+Grundy,Iowa,IA,Hancock County,19081,43.075411,-93.743697
+Guthrie,Iowa,IA,Hardin County,19083,42.390208,-93.241669
+Hamilton,Iowa,IA,Harrison County,19085,41.688584,-95.827149
+Hancock,Iowa,IA,Henry County,19087,40.984802,-91.547259
+Hardin,Iowa,IA,Howard County,19089,43.365312,-92.321908
+Harrison,Iowa,IA,Humboldt County,19091,42.782221,-94.202775
+Henry,Iowa,IA,Ida County,19093,42.39186,-95.507421
+Howard,Iowa,IA,Iowa County,19095,41.683918,-92.059123
+Humboldt,Iowa,IA,Jackson County,19097,42.164226,-90.574582
+Ida,Iowa,IA,Jasper County,19099,41.685551,-93.054147
+Iowa,Iowa,IA,Jefferson County,19101,41.005888,-91.966634
+Jackson,Iowa,IA,Johnson County,19103,41.670668,-91.590529
+Jasper,Iowa,IA,Jones County,19105,42.125118,-91.116914
+Jefferson,Iowa,IA,Keokuk County,19107,41.331182,-92.167721
+Johnson,Iowa,IA,Kossuth County,19109,43.212478,-94.213983
+Jones,Iowa,IA,Lee County,19111,40.647588,-91.477157
+Keokuk,Iowa,IA,Linn County,19113,42.077951,-91.597674
+Kossuth,Iowa,IA,Louisa County,19115,41.218211,-91.256994
+Lee,Iowa,IA,Lucas County,19117,41.033344,-93.331467
+Linn,Iowa,IA,Lyon County,19119,43.38358,-96.207201
+Louisa,Iowa,IA,Madison County,19121,41.330622,-94.015184
+Lucas,Iowa,IA,Mahaska County,19123,41.330797,-92.636366
+Lyon,Iowa,IA,Marion County,19125,41.331455,-93.093849
+Madison,Iowa,IA,Marshall County,19127,42.041691,-92.981452
+Mahaska,Iowa,IA,Mills County,19129,41.033703,-95.619101
+Marion,Iowa,IA,Mitchell County,19131,43.348564,-92.784466
+Marshall,Iowa,IA,Monona County,19133,42.049432,-95.956566
+Mills,Iowa,IA,Monroe County,19135,41.028847,-92.869642
+Mitchell,Iowa,IA,Montgomery County,19137,41.021735,-95.15779
+Monona,Iowa,IA,Muscatine County,19139,41.483776,-91.118699
+Monroe,Iowa,IA,O'Brien County,19141,43.083746,-95.625624
+Montgomery,Iowa,IA,Osceola County,19143,43.378542,-95.633788
+Muscatine,Iowa,IA,Page County,19145,40.73909,-95.14429
+O'Brien,Iowa,IA,Palo Alto County,19147,43.075337,-94.669055
+Osceola,Iowa,IA,Plymouth County,19149,42.737585,-96.215864
+Page,Iowa,IA,Pocahontas County,19151,42.734033,-94.678279
+Palo Alto,Iowa,IA,Polk County,19153,41.684816,-93.568971
+Plymouth,Iowa,IA,Pottawattamie County,19155,41.340184,-95.544905
+Pocahontas,Iowa,IA,Poweshiek County,19157,41.684526,-92.522882
+Polk,Iowa,IA,Ringgold County,19159,40.735334,-94.244251
+Pottawattamie,Iowa,IA,Sac County,19161,42.387526,-95.105224
+Poweshiek,Iowa,IA,Scott County,19163,41.642079,-90.622289
+Ringgold,Iowa,IA,Shelby County,19165,41.679014,-95.308917
+Sac,Iowa,IA,Sioux County,19167,43.082646,-96.17801
+Scott,Iowa,IA,Story County,19169,42.037538,-93.466093
+Shelby,Iowa,IA,Tama County,19171,42.074848,-92.529411
+Sioux,Iowa,IA,Taylor County,19173,40.737949,-94.697108
+Story,Iowa,IA,Union County,19175,41.02855,-94.245091
+Tama,Iowa,IA,Van Buren County,19177,40.754117,-91.952943
+Taylor,Iowa,IA,Wapello County,19179,41.031275,-92.409466
+Union,Iowa,IA,Warren County,19181,41.332446,-93.568751
+Unknown,Iowa,IA,Washington County,19183,41.329401,-91.725052
+Van Buren,Iowa,IA,Wayne County,19185,40.739983,-93.332613
+Wapello,Iowa,IA,Webster County,19187,42.433579,-94.175831
+Warren,Iowa,IA,Winnebago County,19189,43.378124,-93.743488
+Washington,Iowa,IA,Winneshiek County,19191,43.292989,-91.850788
+Wayne,Iowa,IA,Woodbury County,19193,42.39322,-96.053296
+Webster,Iowa,IA,Worth County,19195,43.373491,-93.248533
+Winnebago,Iowa,IA,Wright County,19197,42.733007,-93.734735
+Winneshiek,Iowa,KS,Allen County,20001,37.884228,-95.300945
+Woodbury,Iowa,KS,Anderson County,20003,38.215114,-95.292046
+Worth,Iowa,KS,Atchison County,20005,39.532544,-95.313397
+Wright,Iowa,KS,Barber County,20007,37.222906,-98.685052
+Allen,Kansas,KS,Barton County,20009,38.481239,-98.767837
+Anderson,Kansas,KS,Bourbon County,20011,37.8561,-94.850928
+Atchison,Kansas,KS,Brown County,20013,39.825931,-95.569905
+Barber,Kansas,KS,Butler County,20015,37.773649,-96.83884
+Barton,Kansas,KS,Chase County,20017,38.299475,-96.594029
+Bourbon,Kansas,KS,Chautauqua County,20019,37.154259,-96.245396
+Brown,Kansas,KS,Cherokee County,20021,37.169392,-94.845698
+Butler,Kansas,KS,Cheyenne County,20023,39.789917,-101.727325
+Chase,Kansas,KS,Clark County,20025,37.233831,-99.813869
+Chautauqua,Kansas,KS,Clay County,20027,39.344964,-97.168853
+Cherokee,Kansas,KS,Cloud County,20029,39.487329,-97.64139
+Cheyenne,Kansas,KS,Coffey County,20031,38.23645,-95.729137
+Clark,Kansas,KS,Comanche County,20033,37.181442,-99.251293
+Clay,Kansas,KS,Cowley County,20035,37.234507,-96.837247
+Cloud,Kansas,KS,Crawford County,20037,37.505821,-94.853897
+Coffey,Kansas,KS,Decatur County,20039,39.783542,-100.459708
+Comanche,Kansas,KS,Dickinson County,20041,38.867735,-97.157943
+Cowley,Kansas,KS,Doniphan County,20043,39.788502,-95.147225
+Crawford,Kansas,KS,Douglas County,20045,38.896417,-95.290947
+Decatur,Kansas,KS,Edwards County,20047,37.883595,-99.304746
+Dickinson,Kansas,KS,Elk County,20049,37.456026,-96.244642
+Doniphan,Kansas,KS,Ellis County,20051,38.914597,-99.317313
+Douglas,Kansas,KS,Ellsworth County,20053,38.700845,-98.205355
+Edwards,Kansas,KS,Finney County,20055,38.049808,-100.739967
+Elk,Kansas,KS,Ford County,20057,37.688416,-99.884748
+Ellis,Kansas,KS,Franklin County,20059,38.558019,-95.278962
+Ellsworth,Kansas,KS,Geary County,20061,39.002139,-96.7681
+Finney,Kansas,KS,Gove County,20063,38.917239,-100.48736
+Ford,Kansas,KS,Graham County,20065,39.354972,-99.879894
+Franklin,Kansas,KS,Grant County,20067,37.547537,-101.299362
+Geary,Kansas,KS,Gray County,20069,37.744513,-100.451716
+Gove,Kansas,KS,Greeley County,20071,38.480404,-101.80597
+Graham,Kansas,KS,Greenwood County,20073,37.879347,-96.241732
+Grant,Kansas,KS,Hamilton County,20075,37.995244,-101.793689
+Gray,Kansas,KS,Harper County,20077,37.188184,-98.06659
+Greeley,Kansas,KS,Harvey County,20079,38.050144,-97.436706
+Greenwood,Kansas,KS,Haskell County,20081,37.554979,-100.879952
+Hamilton,Kansas,KS,Hodgeman County,20083,38.087493,-99.898407
+Harper,Kansas,KS,Jackson County,20085,39.411145,-95.794485
+Harvey,Kansas,KS,Jefferson County,20087,39.239644,-95.375314
+Haskell,Kansas,KS,Jewell County,20089,39.777002,-98.222618
+Hodgeman,Kansas,KS,Johnson County,20091,38.883907,-94.82233
+Jackson,Kansas,KS,Kearny County,20093,37.994461,-101.308136
+Jefferson,Kansas,KS,Kingman County,20095,37.552951,-98.144529
+Jewell,Kansas,KS,Kiowa County,20097,37.561231,-99.286539
+Johnson,Kansas,KS,Labette County,20099,37.191468,-95.297473
+Kearny,Kansas,KS,Lane County,20101,38.481286,-100.466185
+Kingman,Kansas,KS,Leavenworth County,20103,39.189511,-95.038977
+Kiowa,Kansas,KS,Lincoln County,20105,39.04728,-98.214284
+Labette,Kansas,KS,Linn County,20107,38.216549,-94.844932
+Lane,Kansas,KS,Logan County,20109,38.91327,-101.157402
+Leavenworth,Kansas,KS,Lyon County,20111,38.455403,-96.161641
+Lincoln,Kansas,KS,McPherson County,20113,38.395812,-97.647489
+Linn,Kansas,KS,Marion County,20115,38.359647,-97.102771
+Logan,Kansas,KS,Marshall County,20117,39.782709,-96.521243
+Lyon,Kansas,KS,Meade County,20119,37.243886,-100.360094
+Marion,Kansas,KS,Miami County,20121,38.566772,-94.832963
+Marshall,Kansas,KS,Mitchell County,20123,39.393026,-98.207362
+McPherson,Kansas,KS,Montgomery County,20125,37.189537,-95.742403
+Meade,Kansas,KS,Morris County,20127,38.688204,-96.651448
+Miami,Kansas,KS,Morton County,20129,37.185249,-101.809516
+Mitchell,Kansas,KS,Nemaha County,20131,39.791043,-96.005381
+Montgomery,Kansas,KS,Neosho County,20133,37.564283,-95.315682
+Morris,Kansas,KS,Ness County,20135,38.480437,-99.908745
+Morton,Kansas,KS,Norton County,20137,39.783867,-99.899235
+Nemaha,Kansas,KS,Osage County,20139,38.650215,-95.708255
+Neosho,Kansas,KS,Osborne County,20141,39.348261,-98.767942
+Ness,Kansas,KS,Ottawa County,20143,39.137963,-97.654802
+Norton,Kansas,KS,Pawnee County,20145,38.181477,-99.234772
+Osage,Kansas,KS,Phillips County,20147,39.784506,-99.34215
+Osborne,Kansas,KS,Pottawatomie County,20149,39.382187,-96.337113
+Ottawa,Kansas,KS,Pratt County,20151,37.647594,-98.74012
+Pawnee,Kansas,KS,Rawlins County,20153,39.786198,-101.076738
+Phillips,Kansas,KS,Reno County,20155,37.948185,-98.078346
+Pottawatomie,Kansas,KS,Republic County,20157,39.828906,-97.650883
+Pratt,Kansas,KS,Rice County,20159,38.347178,-98.201415
+Reno,Kansas,KS,Riley County,20161,39.291211,-96.727489
+Republic,Kansas,KS,Rooks County,20163,39.346006,-99.324492
+Rice,Kansas,KS,Rush County,20165,38.523596,-99.309184
+Riley,Kansas,KS,Russell County,20167,38.91604,-98.770949
+Rooks,Kansas,KS,Saline County,20169,38.791804,-97.651478
+Rush,Kansas,KS,Scott County,20171,38.481877,-100.90636
+Russell,Kansas,KS,Sedgwick County,20173,37.681045,-97.461054
+Saline,Kansas,KS,Seward County,20175,37.18096,-100.855257
+Scott,Kansas,KS,Shawnee County,20177,39.041805,-95.755664
+Sedgwick,Kansas,KS,Sheridan County,20179,39.350547,-100.441228
+Seward,Kansas,KS,Sherman County,20181,39.351352,-101.719859
+Shawnee,Kansas,KS,Smith County,20183,39.78466,-98.785429
+Sheridan,Kansas,KS,Stafford County,20185,38.03563,-98.719889
+Sherman,Kansas,KS,Stanton County,20187,37.565932,-101.789383
+Smith,Kansas,KS,Stevens County,20189,37.2017,-101.317268
+Stafford,Kansas,KS,Sumner County,20191,37.236662,-97.493352
+Stanton,Kansas,KS,Thomas County,20193,39.357713,-101.083386
+Stevens,Kansas,KS,Trego County,20195,38.921302,-99.865423
+Sumner,Kansas,KS,Wabaunsee County,20197,38.955154,-96.201262
+Thomas,Kansas,KS,Wallace County,20199,38.926626,-101.771103
+Trego,Kansas,KS,Washington County,20201,39.776714,-97.095611
+Wabaunsee,Kansas,KS,Wichita County,20203,38.481922,-101.347434
+Washington,Kansas,KS,Wilson County,20205,37.558515,-95.745175
+Wichita,Kansas,KS,Woodson County,20207,37.888193,-95.758469
+Wilson,Kansas,KS,Wyandotte County,20209,39.115384,-94.763087
+Woodson,Kansas,KY,Adair County,21001,37.105559,-85.28138
+Wyandotte,Kansas,KY,Allen County,21003,36.75077,-86.192458
+Adair,Kentucky,KY,Anderson County,21005,38.005396,-84.986417
+Allen,Kentucky,KY,Ballard County,21007,37.051323,-89.010367
+Anderson,Kentucky,KY,Barren County,21009,36.962805,-85.932108
+Ballard,Kentucky,KY,Bath County,21011,38.152249,-83.737641
+Barren,Kentucky,KY,Bell County,21013,36.728928,-83.680718
+Bath,Kentucky,KY,Boone County,21015,38.9589,-84.736371
+Bell,Kentucky,KY,Bourbon County,21017,38.202562,-84.20986
+Boone,Kentucky,KY,Boyd County,21019,38.360004,-82.681406
+Bourbon,Kentucky,KY,Boyle County,21021,37.618104,-84.868352
+Boyd,Kentucky,KY,Bracken County,21023,38.680365,-84.115235
+Boyle,Kentucky,KY,Breathitt County,21025,37.517807,-83.317158
+Bracken,Kentucky,KY,Breckinridge County,21027,37.777988,-86.432919
+Breathitt,Kentucky,KY,Bullitt County,21029,37.969945,-85.702636
+Breckinridge,Kentucky,KY,Butler County,21031,37.207013,-86.682471
+Bullitt,Kentucky,KY,Caldwell County,21033,37.148642,-87.870509
+Butler,Kentucky,KY,Calloway County,21035,36.620978,-88.274086
+Caldwell,Kentucky,KY,Campbell County,21037,38.946981,-84.379583
+Calloway,Kentucky,KY,Carlisle County,21039,36.85718,-88.976614
+Campbell,Kentucky,KY,Carroll County,21041,38.668394,-85.124024
+Carlisle,Kentucky,KY,Carter County,21043,38.309549,-83.048796
+Carroll,Kentucky,KY,Casey County,21045,37.321962,-84.92822
+Carter,Kentucky,KY,Christian County,21047,36.892059,-87.492986
+Casey,Kentucky,KY,Clark County,21049,37.970314,-84.145115
+Christian,Kentucky,KY,Clay County,21051,37.164273,-83.715473
+Clark,Kentucky,KY,Clinton County,21053,36.727258,-85.136098
+Clay,Kentucky,KY,Crittenden County,21055,37.358149,-88.10501
+Clinton,Kentucky,KY,Cumberland County,21057,36.782372,-85.388484
+Crittenden,Kentucky,KY,Daviess County,21059,37.731671,-87.087139
+Cumberland,Kentucky,KY,Edmonson County,21061,37.227514,-86.218015
+Daviess,Kentucky,KY,Elliott County,21063,38.116883,-83.096116
+Edmonson,Kentucky,KY,Estill County,21065,37.692449,-83.963983
+Elliott,Kentucky,KY,Fayette County,21067,38.040675,-84.458274
+Estill,Kentucky,KY,Fleming County,21069,38.367848,-83.699205
+Fayette,Kentucky,KY,Floyd County,21071,37.552456,-82.739724
+Fleming,Kentucky,KY,Franklin County,21073,38.234919,-84.868786
+Floyd,Kentucky,KY,Fulton County,21075,36.552511,-89.187659
+Franklin,Kentucky,KY,Gallatin County,21077,38.760103,-84.862153
+Fulton,Kentucky,KY,Garrard County,21079,37.630162,-84.545856
+Gallatin,Kentucky,KY,Grant County,21081,38.649167,-84.625924
+Garrard,Kentucky,KY,Graves County,21083,36.723344,-88.649897
+Grant,Kentucky,KY,Grayson County,21085,37.458577,-86.344011
+Graves,Kentucky,KY,Green County,21087,37.275382,-85.578483
+Grayson,Kentucky,KY,Greenup County,21089,38.563562,-82.93382
+Green,Kentucky,KY,Hancock County,21091,37.843325,-86.792761
+Greenup,Kentucky,KY,Hardin County,21093,37.695836,-85.963183
+Hancock,Kentucky,KY,Harlan County,21095,36.859223,-83.221497
+Hardin,Kentucky,KY,Harrison County,21097,38.444578,-84.334131
+Harlan,Kentucky,KY,Hart County,21099,37.309097,-85.882123
+Harrison,Kentucky,KY,Henderson County,21101,37.792542,-87.572577
+Hart,Kentucky,KY,Henry County,21103,38.451383,-85.119647
+Henderson,Kentucky,KY,Hickman County,21105,36.675896,-88.972084
+Henry,Kentucky,KY,Hopkins County,21107,37.31107,-87.542196
+Hickman,Kentucky,KY,Jackson County,21109,37.403458,-84.020576
+Hopkins,Kentucky,KY,Jefferson County,21111,38.189532,-85.657624
+Jackson,Kentucky,KY,Jessamine County,21113,37.873291,-84.58396
+Jefferson,Kentucky,KY,Johnson County,21115,37.847756,-82.830121
+Jessamine,Kentucky,KY,Kenton County,21117,38.930503,-84.533438
+Johnson,Kentucky,KY,Knott County,21119,37.354368,-82.952546
+Kenton,Kentucky,KY,Knox County,21121,36.8885,-83.855551
+Knott,Kentucky,KY,Larue County,21123,37.544462,-85.696841
+Knox,Kentucky,KY,Laurel County,21125,37.113268,-84.119395
+Larue,Kentucky,KY,Lawrence County,21127,38.074453,-82.73829
+Laurel,Kentucky,KY,Lee County,21129,37.608116,-83.719248
+Lawrence,Kentucky,KY,Leslie County,21131,37.087846,-83.388617
+Lee,Kentucky,KY,Letcher County,21133,37.118536,-82.861251
+Leslie,Kentucky,KY,Lewis County,21135,38.535047,-83.370143
+Letcher,Kentucky,KY,Lincoln County,21137,37.457174,-84.658335
+Lewis,Kentucky,KY,Livingston County,21139,37.209517,-88.363426
+Lincoln,Kentucky,KY,Logan County,21141,36.859607,-86.881288
+Livingston,Kentucky,KY,Lyon County,21143,37.023976,-88.083391
+Logan,Kentucky,KY,McCracken County,21145,37.054111,-88.712454
+Lyon,Kentucky,KY,McCreary County,21147,36.731136,-84.491052
+Madison,Kentucky,KY,McLean County,21149,37.526707,-87.265597
+Magoffin,Kentucky,KY,Madison County,21151,37.725511,-84.278362
+Marion,Kentucky,KY,Magoffin County,21153,37.698983,-83.069721
+Marshall,Kentucky,KY,Marion County,21155,37.552604,-85.268959
+Martin,Kentucky,KY,Marshall County,21157,36.882017,-88.332752
+Mason,Kentucky,KY,Martin County,21159,37.796774,-82.506623
+McCracken,Kentucky,KY,Mason County,21161,38.594137,-83.828125
+McCreary,Kentucky,KY,Meade County,21163,37.967476,-86.200863
+McLean,Kentucky,KY,Menifee County,21165,37.935501,-83.589365
+Meade,Kentucky,KY,Mercer County,21167,37.812085,-84.879695
+Menifee,Kentucky,KY,Metcalfe County,21169,36.99243,-85.633456
+Mercer,Kentucky,KY,Monroe County,21171,36.714077,-85.713508
+Metcalfe,Kentucky,KY,Montgomery County,21173,38.038109,-83.912416
+Monroe,Kentucky,KY,Morgan County,21175,37.92294,-83.258944
+Montgomery,Kentucky,KY,Muhlenberg County,21177,37.213816,-87.134092
+Morgan,Kentucky,KY,Nelson County,21179,37.80312,-85.465931
+Muhlenberg,Kentucky,KY,Nicholas County,21181,38.338031,-84.026223
+Nelson,Kentucky,KY,Ohio County,21183,37.477859,-86.844871
+Nicholas,Kentucky,KY,Oldham County,21185,38.400127,-85.456152
+Ohio,Kentucky,KY,Owen County,21187,38.499395,-84.84159
+Oldham,Kentucky,KY,Owsley County,21189,37.423622,-83.691637
+Owen,Kentucky,KY,Pendleton County,21191,38.696284,-84.351943
+Owsley,Kentucky,KY,Perry County,21193,37.241282,-83.217772
+Pendleton,Kentucky,KY,Pike County,21195,37.486031,-82.410912
+Perry,Kentucky,KY,Powell County,21197,37.809907,-83.831354
+Pike,Kentucky,KY,Pulaski County,21199,37.107374,-84.576953
+Powell,Kentucky,KY,Robertson County,21201,38.513473,-84.06423
+Pulaski,Kentucky,KY,Rockcastle County,21203,37.36105,-84.314368
+Robertson,Kentucky,KY,Rowan County,21205,38.204266,-83.428079
+Rockcastle,Kentucky,KY,Russell County,21207,36.990587,-85.05495
+Rowan,Kentucky,KY,Scott County,21209,38.28571,-84.57834
+Russell,Kentucky,KY,Shelby County,21211,38.239011,-85.228247
+Scott,Kentucky,KY,Simpson County,21213,36.740937,-86.581793
+Shelby,Kentucky,KY,Spencer County,21215,38.025411,-85.317174
+Simpson,Kentucky,KY,Taylor County,21217,37.36621,-85.328059
+Spencer,Kentucky,KY,Todd County,21219,36.840338,-87.183642
+Taylor,Kentucky,KY,Trigg County,21221,36.807681,-87.858652
+Todd,Kentucky,KY,Trimble County,21223,38.62004,-85.351208
+Trigg,Kentucky,KY,Union County,21225,37.658029,-87.95165
+Trimble,Kentucky,KY,Warren County,21227,36.995634,-86.423579
+Union,Kentucky,KY,Washington County,21229,37.754209,-85.175416
+Warren,Kentucky,KY,Wayne County,21231,36.800772,-84.82659
+Washington,Kentucky,KY,Webster County,21233,37.51946,-87.68479
+Wayne,Kentucky,KY,Whitley County,21235,36.758024,-84.144648
+Webster,Kentucky,KY,Wolfe County,21237,37.743893,-83.49511
+Whitley,Kentucky,KY,Woodford County,21239,38.043103,-84.748855
+Wolfe,Kentucky,LA,Acadia Parish,22001,30.291497,-92.411037
+Woodford,Kentucky,LA,Allen Parish,22003,30.652744,-92.819605
+Acadia,Louisiana,LA,Ascension Parish,22005,30.206444,-90.912502
+Allen,Louisiana,LA,Assumption Parish,22007,29.898853,-91.052465
+Ascension,Louisiana,LA,Avoyelles Parish,22009,31.088503,-91.983275
+Assumption,Louisiana,LA,Beauregard Parish,22011,30.645018,-93.340253
+Avoyelles,Louisiana,LA,Bienville Parish,22013,32.340952,-93.041151
+Beauregard,Louisiana,LA,Bossier Parish,22015,32.698481,-93.626561
+Bienville,Louisiana,LA,Caddo Parish,22017,32.577195,-93.882423
+Bossier,Louisiana,LA,Calcasieu Parish,22019,30.229559,-93.358015
+Caddo,Louisiana,LA,Caldwell Parish,22021,32.101219,-92.114231
+Calcasieu,Louisiana,LA,Cameron Parish,22023,29.871812,-93.164948
+Caldwell,Louisiana,LA,Catahoula Parish,22025,31.666517,-91.846703
+Cameron,Louisiana,LA,Claiborne Parish,22027,32.82716,-92.989728
+Catahoula,Louisiana,LA,Concordia Parish,22029,31.469805,-91.626315
+Claiborne,Louisiana,LA,De Soto Parish,22031,32.059248,-93.740797
+Concordia,Louisiana,LA,East Baton Rouge Parish,22033,30.54393,-91.093131
+De Soto,Louisiana,LA,East Carroll Parish,22035,32.73017,-91.234141
+East Baton Rouge,Louisiana,LA,East Feliciana Parish,22037,30.839784,-91.043434
+East Carroll,Louisiana,LA,Evangeline Parish,22039,30.720693,-92.404086
+East Feliciana,Louisiana,LA,Franklin Parish,22041,32.139076,-91.672371
+Evangeline,Louisiana,LA,Grant Parish,22043,31.597787,-92.561716
+Franklin,Louisiana,LA,Iberia Parish,22045,30.007127,-91.976784
+Grant,Louisiana,LA,Iberville Parish,22047,30.270628,-91.365848
+Iberia,Louisiana,LA,Jackson Parish,22049,32.30429,-92.5617
+Iberville,Louisiana,LA,Jefferson Parish,22051,29.522281,-90.081001
+Jackson,Louisiana,LA,Jefferson Davis Parish,22053,30.269529,-92.816221
+Jefferson,Louisiana,LA,Lafayette Parish,22055,30.206507,-92.06417
+Jefferson Davis,Louisiana,LA,Lafourche Parish,22057,29.491992,-90.394849
+Lafayette,Louisiana,LA,LaSalle Parish,22059,31.680083,-92.161596
+Lafourche,Louisiana,LA,Lincoln Parish,22061,32.601823,-92.662303
+LaSalle,Louisiana,LA,Livingston Parish,22063,30.440419,-90.727474
+Lincoln,Louisiana,LA,Madison Parish,22065,32.346878,-91.231932
+Livingston,Louisiana,LA,Morehouse Parish,22067,32.820008,-91.800399
+Madison,Louisiana,LA,Natchitoches Parish,22069,31.732551,-93.082611
+Morehouse,Louisiana,LA,Orleans Parish,22071,30.05342,-89.934502
+Natchitoches,Louisiana,LA,Ouachita Parish,22073,32.480932,-92.151581
+Orleans,Louisiana,LA,Plaquemines Parish,22075,29.282447,-89.576068
+Ouachita,Louisiana,LA,Pointe Coupee Parish,22077,30.708319,-91.604621
+Plaquemines,Louisiana,LA,Rapides Parish,22079,31.193204,-92.535953
+Pointe Coupee,Louisiana,LA,Red River Parish,22081,32.101213,-93.34905
+Rapides,Louisiana,LA,Richland Parish,22083,32.413158,-91.748353
+Red River,Louisiana,LA,Sabine Parish,22085,31.560402,-93.559579
+Richland,Louisiana,LA,St. Bernard Parish,22087,29.91811,-89.263494
+Sabine,Louisiana,LA,St. Charles Parish,22089,29.905722,-90.357855
+St. Bernard,Louisiana,LA,St. Helena Parish,22091,30.822539,-90.708307
+St. Charles,Louisiana,LA,St. James Parish,22093,30.024777,-90.793956
+St. Helena,Louisiana,LA,St. John the Baptist Parish,22095,30.144068,-90.49096
+St. James,Louisiana,LA,St. Landry Parish,22097,30.583441,-91.989274
+St. John the Baptist,Louisiana,LA,St. Martin Parish,22099,30.121433,-91.611481
+St. Landry,Louisiana,LA,St. Mary Parish,22101,29.629349,-91.463804
+St. Martin,Louisiana,LA,St. Tammany Parish,22103,30.410022,-89.951962
+St. Mary,Louisiana,LA,Tangipahoa Parish,22105,30.621531,-90.40663
+St. Tammany,Louisiana,LA,Tensas Parish,22107,32.001489,-91.342576
+Tangipahoa,Louisiana,LA,Terrebonne Parish,22109,29.33413,-90.843674
+Tensas,Louisiana,LA,Union Parish,22111,32.829349,-92.37565
+Terrebonne,Louisiana,LA,Vermilion Parish,22113,29.789722,-92.291568
+Union,Louisiana,LA,Vernon Parish,22115,31.110563,-93.18152
+Unknown,Louisiana,LA,Washington Parish,22117,30.852144,-90.046253
+Vermilion,Louisiana,LA,Webster Parish,22119,32.732152,-93.339825
+Vernon,Louisiana,LA,West Baton Rouge Parish,22121,30.464052,-91.309808
+Washington,Louisiana,LA,West Carroll Parish,22123,32.79248,-91.451998
+Webster,Louisiana,LA,West Feliciana Parish,22125,30.872701,-91.421008
+West Baton Rouge,Louisiana,LA,Winn Parish,22127,31.941187,-92.641269
+West Carroll,Louisiana,ME,Androscoggin County,23001,44.167681,-70.207435
+West Feliciana,Louisiana,ME,Aroostook County,23003,46.709193,-68.612409
+Winn,Louisiana,ME,Cumberland County,23005,43.808348,-70.330375
+Androscoggin,Maine,ME,Franklin County,23007,44.976724,-70.414935
+Aroostook,Maine,ME,Hancock County,23009,44.564906,-68.370703
+Cumberland,Maine,ME,Kennebec County,23011,44.417012,-69.765764
+Franklin,Maine,ME,Knox County,23013,44.042045,-69.038514
+Hancock,Maine,ME,Lincoln County,23015,43.994781,-69.513624
+Kennebec,Maine,ME,Oxford County,23017,44.4945,-70.734421
+Knox,Maine,ME,Penobscot County,23019,45.409284,-68.666616
+Lincoln,Maine,ME,Piscataquis County,23021,45.915639,-69.102231
+Oxford,Maine,ME,Sagadahoc County,23023,43.916845,-69.844227
+Penobscot,Maine,ME,Somerset County,23025,45.503646,-69.95611
+Piscataquis,Maine,ME,Waldo County,23027,44.505834,-69.138952
+Sagadahoc,Maine,ME,Washington County,23029,44.967009,-67.609354
+Somerset,Maine,ME,York County,23031,43.426019,-70.668425
+Waldo,Maine,MD,Allegany County,24001,39.612313,-78.703104
+Washington,Maine,MD,Anne Arundel County,24003,38.991617,-76.560894
+York,Maine,MD,Baltimore County,24005,39.443167,-76.616569
+Allegany,Maryland,MD,Calvert County,24009,38.522719,-76.529762
+Anne Arundel,Maryland,MD,Caroline County,24011,38.871531,-75.831662
+Baltimore,Maryland,MD,Carroll County,24013,39.563331,-77.015328
+Baltimore city,Maryland,MD,Cecil County,24015,39.562354,-75.941585
+Calvert,Maryland,MD,Charles County,24017,38.472853,-77.015427
+Caroline,Maryland,MD,Dorchester County,24019,38.429196,-76.047433
+Carroll,Maryland,MD,Frederick County,24021,39.470214,-77.397628
+Cecil,Maryland,MD,Garrett County,24023,39.547299,-79.274619
+Charles,Maryland,MD,Harford County,24025,39.537429,-76.299789
+Dorchester,Maryland,MD,Howard County,24027,39.252264,-76.924406
+Frederick,Maryland,MD,Kent County,24029,39.241279,-76.125987
+Garrett,Maryland,MD,Montgomery County,24031,39.137381,-77.203063
+Harford,Maryland,MD,Prince George's County,24033,38.829288,-76.84818
+Howard,Maryland,MD,Queen Anne's County,24035,39.040693,-76.082405
+Kent,Maryland,MD,St. Mary's County,24037,38.220289,-76.530384
+Montgomery,Maryland,MD,Somerset County,24039,38.07445,-75.853323
+Prince George's,Maryland,MD,Talbot County,24041,38.748349,-76.178476
+Queen Anne's,Maryland,MD,Washington County,24043,39.603621,-77.814671
+Somerset,Maryland,MD,Wicomico County,24045,38.36737,-75.632083
+St. Mary's,Maryland,MD,Worcester County,24047,38.222133,-75.309931
+Talbot,Maryland,MD,Baltimore city,24510,39.300032,-76.610476
+Unknown,Maryland,MA,Barnstable County,25001,41.799014,-70.21188
+Washington,Maryland,MA,Berkshire County,25003,42.371493,-73.217928
+Wicomico,Maryland,MA,Bristol County,25005,41.748588,-71.088894
+Worcester,Maryland,MA,Dukes County,25007,41.38097,-70.701499
+Barnstable,Massachusetts,MA,Essex County,25009,42.642708,-70.864909
+Berkshire,Massachusetts,MA,Franklin County,25011,42.584504,-72.591792
+Bristol,Massachusetts,MA,Hampden County,25013,42.136198,-72.635648
+Dukes,Massachusetts,MA,Hampshire County,25015,42.339459,-72.663694
+Essex,Massachusetts,MA,Middlesex County,25017,42.481718,-71.394916
+Franklin,Massachusetts,MA,Nantucket County,25019,41.305878,-70.14191
+Hampden,Massachusetts,MA,Norfolk County,25021,42.171739,-71.181111
+Hampshire,Massachusetts,MA,Plymouth County,25023,41.987196,-70.741942
+Middlesex,Massachusetts,MA,Suffolk County,25025,42.338551,-71.018253
+Nantucket,Massachusetts,MA,Worcester County,25027,42.311693,-71.940282
+Norfolk,Massachusetts,MI,Alcona County,26001,44.682535,-82.834078
+Plymouth,Massachusetts,MI,Alger County,26003,47.080077,-86.564108
+Suffolk,Massachusetts,MI,Allegan County,26005,42.595787,-86.634745
+Unknown,Massachusetts,MI,Alpena County,26007,44.894954,-83.426574
+Worcester,Massachusetts,MI,Antrim County,26009,45.005455,-85.175639
+Alcona,Michigan,MI,Arenac County,26011,44.036833,-83.740675
+Alger,Michigan,MI,Baraga County,26013,46.695859,-88.36181
+Allegan,Michigan,MI,Barry County,26015,42.582811,-85.31455
+Alpena,Michigan,MI,Bay County,26017,43.699711,-83.978701
+Antrim,Michigan,MI,Benzie County,26019,44.648621,-86.494326
+Arenac,Michigan,MI,Berrien County,26021,41.791382,-86.742543
+Baraga,Michigan,MI,Branch County,26023,41.918455,-85.066885
+Barry,Michigan,MI,Calhoun County,26025,42.24299,-85.012385
+Bay,Michigan,MI,Cass County,26027,41.917243,-86.000142
+Benzie,Michigan,MI,Charlevoix County,26029,45.513164,-85.450392
+Berrien,Michigan,MI,Cheboygan County,26031,45.476022,-84.495431
+Branch,Michigan,MI,Chippewa County,26033,46.321819,-84.52063
+Calhoun,Michigan,MI,Clare County,26035,43.991137,-84.838325
+Cass,Michigan,MI,Clinton County,26037,42.950455,-84.591695
+Charlevoix,Michigan,MI,Crawford County,26039,44.680175,-84.611343
+Cheboygan,Michigan,MI,Delta County,26041,45.805229,-86.901938
+Chippewa,Michigan,MI,Dickinson County,26043,46.012825,-87.866123
+Clare,Michigan,MI,Eaton County,26045,42.58953,-84.84645
+Clinton,Michigan,MI,Emmet County,26047,45.590094,-84.986822
+Crawford,Michigan,MI,Genesee County,26049,43.021077,-83.706372
+Delta,Michigan,MI,Gladwin County,26051,43.98975,-84.389816
+Dickinson,Michigan,MI,Gogebic County,26053,46.461513,-89.806863
+Eaton,Michigan,MI,Grand Traverse County,26055,44.718688,-85.553848
+Emmet,Michigan,MI,Gratiot County,26057,43.292326,-84.60469
+Genesee,Michigan,MI,Hillsdale County,26059,41.927461,-84.637479
+Gladwin,Michigan,MI,Houghton County,26061,46.998427,-88.651903
+Gogebic,Michigan,MI,Huron County,26063,43.907616,-82.857045
+Grand Traverse,Michigan,MI,Ingham County,26065,42.603534,-84.373811
+Gratiot,Michigan,MI,Ionia County,26067,42.94465,-85.073766
+Hillsdale,Michigan,MI,Iosco County,26069,44.329482,-82.849444
+Houghton,Michigan,MI,Iron County,26071,46.170254,-88.540526
+Huron,Michigan,MI,Isabella County,26073,43.645233,-84.839424
+Ingham,Michigan,MI,Jackson County,26075,42.248474,-84.420868
+Ionia,Michigan,MI,Kalamazoo County,26077,42.246266,-85.532854
+Iosco,Michigan,MI,Kalkaska County,26079,44.678881,-85.088992
+Iron,Michigan,MI,Kent County,26081,43.032497,-85.547446
+Isabella,Michigan,MI,Keweenaw County,26083,47.681974,-88.148797
+Jackson,Michigan,MI,Lake County,26085,43.995187,-85.8114
+Kalamazoo,Michigan,MI,Lapeer County,26087,43.088633,-83.224325
+Kalkaska,Michigan,MI,Leelanau County,26089,45.146182,-86.051574
+Kent,Michigan,MI,Lenawee County,26091,41.896022,-84.074356
+Keweenaw,Michigan,MI,Livingston County,26093,42.602532,-83.911718
+Lake,Michigan,MI,Luce County,26095,46.940602,-85.582368
+Lapeer,Michigan,MI,Mackinac County,26097,46.167868,-85.303762
+Leelanau,Michigan,MI,Macomb County,26099,42.671553,-82.911456
+Lenawee,Michigan,MI,Manistee County,26101,44.350386,-86.602967
+Livingston,Michigan,MI,Marquette County,26103,46.656596,-87.584028
+Luce,Michigan,MI,Mason County,26105,43.996636,-86.750814
+Mackinac,Michigan,MI,Mecosta County,26107,43.635295,-85.332751
+Macomb,Michigan,MI,Menominee County,26109,45.536207,-87.501811
+Manistee,Michigan,MI,Midland County,26111,43.648203,-84.379414
+Marquette,Michigan,MI,Missaukee County,26113,44.325424,-85.085471
+Mason,Michigan,MI,Monroe County,26115,41.916097,-83.487106
+Mecosta,Michigan,MI,Montcalm County,26117,43.312782,-85.149468
+Menominee,Michigan,MI,Montmorency County,26119,45.024134,-84.130107
+Midland,Michigan,MI,Muskegon County,26121,43.289258,-86.751892
+Missaukee,Michigan,MI,Newaygo County,26123,43.562712,-85.791372
+Monroe,Michigan,MI,Oakland County,26125,42.660452,-83.38421
+Montcalm,Michigan,MI,Oceana County,26127,43.647255,-86.807575
+Montmorency,Michigan,MI,Ogemaw County,26129,44.33328,-84.128073
+Muskegon,Michigan,MI,Ontonagon County,26131,47.216602,-89.500463
+Newaygo,Michigan,MI,Osceola County,26133,43.997552,-85.322283
+Oakland,Michigan,MI,Oscoda County,26135,44.687257,-84.126905
+Oceana,Michigan,MI,Otsego County,26137,45.021787,-84.576603
+Ogemaw,Michigan,MI,Ottawa County,26139,42.942461,-86.654946
+Ontonagon,Michigan,MI,Presque Isle County,26141,45.489515,-83.384019
+Osceola,Michigan,MI,Roscommon County,26143,44.339517,-84.611271
+Oscoda,Michigan,MI,Saginaw County,26145,43.328267,-84.05541
+Otsego,Michigan,MI,St. Clair County,26147,42.928803,-82.668913
+Ottawa,Michigan,MI,St. Joseph County,26149,41.911488,-85.52287
+Presque Isle,Michigan,MI,Sanilac County,26151,43.449155,-82.642815
+Roscommon,Michigan,MI,Schoolcraft County,26153,46.021122,-86.197029
+Saginaw,Michigan,MI,Shiawassee County,26155,42.951545,-84.146352
+Sanilac,Michigan,MI,Tuscola County,26157,43.487902,-83.436618
+Schoolcraft,Michigan,MI,Van Buren County,26159,42.28215,-86.306076
+Shiawassee,Michigan,MI,Washtenaw County,26161,42.252217,-83.843423
+St. Clair,Michigan,MI,Wayne County,26163,42.284664,-83.261953
+St. Joseph,Michigan,MI,Wexford County,26165,44.331375,-85.570046
+Tuscola,Michigan,MN,Aitkin County,27001,46.602446,-93.41976
+Unknown,Michigan,MN,Anoka County,27003,45.27411,-93.242723
+Van Buren,Michigan,MN,Becker County,27005,46.937629,-95.741757
+Washtenaw,Michigan,MN,Beltrami County,27007,47.879508,-95.00505
+Wayne,Michigan,MN,Benton County,27009,45.701225,-94.00144
+Wexford,Michigan,MN,Big Stone County,27011,45.419925,-96.402226
+Aitkin,Minnesota,MN,Blue Earth County,27013,44.03371,-94.064012
+Anoka,Minnesota,MN,Brown County,27015,44.246541,-94.733647
+Becker,Minnesota,MN,Carlton County,27017,46.603818,-92.671044
+Beltrami,Minnesota,MN,Carver County,27019,44.82132,-93.800091
+Benton,Minnesota,MN,Cass County,27021,46.951745,-94.333705
+Big Stone,Minnesota,MN,Chippewa County,27023,45.028625,-95.564108
+Blue Earth,Minnesota,MN,Chisago County,27025,45.505444,-92.903849
+Brown,Minnesota,MN,Clay County,27027,46.898377,-96.494901
+Carlton,Minnesota,MN,Clearwater County,27029,47.575873,-95.371117
+Carver,Minnesota,MN,Cook County,27031,47.538569,-90.290189
+Cass,Minnesota,MN,Cottonwood County,27033,44.010639,-95.183152
+Chippewa,Minnesota,MN,Crow Wing County,27035,46.491653,-94.070718
+Chisago,Minnesota,MN,Dakota County,27037,44.670893,-93.062481
+Clay,Minnesota,MN,Dodge County,27039,44.020706,-92.869353
+Clearwater,Minnesota,MN,Douglas County,27041,45.936829,-95.462156
+Cook,Minnesota,MN,Faribault County,27043,43.676522,-93.947234
+Cottonwood,Minnesota,MN,Fillmore County,27045,43.679187,-92.093937
+Crow Wing,Minnesota,MN,Freeborn County,27047,43.674202,-93.350289
+Dakota,Minnesota,MN,Goodhue County,27049,44.406178,-92.716
+Dodge,Minnesota,MN,Grant County,27051,45.930743,-96.010699
+Douglas,Minnesota,MN,Hennepin County,27053,45.006121,-93.475228
+Faribault,Minnesota,MN,Houston County,27055,43.66699,-91.501556
+Fillmore,Minnesota,MN,Hubbard County,27057,47.095551,-94.91329
+Freeborn,Minnesota,MN,Isanti County,27059,45.562431,-93.296339
+Goodhue,Minnesota,MN,Itasca County,27061,47.490817,-93.611102
+Grant,Minnesota,MN,Jackson County,27063,43.671111,-95.149731
+Hennepin,Minnesota,MN,Kanabec County,27065,45.94776,-93.297788
+Houston,Minnesota,MN,Kandiyohi County,27067,45.152714,-95.004981
+Hubbard,Minnesota,MN,Kittson County,27069,48.77604,-96.780349
+Isanti,Minnesota,MN,Koochiching County,27071,48.245374,-93.782896
+Itasca,Minnesota,MN,Lac qui Parle County,27073,44.999856,-96.176836
+Jackson,Minnesota,MN,Lake County,27075,47.517111,-91.411704
+Kanabec,Minnesota,MN,Lake of the Woods County,27077,48.7681,-94.904633
+Kandiyohi,Minnesota,MN,Le Sueur County,27079,44.373424,-93.730143
+Kittson,Minnesota,MN,Lincoln County,27081,44.408238,-96.272032
+Koochiching,Minnesota,MN,Lyon County,27083,44.409195,-95.847268
+Lac qui Parle,Minnesota,MN,McLeod County,27085,44.821657,-94.272323
+Lake,Minnesota,MN,Mahnomen County,27087,47.328387,-95.811089
+Lake of the Woods,Minnesota,MN,Marshall County,27089,48.362728,-96.357761
+Le Sueur,Minnesota,MN,Martin County,27091,43.677118,-94.537252
+Lincoln,Minnesota,MN,Meeker County,27093,45.123155,-94.527346
+Lyon,Minnesota,MN,Mille Lacs County,27095,45.929043,-93.632996
+Mahnomen,Minnesota,MN,Morrison County,27097,46.020484,-94.266619
+Marshall,Minnesota,MN,Mower County,27099,43.666249,-92.759514
+Martin,Minnesota,MN,Murray County,27101,44.015594,-95.761581
+McLeod,Minnesota,MN,Nicollet County,27103,44.35882,-94.245684
+Meeker,Minnesota,MN,Nobles County,27105,43.677686,-95.763132
+Mille Lacs,Minnesota,MN,Norman County,27107,47.329453,-96.463776
+Morrison,Minnesota,MN,Olmsted County,27109,43.999499,-92.410099
+Mower,Minnesota,MN,Otter Tail County,27111,46.405727,-95.714581
+Murray,Minnesota,MN,Pennington County,27113,48.069247,-96.037725
+Nicollet,Minnesota,MN,Pine County,27115,46.10094,-92.763094
+Nobles,Minnesota,MN,Pipestone County,27117,44.015361,-96.257015
+Norman,Minnesota,MN,Polk County,27119,47.774254,-96.400027
+Olmsted,Minnesota,MN,Pope County,27121,45.589623,-95.446705
+Otter Tail,Minnesota,MN,Ramsey County,27123,45.015204,-93.099965
+Pennington,Minnesota,MN,Red Lake County,27125,47.865487,-96.08718
+Pine,Minnesota,MN,Redwood County,27127,44.403536,-95.254241
+Pipestone,Minnesota,MN,Renville County,27129,44.723697,-94.955617
+Polk,Minnesota,MN,Rice County,27131,44.350734,-93.298505
+Pope,Minnesota,MN,Rock County,27133,43.669587,-96.263238
+Ramsey,Minnesota,MN,Roseau County,27135,48.761068,-95.821504
+Red Lake,Minnesota,MN,St. Louis County,27137,47.578635,-92.51457
+Redwood,Minnesota,MN,Scott County,27139,44.651805,-93.533731
+Renville,Minnesota,MN,Sherburne County,27141,45.453176,-93.76913
+Rice,Minnesota,MN,Sibley County,27143,44.575734,-94.230123
+Rock,Minnesota,MN,Stearns County,27145,45.555235,-94.610482
+Roseau,Minnesota,MN,Steele County,27147,44.015261,-93.220453
+Scott,Minnesota,MN,Stevens County,27149,45.593461,-95.992315
+Sherburne,Minnesota,MN,Swift County,27151,45.27581,-95.690124
+Sibley,Minnesota,MN,Todd County,27153,46.066569,-94.900576
+Stearns,Minnesota,MN,Traverse County,27155,45.769935,-96.474832
+Steele,Minnesota,MN,Wabasha County,27157,44.289693,-92.23334
+Stevens,Minnesota,MN,Wadena County,27159,46.586986,-94.988608
+St. Louis,Minnesota,MN,Waseca County,27161,44.01846,-93.589844
+Swift,Minnesota,MN,Washington County,27163,45.037929,-92.890117
+Todd,Minnesota,MN,Watonwan County,27165,43.978109,-94.613798
+Traverse,Minnesota,MN,Wilkin County,27167,46.362335,-96.476657
+Unknown,Minnesota,MN,Winona County,27169,43.982268,-91.776708
+Wabasha,Minnesota,MN,Wright County,27171,45.175091,-93.966396
+Wadena,Minnesota,MN,Yellow Medicine County,27173,44.715736,-95.862756
+Waseca,Minnesota,MS,Adams County,28001,31.486224,-91.351797
+Washington,Minnesota,MS,Alcorn County,28003,34.886569,-88.581109
+Watonwan,Minnesota,MS,Amite County,28005,31.203933,-90.795542
+Wilkin,Minnesota,MS,Attala County,28007,33.090468,-89.588622
+Winona,Minnesota,MS,Benton County,28009,34.810518,-89.200285
+Wright,Minnesota,MS,Bolivar County,28011,33.799139,-90.88412
+Yellow Medicine,Minnesota,MS,Calhoun County,28013,33.936634,-89.337114
+Adams,Mississippi,MS,Carroll County,28015,33.440795,-89.918887
+Alcorn,Mississippi,MS,Chickasaw County,28017,33.933277,-88.947558
+Amite,Mississippi,MS,Choctaw County,28019,33.345964,-89.251332
+Attala,Mississippi,MS,Claiborne County,28021,31.97281,-90.915424
+Benton,Mississippi,MS,Clarke County,28023,32.045374,-88.687976
+Bolivar,Mississippi,MS,Clay County,28025,33.65967,-88.782468
+Calhoun,Mississippi,MS,Coahoma County,28027,34.22867,-90.603165
+Carroll,Mississippi,MS,Copiah County,28029,31.866915,-90.448758
+Chickasaw,Mississippi,MS,Covington County,28031,31.633331,-89.548897
+Choctaw,Mississippi,MS,DeSoto County,28033,34.874266,-89.99324
+Claiborne,Mississippi,MS,Forrest County,28035,31.18858,-89.259447
+Clarke,Mississippi,MS,Franklin County,28037,31.477773,-90.895457
+Clay,Mississippi,MS,George County,28039,30.855431,-88.642268
+Coahoma,Mississippi,MS,Greene County,28041,31.212845,-88.634811
+Copiah,Mississippi,MS,Grenada County,28043,33.770031,-89.80274
+Covington,Mississippi,MS,Hancock County,28045,30.391641,-89.482791
+DeSoto,Mississippi,MS,Harrison County,28047,30.416536,-89.083376
+Forrest,Mississippi,MS,Hinds County,28049,32.267788,-90.466017
+Franklin,Mississippi,MS,Holmes County,28051,33.125942,-90.091197
+George,Mississippi,MS,Humphreys County,28053,33.130996,-90.523421
+Greene,Mississippi,MS,Issaquena County,28055,32.755539,-91.003535
+Grenada,Mississippi,MS,Itawamba County,28057,34.281075,-88.363127
+Hancock,Mississippi,MS,Jackson County,28059,30.456005,-88.625101
+Harrison,Mississippi,MS,Jasper County,28061,32.016989,-89.11943
+Hinds,Mississippi,MS,Jefferson County,28063,31.733633,-91.043878
+Holmes,Mississippi,MS,Jefferson Davis County,28065,31.564808,-89.827086
+Humphreys,Mississippi,MS,Jones County,28067,31.616601,-89.168532
+Issaquena,Mississippi,MS,Kemper County,28069,32.750136,-88.625631
+Itawamba,Mississippi,MS,Lafayette County,28071,34.353078,-89.485385
+Jackson,Mississippi,MS,Lamar County,28073,31.197586,-89.506369
+Jasper,Mississippi,MS,Lauderdale County,28075,32.403998,-88.660449
+Jefferson,Mississippi,MS,Lawrence County,28077,31.550009,-90.10753
+Jefferson Davis,Mississippi,MS,Leake County,28079,32.76063,-89.52225
+Jones,Mississippi,MS,Lee County,28081,34.29237,-88.682439
+Kemper,Mississippi,MS,Leflore County,28083,33.54979,-90.294934
+Lafayette,Mississippi,MS,Lincoln County,28085,31.535216,-90.453566
+Lamar,Mississippi,MS,Lowndes County,28087,33.471424,-88.439723
+Lauderdale,Mississippi,MS,Madison County,28089,32.63437,-90.03416
+Lawrence,Mississippi,MS,Marion County,28091,31.230167,-89.821712
+Leake,Mississippi,MS,Marshall County,28093,34.76619,-89.504231
+Lee,Mississippi,MS,Monroe County,28095,33.89003,-88.485038
+Leflore,Mississippi,MS,Montgomery County,28097,33.500714,-89.639625
+Lincoln,Mississippi,MS,Neshoba County,28099,32.752518,-89.119274
+Lowndes,Mississippi,MS,Newton County,28101,32.40197,-89.118412
+Madison,Mississippi,MS,Noxubee County,28103,33.106508,-88.566004
+Marion,Mississippi,MS,Oktibbeha County,28105,33.422313,-88.876151
+Marshall,Mississippi,MS,Panola County,28107,34.365205,-89.963065
+Monroe,Mississippi,MS,Pearl River County,28109,30.774793,-89.586904
+Montgomery,Mississippi,MS,Perry County,28111,31.169307,-88.988755
+Neshoba,Mississippi,MS,Pike County,28113,31.177516,-90.397725
+Newton,Mississippi,MS,Pontotoc County,28115,34.227081,-89.037239
+Noxubee,Mississippi,MS,Prentiss County,28117,34.620566,-88.522184
+Oktibbeha,Mississippi,MS,Quitman County,28119,34.252833,-90.290171
+Panola,Mississippi,MS,Rankin County,28121,32.267123,-89.946063
+Pearl River,Mississippi,MS,Scott County,28123,32.411959,-89.533486
+Perry,Mississippi,MS,Sharkey County,28125,32.892395,-90.827613
+Pike,Mississippi,MS,Simpson County,28127,31.902505,-89.917709
+Pontotoc,Mississippi,MS,Smith County,28129,32.019029,-89.494876
+Prentiss,Mississippi,MS,Stone County,28131,30.790184,-89.112297
+Quitman,Mississippi,MS,Sunflower County,28133,33.605529,-90.59509
+Rankin,Mississippi,MS,Tallahatchie County,28135,33.954529,-90.172243
+Scott,Mississippi,MS,Tate County,28137,34.649553,-89.943105
+Sharkey,Mississippi,MS,Tippah County,28139,34.763618,-88.918819
+Simpson,Mississippi,MS,Tishomingo County,28141,34.737697,-88.236064
+Smith,Mississippi,MS,Tunica County,28143,34.652201,-90.37177
+Stone,Mississippi,MS,Union County,28145,34.489533,-89.002339
+Sunflower,Mississippi,MS,Walthall County,28147,31.164492,-90.103431
+Tallahatchie,Mississippi,MS,Warren County,28149,32.356095,-90.852384
+Tate,Mississippi,MS,Washington County,28151,33.273174,-90.944446
+Tippah,Mississippi,MS,Wayne County,28153,31.642503,-88.678214
+Tishomingo,Mississippi,MS,Webster County,28155,33.612061,-89.283961
+Tunica,Mississippi,MS,Wilkinson County,28157,31.161091,-91.324617
+Union,Mississippi,MS,Winston County,28159,33.078724,-89.037391
+Walthall,Mississippi,MS,Yalobusha County,28161,34.030666,-89.703807
+Warren,Mississippi,MS,Yazoo County,28163,32.765675,-90.387928
+Washington,Mississippi,MO,Adair County,29001,40.190666,-92.603592
+Wayne,Mississippi,MO,Andrew County,29003,39.988863,-94.803551
+Webster,Mississippi,MO,Atchison County,29005,40.431846,-95.437555
+Wilkinson,Mississippi,MO,Audrain County,29007,39.214481,-91.843418
+Winston,Mississippi,MO,Barry County,29009,36.699376,-93.834334
+Yalobusha,Mississippi,MO,Barton County,29011,37.500799,-94.344089
+Yazoo,Mississippi,MO,Bates County,29013,38.257217,-94.339246
+Adair,Missouri,MO,Benton County,29015,38.301036,-93.287942
+Andrew,Missouri,MO,Bollinger County,29017,37.318427,-90.024645
+Atchison,Missouri,MO,Boone County,29019,38.989861,-92.310202
+Audrain,Missouri,MO,Buchanan County,29021,39.660369,-94.808173
+Barry,Missouri,MO,Butler County,29023,36.71518,-90.40313
+Barton,Missouri,MO,Caldwell County,29025,39.658998,-93.979179
+Bates,Missouri,MO,Callaway County,29027,38.835547,-91.923446
+Benton,Missouri,MO,Camden County,29029,38.026527,-92.765327
+Bollinger,Missouri,MO,Cape Girardeau County,29031,37.384141,-89.685658
+Boone,Missouri,MO,Carroll County,29033,39.427375,-93.500227
+Buchanan,Missouri,MO,Carter County,29035,36.944858,-90.945705
+Butler,Missouri,MO,Cass County,29037,38.646474,-94.354547
+Caldwell,Missouri,MO,Cedar County,29039,37.733655,-93.850014
+Callaway,Missouri,MO,Chariton County,29041,39.517968,-92.96162
+Camden,Missouri,MO,Christian County,29043,36.969739,-93.187614
+Cape Girardeau,Missouri,MO,Clark County,29045,40.407275,-91.729472
+Carroll,Missouri,MO,Clay County,29047,39.315551,-94.421502
+Carter,Missouri,MO,Clinton County,29049,39.608723,-94.395803
+Cass,Missouri,MO,Cole County,29051,38.503233,-92.280027
+Cedar,Missouri,MO,Cooper County,29053,38.845386,-92.812323
+Chariton,Missouri,MO,Crawford County,29055,37.96656,-91.313933
+Christian,Missouri,MO,Dade County,29057,37.43235,-93.854878
+Clark,Missouri,MO,Dallas County,29059,37.683583,-93.033815
+Clay,Missouri,MO,Daviess County,29061,39.962839,-93.970053
+Clinton,Missouri,MO,DeKalb County,29063,39.894665,-94.40719
+Cole,Missouri,MO,Dent County,29065,37.603072,-91.489717
+Cooper,Missouri,MO,Douglas County,29067,36.946517,-92.515892
+Crawford,Missouri,MO,Dunklin County,29069,36.306905,-90.065394
+Dade,Missouri,MO,Franklin County,29071,38.413003,-91.072832
+Dallas,Missouri,MO,Gasconade County,29073,38.441183,-91.50578
+Daviess,Missouri,MO,Gentry County,29075,40.208127,-94.405321
+DeKalb,Missouri,MO,Greene County,29077,37.258196,-93.340641
+Dent,Missouri,MO,Grundy County,29079,40.112541,-93.565054
+Douglas,Missouri,MO,Harrison County,29081,40.34562,-93.992582
+Dunklin,Missouri,MO,Henry County,29083,38.386491,-93.792628
+Franklin,Missouri,MO,Hickory County,29085,37.93691,-93.322988
+Gasconade,Missouri,MO,Holt County,29087,40.095724,-95.219072
+Gentry,Missouri,MO,Howard County,29089,39.143365,-92.695926
+Greene,Missouri,MO,Howell County,29091,36.774369,-91.887368
+Grundy,Missouri,MO,Iron County,29093,37.594364,-90.984682
+Harrison,Missouri,MO,Jackson County,29095,39.005336,-94.343165
+Henry,Missouri,MO,Jasper County,29097,37.205197,-94.337259
+Hickory,Missouri,MO,Jefferson County,29099,38.25763,-90.543681
+Holt,Missouri,MO,Johnson County,29101,38.741528,-93.811863
+Howard,Missouri,MO,Knox County,29103,40.136856,-92.146835
+Howell,Missouri,MO,Laclede County,29105,37.659698,-92.594843
+Iron,Missouri,MO,Lafayette County,29107,39.068705,-93.802639
+Jackson,Missouri,MO,Lawrence County,29109,37.10659,-93.830551
+Jasper,Missouri,MO,Lewis County,29111,40.084559,-91.728803
+Jefferson,Missouri,MO,Lincoln County,29113,39.062255,-90.962916
+Johnson,Missouri,MO,Linn County,29115,39.86444,-93.108019
+Joplin,Missouri,MO,Livingston County,29117,39.778587,-93.548201
+Kansas City,Missouri,MO,McDonald County,29119,36.630218,-94.343956
+Knox,Missouri,MO,Macon County,29121,39.829795,-92.56434
+Laclede,Missouri,MO,Madison County,29123,37.474481,-90.343413
+Lafayette,Missouri,MO,Maries County,29125,38.162615,-91.923601
+Lawrence,Missouri,MO,Marion County,29127,39.807538,-91.635379
+Lewis,Missouri,MO,Mercer County,29129,40.421413,-93.567631
+Lincoln,Missouri,MO,Miller County,29131,38.21668,-92.429876
+Linn,Missouri,MO,Mississippi County,29133,36.826264,-89.295929
+Livingston,Missouri,MO,Moniteau County,29135,38.633037,-92.583642
+Macon,Missouri,MO,Monroe County,29137,39.49827,-92.006458
+Madison,Missouri,MO,Montgomery County,29139,38.935184,-91.465427
+Maries,Missouri,MO,Morgan County,29141,38.420806,-92.874835
+Marion,Missouri,MO,New Madrid County,29143,36.594261,-89.655948
+McDonald,Missouri,MO,Newton County,29145,36.908371,-94.335034
+Mercer,Missouri,MO,Nodaway County,29147,40.361136,-94.883146
+Miller,Missouri,MO,Oregon County,29149,36.68531,-91.401827
+Mississippi,Missouri,MO,Osage County,29151,38.464253,-91.859504
+Moniteau,Missouri,MO,Ozark County,29153,36.64959,-92.458549
+Monroe,Missouri,MO,Pemiscot County,29155,36.209916,-89.785942
+Montgomery,Missouri,MO,Perry County,29157,37.71113,-89.802125
+Morgan,Missouri,MO,Pettis County,29159,38.727367,-93.285207
+New Madrid,Missouri,MO,Phelps County,29161,37.866326,-91.790349
+Newton,Missouri,MO,Pike County,29163,39.339959,-91.171607
+Nodaway,Missouri,MO,Platte County,29165,39.378696,-94.761472
+Oregon,Missouri,MO,Polk County,29167,37.616761,-93.400817
+Osage,Missouri,MO,Pulaski County,29169,37.824835,-92.207022
+Ozark,Missouri,MO,Putnam County,29171,40.478606,-93.014531
+Pemiscot,Missouri,MO,Ralls County,29173,39.553455,-91.524787
+Perry,Missouri,MO,Randolph County,29175,39.439249,-92.492959
+Pettis,Missouri,MO,Ray County,29177,39.308401,-93.995746
+Phelps,Missouri,MO,Reynolds County,29179,37.366464,-90.972282
+Pike,Missouri,MO,Ripley County,29181,36.65017,-90.874834
+Platte,Missouri,MO,St. Charles County,29183,38.781102,-90.674915
+Polk,Missouri,MO,St. Clair County,29185,38.04223,-93.77656
+Pulaski,Missouri,MO,Ste. Genevieve County,29186,37.885845,-90.161531
+Putnam,Missouri,MO,St. Francois County,29187,37.810707,-90.473868
+Ralls,Missouri,MO,St. Louis County,29189,38.640688,-90.446073
+Randolph,Missouri,MO,Saline County,29195,39.13584,-93.204164
+Ray,Missouri,MO,Schuyler County,29197,40.469361,-92.519016
+Reynolds,Missouri,MO,Scotland County,29199,40.447686,-92.142824
+Ripley,Missouri,MO,Scott County,29201,37.047793,-89.568098
+Saline,Missouri,MO,Shannon County,29203,37.152498,-91.391328
+Schuyler,Missouri,MO,Shelby County,29205,39.797531,-92.088719
+Scotland,Missouri,MO,Stoddard County,29207,36.851557,-89.947481
+Scott,Missouri,MO,Stone County,29209,36.751004,-93.473701
+Shannon,Missouri,MO,Sullivan County,29211,40.209587,-93.109783
+Shelby,Missouri,MO,Taney County,29213,36.649827,-93.042819
+St. Charles,Missouri,MO,Texas County,29215,37.314257,-91.964478
+St. Clair,Missouri,MO,Vernon County,29217,37.850196,-94.341597
+Ste. Genevieve,Missouri,MO,Warren County,29219,38.761902,-91.159306
+St. Francois,Missouri,MO,Washington County,29221,37.942611,-90.897018
+St. Louis,Missouri,MO,Wayne County,29223,37.111074,-90.453931
+St. Louis city,Missouri,MO,Webster County,29225,37.280804,-92.87608
+Stoddard,Missouri,MO,Worth County,29227,40.480499,-94.419198
+Stone,Missouri,MO,Wright County,29229,37.267633,-92.479989
+Sullivan,Missouri,MO,St. Louis city,29510,38.635699,-90.244582
+Taney,Missouri,MT,Beaverhead County,30001,45.133863,-112.892869
+Texas,Missouri,MT,Big Horn County,30003,45.407869,-107.518163
+Vernon,Missouri,MT,Blaine County,30005,48.428282,-108.967648
+Warren,Missouri,MT,Broadwater County,30007,46.329849,-111.497873
+Washington,Missouri,MT,Carbon County,30009,45.224468,-109.028554
+Wayne,Missouri,MT,Carter County,30011,45.516825,-104.515324
+Webster,Missouri,MT,Cascade County,30013,47.316575,-111.350262
+Worth,Missouri,MT,Chouteau County,30015,47.886834,-110.4362
+Wright,Missouri,MT,Custer County,30017,46.261414,-105.550352
+Beaverhead,Montana,MT,Daniels County,30019,48.794429,-105.541739
+Big Horn,Montana,MT,Dawson County,30021,47.26613,-104.898271
+Blaine,Montana,MT,Deer Lodge County,30023,46.094672,-113.141624
+Broadwater,Montana,MT,Fallon County,30025,46.318184,-104.405718
+Carbon,Montana,MT,Fergus County,30027,47.225221,-109.232138
+Cascade,Montana,MT,Flathead County,30029,48.314678,-114.054295
+Chouteau,Montana,MT,Gallatin County,30031,45.518054,-111.163921
+Custer,Montana,MT,Garfield County,30033,47.267184,-106.995991
+Daniels,Montana,MT,Glacier County,30035,48.705671,-112.990502
+Dawson,Montana,MT,Golden Valley County,30037,46.380624,-109.174586
+Deer Lodge,Montana,MT,Granite County,30039,46.395955,-113.427356
+Fallon,Montana,MT,Hill County,30041,48.631959,-110.106321
+Fergus,Montana,MT,Jefferson County,30043,46.124232,-112.059428
+Flathead,Montana,MT,Judith Basin County,30045,47.032558,-110.30532
+Gallatin,Montana,MT,Lake County,30047,47.642901,-114.083687
+Garfield,Montana,MT,Lewis and Clark County,30049,47.132013,-112.373367
+Glacier,Montana,MT,Liberty County,30051,48.559654,-111.036924
+Golden Valley,Montana,MT,Lincoln County,30053,48.552385,-115.463185
+Granite,Montana,MT,McCone County,30055,47.629628,-105.757222
+Hill,Montana,MT,Madison County,30057,45.32529,-111.913791
+Jefferson,Montana,MT,Meagher County,30059,46.5857,-110.92174
+Judith Basin,Montana,MT,Mineral County,30061,47.151942,-115.065627
+Lake,Montana,MT,Missoula County,30063,47.027263,-113.892691
+Lewis and Clark,Montana,MT,Musselshell County,30065,46.505281,-108.439763
+Liberty,Montana,MT,Park County,30067,45.421429,-110.53276
+Lincoln,Montana,MT,Petroleum County,30069,47.141917,-108.226575
+Madison,Montana,MT,Phillips County,30071,48.250143,-107.928897
+McCone,Montana,MT,Pondera County,30073,48.228604,-112.220761
+Meagher,Montana,MT,Powder River County,30075,45.408926,-105.555344
+Mineral,Montana,MT,Powell County,30077,46.844225,-112.9311
+Missoula,Montana,MT,Prairie County,30079,46.812384,-105.503994
+Musselshell,Montana,MT,Ravalli County,30081,46.077744,-114.105795
+Park,Montana,MT,Richland County,30083,47.785633,-104.563408
+Phillips,Montana,MT,Roosevelt County,30085,48.282747,-104.99517
+Pondera,Montana,MT,Rosebud County,30087,46.173233,-106.666746
+Powder River,Montana,MT,Sanders County,30089,47.756497,-115.180306
+Powell,Montana,MT,Sheridan County,30091,48.705523,-104.533913
+Prairie,Montana,MT,Silver Bow County,30093,45.896232,-112.660071
+Ravalli,Montana,MT,Stillwater County,30095,45.658545,-109.381576
+Richland,Montana,MT,Sweet Grass County,30097,45.811292,-109.944796
+Roosevelt,Montana,MT,Teton County,30099,47.819035,-112.281725
+Rosebud,Montana,MT,Toole County,30101,48.645125,-111.733472
+Sanders,Montana,MT,Treasure County,30103,46.229441,-107.285772
+Sheridan,Montana,MT,Valley County,30105,48.34985,-106.670424
+Silver Bow,Montana,MT,Wheatland County,30107,46.497047,-109.857147
+Stillwater,Montana,MT,Wibaux County,30109,46.962966,-104.274518
+Sweet Grass,Montana,MT,Yellowstone County,30111,45.936987,-108.276656
+Teton,Montana,NE,Adams County,31001,40.520632,-98.500044
+Toole,Montana,NE,Antelope County,31003,42.183225,-98.058037
+Treasure,Montana,NE,Arthur County,31005,41.57193,-101.695917
+Valley,Montana,NE,Banner County,31007,41.53975,-103.726263
+Wheatland,Montana,NE,Blaine County,31009,41.931945,-99.996407
+Wibaux,Montana,NE,Boone County,31011,41.703934,-98.070476
+Yellowstone,Montana,NE,Box Butte County,31013,42.21038,-103.081779
+Adams,Nebraska,NE,Boyd County,31015,42.894448,-98.773022
+Antelope,Nebraska,NE,Brown County,31017,42.359562,-99.92392
+Arthur,Nebraska,NE,Buffalo County,31019,40.855226,-99.074983
+Banner,Nebraska,NE,Burt County,31021,41.854179,-96.337746
+Boone,Nebraska,NE,Butler County,31023,41.226072,-97.132039
+Box Butte,Nebraska,NE,Cass County,31025,40.909878,-96.140609
+Boyd,Nebraska,NE,Cedar County,31027,42.60456,-97.25687
+Brown,Nebraska,NE,Chase County,31029,40.53039,-101.694192
+Buffalo,Nebraska,NE,Cherry County,31031,42.571323,-101.047653
+Burt,Nebraska,NE,Cheyenne County,31033,41.214236,-103.011929
+Butler,Nebraska,NE,Clay County,31035,40.523669,-98.050858
+Cass,Nebraska,NE,Colfax County,31037,41.57496,-97.088945
+Cedar,Nebraska,NE,Cuming County,31039,41.915865,-96.788517
+Chase,Nebraska,NE,Custer County,31041,41.393893,-99.726866
+Cherry,Nebraska,NE,Dakota County,31043,42.391645,-96.561356
+Cheyenne,Nebraska,NE,Dawes County,31045,42.711214,-103.134872
+Clay,Nebraska,NE,Dawson County,31047,40.867378,-99.815154
+Colfax,Nebraska,NE,Deuel County,31049,41.111903,-102.332609
+Cuming,Nebraska,NE,Dixon County,31051,42.48528,-96.855862
+Custer,Nebraska,NE,Dodge County,31053,41.577008,-96.645853
+Dakota,Nebraska,NE,Douglas County,31055,41.297091,-96.154066
+Dawes,Nebraska,NE,Dundy County,31057,40.180165,-101.681133
+Dawson,Nebraska,NE,Fillmore County,31059,40.52504,-97.596705
+Deuel,Nebraska,NE,Franklin County,31061,40.183203,-98.96208
+Dixon,Nebraska,NE,Frontier County,31063,40.530947,-100.406683
+Dodge,Nebraska,NE,Furnas County,31065,40.191865,-99.909663
+Douglas,Nebraska,NE,Gage County,31067,40.255234,-96.683453
+Dundy,Nebraska,NE,Garden County,31069,41.633364,-102.302985
+Fillmore,Nebraska,NE,Garfield County,31071,41.906868,-98.951231
+Franklin,Nebraska,NE,Gosper County,31073,40.509095,-99.823206
+Frontier,Nebraska,NE,Grant County,31075,41.913957,-101.755965
+Furnas,Nebraska,NE,Greeley County,31077,41.567571,-98.530565
+Gage,Nebraska,NE,Hall County,31079,40.866027,-98.502664
+Garden,Nebraska,NE,Hamilton County,31081,40.872817,-98.022329
+Garfield,Nebraska,NE,Harlan County,31083,40.178766,-99.403418
+Gosper,Nebraska,NE,Hayes County,31085,40.537234,-101.047963
+Greeley,Nebraska,NE,Hitchcock County,31087,40.176896,-101.044217
+Hall,Nebraska,NE,Holt County,31089,42.459287,-98.784766
+Hamilton,Nebraska,NE,Hooker County,31091,41.920317,-101.117324
+Harlan,Nebraska,NE,Howard County,31093,41.216851,-98.513342
+Hitchcock,Nebraska,NE,Jefferson County,31095,40.175736,-97.143103
+Holt,Nebraska,NE,Johnson County,31097,40.39501,-96.265367
+Hooker,Nebraska,NE,Kearney County,31099,40.50912,-98.947602
+Howard,Nebraska,NE,Keith County,31101,41.194245,-101.644449
+Jefferson,Nebraska,NE,Keya Paha County,31103,42.87548,-99.718351
+Johnson,Nebraska,NE,Kimball County,31105,41.199274,-103.703153
+Kearney,Nebraska,NE,Knox County,31107,42.634404,-97.891349
+Keith,Nebraska,NE,Lancaster County,31109,40.783547,-96.688658
+Kimball,Nebraska,NE,Lincoln County,31111,41.050322,-100.744481
+Knox,Nebraska,NE,Logan County,31113,41.542155,-100.443665
+Lancaster,Nebraska,NE,Loup County,31115,41.903183,-99.509852
+Lincoln,Nebraska,NE,McPherson County,31117,41.648414,-101.120851
+Madison,Nebraska,NE,Madison County,31119,41.909929,-97.606856
+McPherson,Nebraska,NE,Merrick County,31121,41.16979,-98.031057
+Merrick,Nebraska,NE,Morrill County,31123,41.732204,-102.990594
+Morrill,Nebraska,NE,Nance County,31125,41.402385,-97.991408
+Nance,Nebraska,NE,Nemaha County,31127,40.387389,-95.852721
+Nemaha,Nebraska,NE,Nuckolls County,31129,40.176492,-98.046842
+Nuckolls,Nebraska,NE,Otoe County,31131,40.637992,-96.131027
+Otoe,Nebraska,NE,Pawnee County,31133,40.13785,-96.245225
+Pawnee,Nebraska,NE,Perkins County,31135,40.857646,-101.627468
+Perkins,Nebraska,NE,Phelps County,31137,40.516365,-99.406557
+Phelps,Nebraska,NE,Pierce County,31139,42.271413,-97.610992
+Pierce,Nebraska,NE,Platte County,31141,41.576866,-97.513467
+Platte,Nebraska,NE,Polk County,31143,41.187925,-97.570663
+Polk,Nebraska,NE,Red Willow County,31145,40.16942,-100.468576
+Red Willow,Nebraska,NE,Richardson County,31147,40.123743,-95.718603
+Richardson,Nebraska,NE,Rock County,31149,42.394749,-99.420851
+Rock,Nebraska,NE,Saline County,31151,40.516802,-97.131755
+Saline,Nebraska,NE,Sarpy County,31153,41.115064,-96.109125
+Sarpy,Nebraska,NE,Saunders County,31155,41.223388,-96.642097
+Saunders,Nebraska,NE,Scotts Bluff County,31157,41.850331,-103.701549
+Scotts Bluff,Nebraska,NE,Seward County,31159,40.871944,-97.140383
+Seward,Nebraska,NE,Sheridan County,31161,42.512289,-102.36828
+Sheridan,Nebraska,NE,Sherman County,31163,41.218743,-98.972849
+Sherman,Nebraska,NE,Sioux County,31165,42.470668,-103.73217
+Sioux,Nebraska,NE,Stanton County,31167,41.905045,-97.177109
+Stanton,Nebraska,NE,Thayer County,31169,40.173845,-97.596263
+Thayer,Nebraska,NE,Thomas County,31171,41.85573,-100.524703
+Thomas,Nebraska,NE,Thurston County,31173,42.154061,-96.533943
+Thurston,Nebraska,NE,Valley County,31175,41.564094,-98.983484
+Unknown,Nebraska,NE,Washington County,31177,41.533973,-96.224577
+Valley,Nebraska,NE,Wayne County,31179,42.210746,-97.126243
+Washington,Nebraska,NE,Webster County,31181,40.180646,-98.49859
+Wayne,Nebraska,NE,Wheeler County,31183,41.922575,-98.520853
+Webster,Nebraska,NE,York County,31185,40.873056,-97.596742
+Wheeler,Nebraska,NV,Churchill County,32001,39.53771,-118.264166
+York,Nebraska,NV,Clark County,32003,36.214257,-115.013812
+Carson City,Nevada,NV,Douglas County,32005,38.905129,-119.609019
+Churchill,Nevada,NV,Elko County,32007,41.141133,-115.351424
+Clark,Nevada,NV,Esmeralda County,32009,37.778966,-117.632382
+Douglas,Nevada,NV,Eureka County,32011,39.977788,-116.272208
+Elko,Nevada,NV,Humboldt County,32013,41.407914,-118.127591
+Eureka,Nevada,NV,Lander County,32015,39.90021,-117.04724
+Humboldt,Nevada,NV,Lincoln County,32017,37.634605,-114.863037
+Lander,Nevada,NV,Lyon County,32019,39.022213,-119.197425
+Lincoln,Nevada,NV,Mineral County,32021,38.516647,-118.416279
+Lyon,Nevada,NV,Nye County,32023,37.965864,-116.459011
+Mineral,Nevada,NV,Pershing County,32027,40.439639,-118.409477
+Nye,Nevada,NV,Storey County,32029,39.438385,-119.524646
+Pershing,Nevada,NV,Washoe County,32031,40.73132,-119.663269
+Storey,Nevada,NV,White Pine County,32033,39.418234,-114.900605
+Washoe,Nevada,NV,Carson City,32510,39.15306,-119.747368
+White Pine,Nevada,NH,Belknap County,33001,43.519109,-71.425366
+Belknap,New Hampshire,NH,Carroll County,33003,43.867774,-71.20156
+Carroll,New Hampshire,NH,Cheshire County,33005,42.92546,-72.248183
+Cheshire,New Hampshire,NH,Coos County,33007,44.652548,-71.289431
+Coos,New Hampshire,NH,Grafton County,33009,43.926439,-71.842424
+Grafton,New Hampshire,NH,Hillsborough County,33011,42.911532,-71.723055
+Hillsborough,New Hampshire,NH,Merrimack County,33013,43.299579,-71.680041
+Merrimack,New Hampshire,NH,Rockingham County,33015,42.988664,-71.09908
+Rockingham,New Hampshire,NH,Strafford County,33017,43.293272,-71.035589
+Strafford,New Hampshire,NH,Sullivan County,33019,43.361188,-72.222084
+Sullivan,New Hampshire,NJ,Atlantic County,34001,39.469355,-74.633759
+Atlantic,New Jersey,NJ,Bergen County,34003,40.959698,-74.074727
+Bergen,New Jersey,NJ,Burlington County,34005,39.875786,-74.663006
+Burlington,New Jersey,NJ,Camden County,34007,39.802407,-74.961249
+Camden,New Jersey,NJ,Cape May County,34009,39.085841,-74.846354
+Cape May,New Jersey,NJ,Cumberland County,34011,39.328434,-75.121628
+Cumberland,New Jersey,NJ,Essex County,34013,40.7874,-74.246292
+Essex,New Jersey,NJ,Gloucester County,34015,39.722875,-75.145679
+Gloucester,New Jersey,NJ,Hudson County,34017,40.731375,-74.078601
+Hudson,New Jersey,NJ,Hunterdon County,34019,40.565283,-74.911969
+Hunterdon,New Jersey,NJ,Mercer County,34021,40.282503,-74.703724
+Mercer,New Jersey,NJ,Middlesex County,34023,40.439621,-74.40743
+Middlesex,New Jersey,NJ,Monmouth County,34025,40.287048,-74.152446
+Monmouth,New Jersey,NJ,Morris County,34027,40.858896,-74.547292
+Morris,New Jersey,NJ,Ocean County,34029,39.865669,-74.258864
+Ocean,New Jersey,NJ,Passaic County,34031,41.03789,-74.29828
+Passaic,New Jersey,NJ,Salem County,34033,39.573828,-75.357356
+Salem,New Jersey,NJ,Somerset County,34035,40.565527,-74.619938
+Somerset,New Jersey,NJ,Sussex County,34037,41.137461,-74.691914
+Sussex,New Jersey,NJ,Union County,34039,40.659871,-74.308696
+Union,New Jersey,NJ,Warren County,34041,40.853491,-75.009498
+Unknown,New Jersey,NM,Bernalillo County,35001,35.053628,-106.66908
+Warren,New Jersey,NM,Catron County,35003,33.901621,-108.391928
+Bernalillo,New Mexico,NM,Chaves County,35005,33.361604,-104.469837
+Catron,New Mexico,NM,Cibola County,35006,34.928272,-107.99268
+Chaves,New Mexico,NM,Colfax County,35007,36.612964,-104.64011
+Cibola,New Mexico,NM,Curry County,35009,34.572984,-103.346055
+Colfax,New Mexico,NM,De Baca County,35011,34.359273,-104.368696
+Curry,New Mexico,NM,DoÃ±a Ana County,35013,32.349919,-106.834968
+DoÃ±a Ana,New Mexico,NM,Eddy County,35015,32.457835,-104.306434
+Eddy,New Mexico,NM,Grant County,35017,32.732087,-108.381504
+Grant,New Mexico,NM,Guadalupe County,35019,34.869782,-104.784968
+Guadalupe,New Mexico,NM,Harding County,35021,35.858516,-103.847925
+Harding,New Mexico,NM,Hidalgo County,35023,31.898052,-108.751929
+Hidalgo,New Mexico,NM,Lea County,35025,32.795687,-103.413271
+Lea,New Mexico,NM,Lincoln County,35027,33.740841,-105.449805
+Lincoln,New Mexico,NM,Los Alamos County,35028,35.870047,-106.307968
+Los Alamos,New Mexico,NM,Luna County,35029,32.184523,-107.747191
+Luna,New Mexico,NM,McKinley County,35031,35.583878,-108.253266
+McKinley,New Mexico,NM,Mora County,35033,35.982841,-104.921898
+Mora,New Mexico,NM,Otero County,35035,32.615599,-105.751308
+Otero,New Mexico,NM,Quay County,35037,35.107018,-103.548071
+Quay,New Mexico,NM,Rio Arriba County,35039,36.509669,-106.693983
+Rio Arriba,New Mexico,NM,Roosevelt County,35041,34.021207,-103.483004
+Roosevelt,New Mexico,NM,Sandoval County,35043,35.685091,-106.883119
+Sandoval,New Mexico,NM,San Juan County,35045,36.511624,-108.324578
+San Juan,New Mexico,NM,San Miguel County,35047,35.476859,-104.803519
+San Miguel,New Mexico,NM,Santa Fe County,35049,35.51453,-105.963972
+Santa Fe,New Mexico,NM,Sierra County,35051,33.119468,-107.188161
+Sierra,New Mexico,NM,Socorro County,35053,33.991658,-106.939136
+Socorro,New Mexico,NM,Taos County,35055,36.576529,-105.637986
+Taos,New Mexico,NM,Torrance County,35057,34.554978,-105.890557
+Torrance,New Mexico,NM,Union County,35059,36.488085,-103.475723
+Union,New Mexico,NM,Valencia County,35061,34.71684,-106.806582
+Valencia,New Mexico,NY,Albany County,36001,42.58824,-73.97401
+Albany,New York,NY,Allegany County,36003,42.247853,-78.026153
+Allegany,New York,NY,Bronx County,36005,40.848711,-73.852939
+Broome,New York,NY,Broome County,36007,42.161977,-75.830283
+Cattaraugus,New York,NY,Cattaraugus County,36009,42.239099,-78.662332
+Cayuga,New York,NY,Cayuga County,36011,43.008546,-76.574587
+Chautauqua,New York,NY,Chautauqua County,36013,42.304216,-79.407595
+Chemung,New York,NY,Chemung County,36015,42.15528,-76.747179
+Chenango,New York,NY,Chenango County,36017,42.478024,-75.602241
+Clinton,New York,NY,Clinton County,36019,44.752712,-73.705643
+Columbia,New York,NY,Columbia County,36021,42.247729,-73.626806
+Cortland,New York,NY,Cortland County,36023,42.594039,-76.07624
+Delaware,New York,NY,Delaware County,36025,42.193986,-74.966728
+Dutchess,New York,NY,Dutchess County,36027,41.75477,-73.740041
+Erie,New York,NY,Erie County,36029,42.752759,-78.778192
+Essex,New York,NY,Essex County,36031,44.109601,-73.778431
+Franklin,New York,NY,Franklin County,36033,44.594376,-74.31067
+Fulton,New York,NY,Fulton County,36035,43.115609,-74.423678
+Genesee,New York,NY,Genesee County,36037,43.00091,-78.192778
+Greene,New York,NY,Greene County,36039,42.279821,-74.142025
+Hamilton,New York,NY,Hamilton County,36041,43.657879,-74.502456
+Herkimer,New York,NY,Herkimer County,36043,43.407489,-75.011683
+Jefferson,New York,NY,Jefferson County,36045,43.996389,-76.052968
+Lewis,New York,NY,Kings County,36047,40.635045,-73.95064
+Livingston,New York,NY,Lewis County,36049,43.782681,-75.44414
+Madison,New York,NY,Livingston County,36051,42.727485,-77.769779
+Monroe,New York,NY,Madison County,36053,42.910026,-75.663575
+Montgomery,New York,NY,Monroe County,36055,43.464484,-77.664658
+Nassau,New York,NY,Montgomery County,36057,42.900891,-74.435357
+New York City,New York,NY,Nassau County,36059,40.729612,-73.589414
+Niagara,New York,NY,New York County,36061,40.776642,-73.970187
+Oneida,New York,NY,Niagara County,36063,43.456731,-78.792142
+Onondaga,New York,NY,Oneida County,36065,43.242727,-75.434282
+Ontario,New York,NY,Onondaga County,36067,43.006516,-76.196134
+Orange,New York,NY,Ontario County,36069,42.856357,-77.303497
+Orleans,New York,NY,Orange County,36071,41.40241,-74.306252
+Oswego,New York,NY,Orleans County,36073,43.502287,-78.229726
+Otsego,New York,NY,Oswego County,36075,43.461443,-76.209262
+Putnam,New York,NY,Otsego County,36077,42.629776,-75.028841
+Rensselaer,New York,NY,Putnam County,36079,41.427907,-73.743861
+Rockland,New York,NY,Queens County,36081,40.658566,-73.838017
+Saratoga,New York,NY,Rensselaer County,36083,42.710421,-73.513845
+Schenectady,New York,NY,Richmond County,36085,40.561263,-74.1399
+Schoharie,New York,NY,Rockland County,36087,41.154628,-74.024662
+Schuyler,New York,NY,St. Lawrence County,36089,44.488112,-75.074311
+Seneca,New York,NY,Saratoga County,36091,43.106135,-73.855387
+Steuben,New York,NY,Schenectady County,36093,42.817552,-74.043559
+St. Lawrence,New York,NY,Schoharie County,36095,42.591294,-74.438172
+Suffolk,New York,NY,Schuyler County,36097,42.419776,-76.938603
+Sullivan,New York,NY,Seneca County,36099,42.782294,-76.827088
+Tioga,New York,NY,Steuben County,36101,42.266725,-77.385525
+Tompkins,New York,NY,Suffolk County,36103,40.943554,-72.692218
+Ulster,New York,NY,Sullivan County,36105,41.719993,-74.771577
+Warren,New York,NY,Tioga County,36107,42.178057,-76.297456
+Washington,New York,NY,Tompkins County,36109,42.453006,-76.473483
+Wayne,New York,NY,Ulster County,36111,41.947212,-74.265458
+Westchester,New York,NY,Warren County,36113,43.555105,-73.838139
+Wyoming,New York,NY,Washington County,36115,43.312377,-73.439428
+Yates,New York,NY,Wayne County,36117,43.458758,-77.063164
+Alamance,North Carolina,NY,Westchester County,36119,41.152686,-73.745753
+Alexander,North Carolina,NY,Wyoming County,36121,42.701363,-78.228567
+Alleghany,North Carolina,NY,Yates County,36123,42.638237,-77.104324
+Anson,North Carolina,NC,Alamance County,37001,36.043954,-79.400573
+Ashe,North Carolina,NC,Alexander County,37003,35.920951,-81.177467
+Avery,North Carolina,NC,Alleghany County,37005,36.489356,-81.132299
+Beaufort,North Carolina,NC,Anson County,37007,34.974972,-80.109763
+Bertie,North Carolina,NC,Ashe County,37009,36.443469,-81.499334
+Bladen,North Carolina,NC,Avery County,37011,36.07209,-81.920285
+Brunswick,North Carolina,NC,Beaufort County,37013,35.482313,-76.842014
+Buncombe,North Carolina,NC,Bertie County,37015,36.059043,-76.962364
+Burke,North Carolina,NC,Bladen County,37017,34.591938,-78.539489
+Cabarrus,North Carolina,NC,Brunswick County,37019,34.038754,-78.227765
+Caldwell,North Carolina,NC,Buncombe County,37021,35.609371,-82.530423
+Camden,North Carolina,NC,Burke County,37023,35.746182,-81.70618
+Carteret,North Carolina,NC,Cabarrus County,37025,35.388346,-80.552728
+Caswell,North Carolina,NC,Caldwell County,37027,35.966395,-81.512541
+Catawba,North Carolina,NC,Camden County,37029,36.342344,-76.162488
+Chatham,North Carolina,NC,Carteret County,37031,34.858343,-76.53586
+Cherokee,North Carolina,NC,Caswell County,37033,36.394298,-79.339609
+Chowan,North Carolina,NC,Catawba County,37035,35.661883,-81.214906
+Clay,North Carolina,NC,Chatham County,37037,35.704994,-79.251454
+Cleveland,North Carolina,NC,Cherokee County,37039,35.13715,-84.061449
+Columbus,North Carolina,NC,Chowan County,37041,36.128979,-76.602752
+Craven,North Carolina,NC,Clay County,37043,35.052997,-83.752264
+Cumberland,North Carolina,NC,Cleveland County,37045,35.33463,-81.557114
+Currituck,North Carolina,NC,Columbus County,37047,34.261602,-78.639308
+Dare,North Carolina,NC,Craven County,37049,35.116829,-77.08132
+Davidson,North Carolina,NC,Cumberland County,37051,35.050192,-78.828719
+Davie,North Carolina,NC,Currituck County,37053,36.372174,-75.941224
+Duplin,North Carolina,NC,Dare County,37055,35.606269,-75.767536
+Durham,North Carolina,NC,Davidson County,37057,35.795131,-80.207107
+Edgecombe,North Carolina,NC,Davie County,37059,35.929355,-80.542552
+Forsyth,North Carolina,NC,Duplin County,37061,34.934403,-77.933543
+Franklin,North Carolina,NC,Durham County,37063,36.033828,-78.878125
+Gaston,North Carolina,NC,Edgecombe County,37065,35.917077,-77.602742
+Gates,North Carolina,NC,Forsyth County,37067,36.132466,-80.256961
+Graham,North Carolina,NC,Franklin County,37069,36.088241,-78.28309
+Granville,North Carolina,NC,Gaston County,37071,35.293344,-81.177256
+Greene,North Carolina,NC,Gates County,37073,36.442135,-76.702355
+Guilford,North Carolina,NC,Graham County,37075,35.348364,-83.830915
+Halifax,North Carolina,NC,Granville County,37077,36.299884,-78.657634
+Harnett,North Carolina,NC,Greene County,37079,35.481959,-77.681688
+Haywood,North Carolina,NC,Guilford County,37081,36.079065,-79.788665
+Henderson,North Carolina,NC,Halifax County,37083,36.251438,-77.644842
+Hertford,North Carolina,NC,Harnett County,37085,35.368635,-78.87161
+Hoke,North Carolina,NC,Haywood County,37087,35.558882,-82.981307
+Hyde,North Carolina,NC,Henderson County,37089,35.336415,-82.479741
+Iredell,North Carolina,NC,Hertford County,37091,36.363517,-76.981616
+Jackson,North Carolina,NC,Hoke County,37093,35.017233,-79.241964
+Johnston,North Carolina,NC,Hyde County,37095,35.408157,-76.153687
+Jones,North Carolina,NC,Iredell County,37097,35.806249,-80.87452
+Lee,North Carolina,NC,Jackson County,37099,35.281052,-83.119962
+Lenoir,North Carolina,NC,Johnston County,37101,35.513419,-78.367348
+Lincoln,North Carolina,NC,Jones County,37103,35.032268,-77.356195
+Macon,North Carolina,NC,Lee County,37105,35.476336,-79.172117
+Madison,North Carolina,NC,Lenoir County,37107,35.240068,-77.63551
+Martin,North Carolina,NC,Lincoln County,37109,35.488491,-81.226892
+McDowell,North Carolina,NC,McDowell County,37111,35.682271,-82.048044
+Mecklenburg,North Carolina,NC,Macon County,37113,35.152959,-83.421901
+Mitchell,North Carolina,NC,Madison County,37115,35.864207,-82.71263
+Montgomery,North Carolina,NC,Martin County,37117,35.847301,-77.119602
+Moore,North Carolina,NC,Mecklenburg County,37119,35.246862,-80.833832
+Nash,North Carolina,NC,Mitchell County,37121,36.013102,-82.163554
+New Hanover,North Carolina,NC,Montgomery County,37123,35.334415,-79.906602
+Northampton,North Carolina,NC,Moore County,37125,35.308272,-79.492725
+Onslow,North Carolina,NC,Nash County,37127,35.965945,-77.987555
+Orange,North Carolina,NC,New Hanover County,37129,34.183442,-77.864209
+Pamlico,North Carolina,NC,Northampton County,37131,36.421774,-77.398352
+Pasquotank,North Carolina,NC,Onslow County,37133,34.763109,-77.499469
+Pender,North Carolina,NC,Orange County,37135,36.062526,-79.120034
+Perquimans,North Carolina,NC,Pamlico County,37137,35.147575,-76.665268
+Person,North Carolina,NC,Pasquotank County,37139,36.265199,-76.260691
+Pitt,North Carolina,NC,Pender County,37141,34.512556,-77.888106
+Polk,North Carolina,NC,Perquimans County,37143,36.180897,-76.403244
+Randolph,North Carolina,NC,Person County,37145,36.38635,-78.965623
+Richmond,North Carolina,NC,Pitt County,37147,35.59249,-77.372739
+Robeson,North Carolina,NC,Polk County,37149,35.277901,-82.167621
+Rockingham,North Carolina,NC,Randolph County,37151,35.709915,-79.806215
+Rowan,North Carolina,NC,Richmond County,37153,35.004636,-79.755695
+Rutherford,North Carolina,NC,Robeson County,37155,34.63921,-79.100881
+Sampson,North Carolina,NC,Rockingham County,37157,36.381806,-79.782754
+Scotland,North Carolina,NC,Rowan County,37159,35.641355,-80.521721
+Stanly,North Carolina,NC,Rutherford County,37161,35.402747,-81.919582
+Stokes,North Carolina,NC,Sampson County,37163,34.989298,-78.371174
+Surry,North Carolina,NC,Scotland County,37165,34.840023,-79.477337
+Swain,North Carolina,NC,Stanly County,37167,35.310449,-80.254374
+Transylvania,North Carolina,NC,Stokes County,37169,36.393505,-80.266214
+Tyrrell,North Carolina,NC,Surry County,37171,36.415416,-80.686463
+Union,North Carolina,NC,Swain County,37173,35.568849,-83.465614
+Vance,North Carolina,NC,Transylvania County,37175,35.210103,-82.816666
+Wake,North Carolina,NC,Tyrrell County,37177,35.87042,-76.165345
+Warren,North Carolina,NC,Union County,37179,34.99182,-80.530426
+Washington,North Carolina,NC,Vance County,37181,36.365481,-78.405434
+Watauga,North Carolina,NC,Wake County,37183,35.789846,-78.650624
+Wayne,North Carolina,NC,Warren County,37185,36.398105,-78.099899
+Wilkes,North Carolina,NC,Washington County,37187,35.844713,-76.572291
+Wilson,North Carolina,NC,Watauga County,37189,36.235368,-81.709888
+Yadkin,North Carolina,NC,Wayne County,37191,35.35419,-78.00867
+Yancey,North Carolina,NC,Wilkes County,37193,36.208883,-81.166095
+Adams,North Dakota,NC,Wilson County,37195,35.700357,-77.921598
+Barnes,North Dakota,NC,Yadkin County,37197,36.158765,-80.665164
+Benson,North Dakota,NC,Yancey County,37199,35.889326,-82.303954
+Billings,North Dakota,ND,Adams County,38001,46.096815,-102.533198
+Bottineau,North Dakota,ND,Barnes County,38003,46.94255,-98.070195
+Bowman,North Dakota,ND,Benson County,38005,48.071743,-99.351152
+Burke,North Dakota,ND,Billings County,38007,47.007044,-103.364016
+Burleigh,North Dakota,ND,Bottineau County,38009,48.794412,-100.831257
+Cass,North Dakota,ND,Bowman County,38011,46.110144,-103.505943
+Cavalier,North Dakota,ND,Burke County,38013,48.786453,-102.520087
+Dickey,North Dakota,ND,Burleigh County,38015,46.978829,-100.469533
+Divide,North Dakota,ND,Cass County,38017,46.927003,-97.252375
+Dunn,North Dakota,ND,Cavalier County,38019,48.768439,-98.46379
+Eddy,North Dakota,ND,Dickey County,38021,46.107756,-98.496518
+Emmons,North Dakota,ND,Divide County,38023,48.814754,-103.509326
+Foster,North Dakota,ND,Dunn County,38025,47.354557,-102.612322
+Golden Valley,North Dakota,ND,Eddy County,38027,47.723436,-98.900474
+Grand Forks,North Dakota,ND,Emmons County,38029,46.284255,-100.237842
+Grant,North Dakota,ND,Foster County,38031,47.471431,-98.872876
+Griggs,North Dakota,ND,Golden Valley County,38033,46.938924,-103.844612
+Hettinger,North Dakota,ND,Grand Forks County,38035,47.926003,-97.450851
+Kidder,North Dakota,ND,Grant County,38037,46.357827,-101.639049
+LaMoure,North Dakota,ND,Griggs County,38039,47.456334,-98.232286
+Logan,North Dakota,ND,Hettinger County,38041,46.435704,-102.454238
+McHenry,North Dakota,ND,Kidder County,38043,46.938273,-99.731198
+McIntosh,North Dakota,ND,LaMoure County,38045,46.464195,-98.526057
+McKenzie,North Dakota,ND,Logan County,38047,46.469278,-99.504585
+McLean,North Dakota,ND,McHenry County,38049,48.233842,-100.633267
+Mercer,North Dakota,ND,McIntosh County,38051,46.108682,-99.416487
+Morton,North Dakota,ND,McKenzie County,38053,47.742475,-103.403215
+Mountrail,North Dakota,ND,McLean County,38055,47.530459,-101.353087
+Nelson,North Dakota,ND,Mercer County,38057,47.307147,-101.833328
+Oliver,North Dakota,ND,Morton County,38059,46.710819,-101.298265
+Pembina,North Dakota,ND,Mountrail County,38061,48.210073,-102.364895
+Pierce,North Dakota,ND,Nelson County,38063,47.918667,-98.204428
+Ramsey,North Dakota,ND,Oliver County,38065,47.118079,-101.33142
+Ransom,North Dakota,ND,Pembina County,38067,48.766896,-97.545405
+Renville,North Dakota,ND,Pierce County,38069,48.238883,-99.966497
+Richland,North Dakota,ND,Ramsey County,38071,48.266163,-98.739031
+Rolette,North Dakota,ND,Ransom County,38073,46.449276,-97.647554
+Sargent,North Dakota,ND,Renville County,38075,48.712781,-101.658152
+Sheridan,North Dakota,ND,Richland County,38077,46.265219,-96.93796
+Sioux,North Dakota,ND,Rolette County,38079,48.768271,-99.840463
+Slope,North Dakota,ND,Sargent County,38081,46.108204,-97.630051
+Stark,North Dakota,ND,Sheridan County,38083,47.581359,-100.330986
+Steele,North Dakota,ND,Sioux County,38085,46.110618,-101.061284
+Stutsman,North Dakota,ND,Slope County,38087,46.445834,-103.462462
+Towner,North Dakota,ND,Stark County,38089,46.817031,-102.662026
+Traill,North Dakota,ND,Steele County,38091,47.451062,-97.71892
+Unknown,North Dakota,ND,Stutsman County,38093,46.972223,-98.956123
+Walsh,North Dakota,ND,Towner County,38095,48.682183,-99.248158
+Ward,North Dakota,ND,Traill County,38097,47.446215,-97.164754
+Wells,North Dakota,ND,Walsh County,38099,48.376979,-97.72223
+Williams,North Dakota,ND,Ward County,38101,48.216686,-101.540537
+Saipan,Northern Mariana Islands,ND,Wells County,38103,47.580851,-99.682213
+Tinian,Northern Mariana Islands,ND,Williams County,38105,48.355765,-103.501333
+Adams,Ohio,OH,Adams County,39001,38.834468,-83.478082
+Allen,Ohio,OH,Allen County,39003,40.771627,-84.106103
+Ashland,Ohio,OH,Ashland County,39005,40.843273,-82.270127
+Ashtabula,Ohio,OH,Ashtabula County,39007,41.906637,-80.745592
+Athens,Ohio,OH,Athens County,39009,39.332604,-82.045844
+Auglaize,Ohio,OH,Auglaize County,39011,40.561309,-84.224018
+Belmont,Ohio,OH,Belmont County,39013,40.017682,-80.967727
+Brown,Ohio,OH,Brown County,39015,38.931377,-83.866772
+Butler,Ohio,OH,Butler County,39017,39.439747,-84.565734
+Carroll,Ohio,OH,Carroll County,39019,40.579884,-81.090787
+Champaign,Ohio,OH,Champaign County,39021,40.132775,-83.767604
+Clark,Ohio,OH,Clark County,39023,39.917032,-83.783676
+Clermont,Ohio,OH,Clermont County,39025,39.052054,-84.149485
+Clinton,Ohio,OH,Clinton County,39027,39.430225,-83.795682
+Columbiana,Ohio,OH,Columbiana County,39029,40.770073,-80.778455
+Coshocton,Ohio,OH,Coshocton County,39031,40.29671,-81.930109
+Crawford,Ohio,OH,Crawford County,39033,40.848524,-82.924783
+Cuyahoga,Ohio,OH,Cuyahoga County,39035,41.760392,-81.724217
+Darke,Ohio,OH,Darke County,39037,40.131542,-84.621248
+Defiance,Ohio,OH,Defiance County,39039,41.321679,-84.486433
+Delaware,Ohio,OH,Delaware County,39041,40.278941,-83.007462
+Erie,Ohio,OH,Erie County,39043,41.554006,-82.525897
+Fairfield,Ohio,OH,Fairfield County,39045,39.747694,-82.626685
+Fayette,Ohio,OH,Fayette County,39047,39.555246,-83.461893
+Franklin,Ohio,OH,Franklin County,39049,39.969875,-83.009086
+Fulton,Ohio,OH,Fulton County,39051,41.597264,-84.124267
+Gallia,Ohio,OH,Gallia County,39053,38.817046,-82.301746
+Geauga,Ohio,OH,Geauga County,39055,41.499322,-81.173505
+Greene,Ohio,OH,Greene County,39057,39.687479,-83.894894
+Guernsey,Ohio,OH,Guernsey County,39059,40.056665,-81.497875
+Hamilton,Ohio,OH,Hamilton County,39061,39.196927,-84.544187
+Hancock,Ohio,OH,Hancock County,39063,41.000471,-83.666034
+Hardin,Ohio,OH,Hardin County,39065,40.660415,-83.664077
+Harrison,Ohio,OH,Harrison County,39067,40.292318,-81.091565
+Henry,Ohio,OH,Henry County,39069,41.331584,-84.0689
+Highland,Ohio,OH,Highland County,39071,39.184422,-83.601359
+Hocking,Ohio,OH,Hocking County,39073,39.490342,-82.483447
+Holmes,Ohio,OH,Holmes County,39075,40.565597,-81.930001
+Huron,Ohio,OH,Huron County,39077,41.14508,-82.594641
+Jackson,Ohio,OH,Jackson County,39079,39.013477,-82.614142
+Jefferson,Ohio,OH,Jefferson County,39081,40.399384,-80.763527
+Knox,Ohio,OH,Knox County,39083,40.40362,-82.422393
+Lake,Ohio,OH,Lake County,39085,41.924116,-81.392643
+Lawrence,Ohio,OH,Lawrence County,39087,38.603866,-82.517186
+Licking,Ohio,OH,Licking County,39089,40.091505,-82.483435
+Logan,Ohio,OH,Logan County,39091,40.387553,-83.766343
+Lorain,Ohio,OH,Lorain County,39093,41.438805,-82.179722
+Lucas,Ohio,OH,Lucas County,39095,41.682321,-83.468903
+Madison,Ohio,OH,Madison County,39097,39.896607,-83.400885
+Mahoning,Ohio,OH,Mahoning County,39099,41.01088,-80.770396
+Marion,Ohio,OH,Marion County,39101,40.588034,-83.168803
+Medina,Ohio,OH,Medina County,39103,41.116174,-81.899764
+Meigs,Ohio,OH,Meigs County,39105,39.089807,-82.028397
+Mercer,Ohio,OH,Mercer County,39107,40.535333,-84.632059
+Miami,Ohio,OH,Miami County,39109,40.053326,-84.228413
+Monroe,Ohio,OH,Monroe County,39111,39.726253,-81.090983
+Montgomery,Ohio,OH,Montgomery County,39113,39.753736,-84.290591
+Morgan,Ohio,OH,Morgan County,39115,39.624946,-81.861697
+Morrow,Ohio,OH,Morrow County,39117,40.525266,-82.797729
+Muskingum,Ohio,OH,Muskingum County,39119,39.966046,-81.943506
+Noble,Ohio,OH,Noble County,39121,39.767232,-81.452493
+Ottawa,Ohio,OH,Ottawa County,39123,41.545495,-83.012613
+Paulding,Ohio,OH,Paulding County,39125,41.118948,-84.582125
+Perry,Ohio,OH,Perry County,39127,39.743187,-82.237952
+Pickaway,Ohio,OH,Pickaway County,39129,39.648947,-83.052827
+Pike,Ohio,OH,Pike County,39131,39.071341,-83.052911
+Portage,Ohio,OH,Portage County,39133,41.16897,-81.196962
+Preble,Ohio,OH,Preble County,39135,39.73881,-84.644758
+Putnam,Ohio,OH,Putnam County,39137,41.024533,-84.129879
+Richland,Ohio,OH,Richland County,39139,40.774159,-82.542781
+Ross,Ohio,OH,Ross County,39141,39.323897,-83.059536
+Sandusky,Ohio,OH,Sandusky County,39143,41.355319,-83.142776
+Scioto,Ohio,OH,Scioto County,39145,38.814889,-82.998675
+Seneca,Ohio,OH,Seneca County,39147,41.119992,-83.127547
+Shelby,Ohio,OH,Shelby County,39149,40.33668,-84.204142
+Stark,Ohio,OH,Stark County,39151,40.814131,-81.365667
+Summit,Ohio,OH,Summit County,39153,41.121847,-81.534928
+Trumbull,Ohio,OH,Trumbull County,39155,41.306374,-80.7704
+Tuscarawas,Ohio,OH,Tuscarawas County,39157,40.44749,-81.471105
+Union,Ohio,OH,Union County,39159,40.295901,-83.367042
+Van Wert,Ohio,OH,Van Wert County,39161,40.85552,-84.585775
+Vinton,Ohio,OH,Vinton County,39163,39.252042,-82.485961
+Warren,Ohio,OH,Warren County,39165,39.425652,-84.169906
+Washington,Ohio,OH,Washington County,39167,39.450676,-81.490636
+Wayne,Ohio,OH,Wayne County,39169,40.829661,-81.887194
+Williams,Ohio,OH,Williams County,39171,41.564959,-84.584324
+Wood,Ohio,OH,Wood County,39173,41.360183,-83.622682
+Wyandot,Ohio,OH,Wyandot County,39175,40.839782,-83.313681
+Adair,Oklahoma,OK,Adair County,40001,35.898043,-94.651026
+Alfalfa,Oklahoma,OK,Alfalfa County,40003,36.729703,-98.323445
+Atoka,Oklahoma,OK,Atoka County,40005,34.392469,-96.036558
+Beaver,Oklahoma,OK,Beaver County,40007,36.748334,-100.483056
+Beckham,Oklahoma,OK,Beckham County,40009,35.270601,-99.690057
+Blaine,Oklahoma,OK,Blaine County,40011,35.877782,-98.428934
+Bryan,Oklahoma,OK,Bryan County,40013,33.964004,-96.264137
+Caddo,Oklahoma,OK,Caddo County,40015,35.16792,-98.381045
+Canadian,Oklahoma,OK,Canadian County,40017,35.543354,-97.979889
+Carter,Oklahoma,OK,Carter County,40019,34.251848,-97.287927
+Cherokee,Oklahoma,OK,Cherokee County,40021,35.904367,-94.996796
+Choctaw,Oklahoma,OK,Choctaw County,40023,34.027645,-95.554208
+Cimarron,Oklahoma,OK,Cimarron County,40025,36.74839,-102.517698
+Cleveland,Oklahoma,OK,Cleveland County,40027,35.206376,-97.323088
+Coal,Oklahoma,OK,Coal County,40029,34.582861,-96.288039
+Comanche,Oklahoma,OK,Comanche County,40031,34.66263,-98.476612
+Cotton,Oklahoma,OK,Cotton County,40033,34.290676,-98.373438
+Craig,Oklahoma,OK,Craig County,40035,36.76389,-95.201553
+Creek,Oklahoma,OK,Creek County,40037,35.907732,-96.379793
+Custer,Oklahoma,OK,Custer County,40039,35.645601,-98.997386
+Delaware,Oklahoma,OK,Delaware County,40041,36.393375,-94.808217
+Dewey,Oklahoma,OK,Dewey County,40043,35.97796,-99.014385
+Ellis,Oklahoma,OK,Ellis County,40045,36.224258,-99.750139
+Garfield,Oklahoma,OK,Garfield County,40047,36.378054,-97.78845
+Garvin,Oklahoma,OK,Garvin County,40049,34.70935,-97.312723
+Grady,Oklahoma,OK,Grady County,40051,35.021058,-97.88689
+Grant,Oklahoma,OK,Grant County,40053,36.788254,-97.788151
+Greer,Oklahoma,OK,Greer County,40055,34.933853,-99.552968
+Harmon,Oklahoma,OK,Harmon County,40057,34.745971,-99.844194
+Harper,Oklahoma,OK,Harper County,40059,36.80035,-99.662805
+Haskell,Oklahoma,OK,Haskell County,40061,35.232295,-95.109576
+Hughes,Oklahoma,OK,Hughes County,40063,35.052934,-96.251183
+Jackson,Oklahoma,OK,Jackson County,40065,34.594006,-99.412235
+Jefferson,Oklahoma,OK,Jefferson County,40067,34.105082,-97.83889
+Johnston,Oklahoma,OK,Johnston County,40069,34.313455,-96.654254
+Kay,Oklahoma,OK,Kay County,40071,36.814885,-97.143862
+Kingfisher,Oklahoma,OK,Kingfisher County,40073,35.949436,-97.934557
+Kiowa,Oklahoma,OK,Kiowa County,40075,34.921489,-98.981617
+Latimer,Oklahoma,OK,Latimer County,40077,34.875137,-95.272262
+Le Flore,Oklahoma,OK,Le Flore County,40079,34.897356,-94.695074
+Lincoln,Oklahoma,OK,Lincoln County,40081,35.703117,-96.881392
+Logan,Oklahoma,OK,Logan County,40083,35.914151,-97.450764
+Love,Oklahoma,OK,Love County,40085,33.957804,-97.245093
+Major,Oklahoma,OK,McClain County,40087,35.016436,-97.449803
+Marshall,Oklahoma,OK,McCurtain County,40089,34.117073,-94.766086
+Mayes,Oklahoma,OK,McIntosh County,40091,35.369108,-95.671787
+McClain,Oklahoma,OK,Major County,40093,36.313119,-98.542015
+McCurtain,Oklahoma,OK,Marshall County,40095,34.027007,-96.770533
+McIntosh,Oklahoma,OK,Mayes County,40097,36.303804,-95.235638
+Murray,Oklahoma,OK,Murray County,40099,34.485766,-97.071557
+Muskogee,Oklahoma,OK,Muskogee County,40101,35.617551,-95.383911
+Noble,Oklahoma,OK,Noble County,40103,36.384901,-97.236335
+Nowata,Oklahoma,OK,Nowata County,40105,36.789615,-95.613312
+Okfuskee,Oklahoma,OK,Okfuskee County,40107,35.466804,-96.327762
+Oklahoma,Oklahoma,OK,Oklahoma County,40109,35.554611,-97.409401
+Okmulgee,Oklahoma,OK,Okmulgee County,40111,35.6435,-95.965947
+Osage,Oklahoma,OK,Osage County,40113,36.624299,-96.408112
+Ottawa,Oklahoma,OK,Ottawa County,40115,36.835764,-94.802681
+Pawnee,Oklahoma,OK,Pawnee County,40117,36.313704,-96.696669
+Payne,Oklahoma,OK,Payne County,40119,36.079225,-96.975255
+Pittsburg,Oklahoma,OK,Pittsburg County,40121,34.92554,-95.74813
+Pontotoc,Oklahoma,OK,Pontotoc County,40123,34.721446,-96.691971
+Pottawatomie,Oklahoma,OK,Pottawatomie County,40125,35.211393,-96.957007
+Pushmataha,Oklahoma,OK,Pushmataha County,40127,34.377899,-95.408082
+Roger Mills,Oklahoma,OK,Roger Mills County,40129,35.708554,-99.741572
+Rogers,Oklahoma,OK,Rogers County,40131,36.377794,-95.601383
+Seminole,Oklahoma,OK,Seminole County,40133,35.158366,-96.602857
+Sequoyah,Oklahoma,OK,Sequoyah County,40135,35.502435,-94.750757
+Stephens,Oklahoma,OK,Stephens County,40137,34.481361,-97.855607
+Texas,Oklahoma,OK,Texas County,40139,36.746317,-101.483855
+Tillman,Oklahoma,OK,Tillman County,40141,34.371085,-98.931701
+Tulsa,Oklahoma,OK,Tulsa County,40143,36.120318,-95.941813
+Wagoner,Oklahoma,OK,Wagoner County,40145,35.963479,-95.514098
+Washington,Oklahoma,OK,Washington County,40147,36.70438,-95.906155
+Washita,Oklahoma,OK,Washita County,40149,35.289497,-98.991436
+Woods,Oklahoma,OK,Woods County,40151,36.726984,-98.863649
+Woodward,Oklahoma,OK,Woodward County,40153,36.425619,-99.273661
+Baker,Oregon,OR,Baker County,41001,44.703427,-117.691933
+Benton,Oregon,OR,Benton County,41003,44.493882,-123.424664
+Clackamas,Oregon,OR,Clackamas County,41005,45.160493,-122.195127
+Clatsop,Oregon,OR,Clatsop County,41007,46.024509,-123.705037
+Columbia,Oregon,OR,Columbia County,41009,45.941932,-123.081079
+Coos,Oregon,OR,Coos County,41011,43.18591,-124.094133
+Crook,Oregon,OR,Crook County,41013,44.163054,-120.371585
+Curry,Oregon,OR,Curry County,41015,42.466439,-124.210929
+Deschutes,Oregon,OR,Deschutes County,41017,43.915118,-121.225575
+Douglas,Oregon,OR,Douglas County,41019,43.286328,-123.154476
+Gilliam,Oregon,OR,Gilliam County,41021,45.43059,-120.319901
+Grant,Oregon,OR,Grant County,41023,44.496326,-119.014057
+Harney,Oregon,OR,Harney County,41025,43.064449,-118.987169
+Hood River,Oregon,OR,Hood River County,41027,45.511775,-121.655976
+Jackson,Oregon,OR,Jackson County,41029,42.411621,-122.675611
+Jefferson,Oregon,OR,Jefferson County,41031,44.645151,-121.178632
+Josephine,Oregon,OR,Josephine County,41033,42.386983,-123.57162
+Klamath,Oregon,OR,Klamath County,41035,42.683761,-121.646168
+Lake,Oregon,OR,Lake County,41037,42.788401,-120.38979
+Lane,Oregon,OR,Lane County,41039,43.928329,-122.89769
+Lincoln,Oregon,OR,Lincoln County,41041,44.641061,-123.911212
+Linn,Oregon,OR,Linn County,41043,44.488898,-122.537208
+Malheur,Oregon,OR,Malheur County,41045,43.188625,-117.603191
+Marion,Oregon,OR,Marion County,41047,44.900898,-122.57626
+Morrow,Oregon,OR,Morrow County,41049,45.425496,-119.602311
+Multnomah,Oregon,OR,Multnomah County,41051,45.547711,-122.417363
+Polk,Oregon,OR,Polk County,41053,44.900375,-123.398673
+Sherman,Oregon,OR,Sherman County,41055,45.399216,-120.678512
+Tillamook,Oregon,OR,Tillamook County,41057,45.45589,-123.759299
+Umatilla,Oregon,OR,Umatilla County,41059,45.5912,-118.73388
+Union,Oregon,OR,Union County,41061,45.304081,-117.999149
+Wallowa,Oregon,OR,Wallowa County,41063,45.593753,-117.18558
+Wasco,Oregon,OR,Wasco County,41065,45.164536,-121.165069
+Washington,Oregon,OR,Washington County,41067,45.553542,-123.097615
+Yamhill,Oregon,OR,Wheeler County,41069,44.736415,-120.026861
+Adams,Pennsylvania,OR,Yamhill County,41071,45.247827,-123.316399
+Allegheny,Pennsylvania,PA,Adams County,42001,39.869471,-77.21773
+Armstrong,Pennsylvania,PA,Allegheny County,42003,40.469757,-79.980451
+Beaver,Pennsylvania,PA,Armstrong County,42005,40.81238,-79.464129
+Bedford,Pennsylvania,PA,Beaver County,42007,40.68414,-80.350721
+Berks,Pennsylvania,PA,Bedford County,42009,39.998634,-78.494747
+Blair,Pennsylvania,PA,Berks County,42011,40.413957,-75.92686
+Bradford,Pennsylvania,PA,Blair County,42013,40.498654,-78.309597
+Bucks,Pennsylvania,PA,Bradford County,42015,41.791504,-76.502123
+Butler,Pennsylvania,PA,Bucks County,42017,40.336887,-75.10706
+Cambria,Pennsylvania,PA,Butler County,42019,40.913847,-79.918978
+Cameron,Pennsylvania,PA,Cambria County,42021,40.510222,-78.710478
+Carbon,Pennsylvania,PA,Cameron County,42023,41.438291,-78.198323
+Centre,Pennsylvania,PA,Carbon County,42025,40.918367,-75.705039
+Chester,Pennsylvania,PA,Centre County,42027,40.909128,-77.847877
+Clarion,Pennsylvania,PA,Chester County,42029,39.974029,-75.749752
+Clearfield,Pennsylvania,PA,Clarion County,42031,41.198159,-79.420369
+Clinton,Pennsylvania,PA,Clearfield County,42033,41.000249,-78.473749
+Columbia,Pennsylvania,PA,Clinton County,42035,41.262624,-77.69636
+Crawford,Pennsylvania,PA,Columbia County,42037,41.045517,-76.40426
+Cumberland,Pennsylvania,PA,Crawford County,42039,41.687876,-80.107795
+Dauphin,Pennsylvania,PA,Cumberland County,42041,40.164805,-77.263442
+Delaware,Pennsylvania,PA,Dauphin County,42043,40.412565,-76.792634
+Elk,Pennsylvania,PA,Delaware County,42045,39.916685,-75.398818
+Erie,Pennsylvania,PA,Elk County,42047,41.427332,-78.653937
+Fayette,Pennsylvania,PA,Erie County,42049,42.117952,-80.096386
+Forest,Pennsylvania,PA,Fayette County,42051,39.918907,-79.640119
+Franklin,Pennsylvania,PA,Forest County,42053,41.513304,-79.249705
+Fulton,Pennsylvania,PA,Franklin County,42055,39.926772,-77.724521
+Greene,Pennsylvania,PA,Fulton County,42057,39.91075,-78.122617
+Huntingdon,Pennsylvania,PA,Greene County,42059,39.847707,-80.225655
+Indiana,Pennsylvania,PA,Huntingdon County,42061,40.422311,-77.968595
+Jefferson,Pennsylvania,PA,Indiana County,42063,40.651432,-79.087545
+Juniata,Pennsylvania,PA,Jefferson County,42065,41.138028,-79.012419
+Lackawanna,Pennsylvania,PA,Juniata County,42067,40.530673,-77.400438
+Lancaster,Pennsylvania,PA,Lackawanna County,42069,41.440284,-75.609666
+Lawrence,Pennsylvania,PA,Lancaster County,42071,40.041992,-76.250198
+Lebanon,Pennsylvania,PA,Lawrence County,42073,40.992735,-80.334446
+Lehigh,Pennsylvania,PA,Lebanon County,42075,40.371448,-76.464819
+Luzerne,Pennsylvania,PA,Lehigh County,42077,40.614241,-75.590627
+Lycoming,Pennsylvania,PA,Luzerne County,42079,41.172787,-75.976035
+McKean,Pennsylvania,PA,Lycoming County,42081,41.343882,-77.055262
+Mercer,Pennsylvania,PA,McKean County,42083,41.81459,-78.572463
+Mifflin,Pennsylvania,PA,Mercer County,42085,41.300014,-80.252786
+Monroe,Pennsylvania,PA,Mifflin County,42087,40.601615,-77.651832
+Montgomery,Pennsylvania,PA,Monroe County,42089,41.05624,-75.329065
+Montour,Pennsylvania,PA,Montgomery County,42091,40.209999,-75.370201
+Northampton,Pennsylvania,PA,Montour County,42093,41.029284,-76.665225
+Northumberland,Pennsylvania,PA,Northampton County,42095,40.752791,-75.307447
+Perry,Pennsylvania,PA,Northumberland County,42097,40.851524,-76.709877
+Philadelphia,Pennsylvania,PA,Perry County,42099,40.39778,-77.266328
+Pike,Pennsylvania,PA,Philadelphia County,42101,40.009376,-75.133346
+Potter,Pennsylvania,PA,Pike County,42103,41.325949,-75.031514
+Schuylkill,Pennsylvania,PA,Potter County,42105,41.748587,-77.894436
+Snyder,Pennsylvania,PA,Schuylkill County,42107,40.703682,-76.217788
+Somerset,Pennsylvania,PA,Snyder County,42109,40.755407,-77.072929
+Sullivan,Pennsylvania,PA,Somerset County,42111,39.981297,-79.028486
+Susquehanna,Pennsylvania,PA,Sullivan County,42113,41.439285,-76.511717
+Tioga,Pennsylvania,PA,Susquehanna County,42115,41.819665,-75.800969
+Union,Pennsylvania,PA,Tioga County,42117,41.766859,-77.257288
+Venango,Pennsylvania,PA,Union County,42119,40.962179,-77.055475
+Warren,Pennsylvania,PA,Venango County,42121,41.400714,-79.765813
+Washington,Pennsylvania,PA,Warren County,42123,41.834298,-79.298182
+Wayne,Pennsylvania,PA,Washington County,42125,40.200005,-80.252132
+Westmoreland,Pennsylvania,PA,Wayne County,42127,41.646602,-75.292493
+Wyoming,Pennsylvania,PA,Westmoreland County,42129,40.311068,-79.466688
+York,Pennsylvania,PA,Wyoming County,42131,41.525173,-76.008731
+Bristol,Rhode Island,PA,York County,42133,39.921751,-76.728889
+Kent,Rhode Island,RI,Bristol County,44001,41.706831,-71.286637
+Newport,Rhode Island,RI,Kent County,44003,41.674245,-71.580924
+Providence,Rhode Island,RI,Newport County,44005,41.502504,-71.283689
+Unknown,Rhode Island,RI,Providence County,44007,41.869768,-71.578625
+Washington,Rhode Island,RI,Washington County,44009,41.396792,-71.620282
+Abbeville,South Carolina,SC,Abbeville County,45001,34.229041,-82.454058
+Aiken,South Carolina,SC,Aiken County,45003,33.550013,-81.632983
+Allendale,South Carolina,SC,Allendale County,45005,32.979757,-81.363265
+Anderson,South Carolina,SC,Anderson County,45007,34.521235,-82.638603
+Bamberg,South Carolina,SC,Bamberg County,45009,33.203021,-81.053161
+Barnwell,South Carolina,SC,Barnwell County,45011,33.260552,-81.434228
+Beaufort,South Carolina,SC,Beaufort County,45013,32.358112,-80.689422
+Berkeley,South Carolina,SC,Berkeley County,45015,33.2077,-79.953655
+Calhoun,South Carolina,SC,Calhoun County,45017,33.67478,-80.780347
+Charleston,South Carolina,SC,Charleston County,45019,32.800458,-79.94248
+Cherokee,South Carolina,SC,Cherokee County,45021,35.049796,-81.607647
+Chester,South Carolina,SC,Chester County,45023,34.689342,-81.161249
+Chesterfield,South Carolina,SC,Chesterfield County,45025,34.637018,-80.159227
+Clarendon,South Carolina,SC,Clarendon County,45027,33.664682,-80.217889
+Colleton,South Carolina,SC,Colleton County,45029,32.835018,-80.655244
+Darlington,South Carolina,SC,Darlington County,45031,34.332185,-79.962115
+Dillon,South Carolina,SC,Dillon County,45033,34.390172,-79.374964
+Dorchester,South Carolina,SC,Dorchester County,45035,33.082186,-80.404697
+Edgefield,South Carolina,SC,Edgefield County,45037,33.776498,-81.968245
+Fairfield,South Carolina,SC,Fairfield County,45039,34.395669,-81.127001
+Florence,South Carolina,SC,Florence County,45041,34.028535,-79.710233
+Georgetown,South Carolina,SC,Georgetown County,45043,33.417531,-79.296333
+Greenville,South Carolina,SC,Greenville County,45045,34.892645,-82.372077
+Greenwood,South Carolina,SC,Greenwood County,45047,34.155796,-82.127876
+Hampton,South Carolina,SC,Hampton County,45049,32.778334,-81.143822
+Horry,South Carolina,SC,Horry County,45051,33.909269,-78.976675
+Jasper,South Carolina,SC,Jasper County,45053,32.43059,-81.021627
+Kershaw,South Carolina,SC,Kershaw County,45055,34.338356,-80.590885
+Lancaster,South Carolina,SC,Lancaster County,45057,34.686818,-80.703688
+Laurens,South Carolina,SC,Laurens County,45059,34.483676,-82.005498
+Lee,South Carolina,SC,Lee County,45061,34.15864,-80.251209
+Lexington,South Carolina,SC,Lexington County,45063,33.899477,-81.266277
+Marion,South Carolina,SC,McCormick County,45065,33.897599,-82.316196
+Marlboro,South Carolina,SC,Marion County,45067,34.08362,-79.354001
+McCormick,South Carolina,SC,Marlboro County,45069,34.60167,-79.679435
+Newberry,South Carolina,SC,Newberry County,45071,34.289881,-81.599676
+Oconee,South Carolina,SC,Oconee County,45073,34.748766,-83.06154
+Orangeburg,South Carolina,SC,Orangeburg County,45075,33.436135,-80.802913
+Pickens,South Carolina,SC,Pickens County,45077,34.885368,-82.723377
+Richland,South Carolina,SC,Richland County,45079,34.029095,-80.898037
+Saluda,South Carolina,SC,Saluda County,45081,34.005278,-81.727903
+Spartanburg,South Carolina,SC,Spartanburg County,45083,34.933271,-81.991052
+Sumter,South Carolina,SC,Sumter County,45085,33.91614,-80.382376
+Union,South Carolina,SC,Union County,45087,34.690397,-81.615896
+Williamsburg,South Carolina,SC,Williamsburg County,45089,33.626462,-79.716474
+York,South Carolina,SC,York County,45091,34.970188,-81.183187
+Aurora,South Dakota,SD,Aurora County,46003,43.724719,-98.577587
+Beadle,South Dakota,SD,Beadle County,46005,44.418265,-98.279422
+Bennett,South Dakota,SD,Bennett County,46007,43.186912,-101.677181
+Bon Homme,South Dakota,SD,Bon Homme County,46009,42.985799,-97.884199
+Brookings,South Dakota,SD,Brookings County,46011,44.376675,-96.797797
+Brown,South Dakota,SD,Brown County,46013,45.589254,-98.352175
+Brule,South Dakota,SD,Brule County,46015,43.729873,-99.092909
+Buffalo,South Dakota,SD,Buffalo County,46017,44.044306,-99.203998
+Butte,South Dakota,SD,Butte County,46019,44.896226,-103.501436
+Campbell,South Dakota,SD,Campbell County,46021,45.785575,-100.002107
+Charles Mix,South Dakota,SD,Charles Mix County,46023,43.206185,-98.595143
+Clark,South Dakota,SD,Clark County,46025,44.855211,-97.724912
+Clay,South Dakota,SD,Clay County,46027,42.91615,-96.980468
+Codington,South Dakota,SD,Codington County,46029,44.966285,-97.198837
+Corson,South Dakota,SD,Corson County,46031,45.685671,-101.179665
+Custer,South Dakota,SD,Custer County,46033,43.684943,-103.46225
+Davison,South Dakota,SD,Davison County,46035,43.680439,-98.155868
+Day,South Dakota,SD,Day County,46037,45.355161,-97.58143
+Deuel,South Dakota,SD,Deuel County,46039,44.75629,-96.690239
+Dewey,South Dakota,SD,Dewey County,46041,45.148049,-100.837953
+Douglas,South Dakota,SD,Douglas County,46043,43.391506,-98.358433
+Edmunds,South Dakota,SD,Edmunds County,46045,45.41168,-99.205362
+Fall River,South Dakota,SD,Fall River County,46047,43.221619,-103.512609
+Faulk,South Dakota,SD,Faulk County,46049,45.065476,-99.153564
+Grant,South Dakota,SD,Grant County,46051,45.172637,-96.772261
+Gregory,South Dakota,SD,Gregory County,46053,43.175142,-99.206591
+Haakon,South Dakota,SD,Haakon County,46055,44.282881,-101.595442
+Hamlin,South Dakota,SD,Hamlin County,46057,44.680619,-97.178598
+Hand,South Dakota,SD,Hand County,46059,44.546713,-99.004575
+Hanson,South Dakota,SD,Hanson County,46061,43.680612,-97.796845
+Harding,South Dakota,SD,Harding County,46063,45.596611,-103.473871
+Hughes,South Dakota,SD,Hughes County,46065,44.384452,-99.975684
+Hutchinson,South Dakota,SD,Hutchinson County,46067,43.33671,-97.749383
+Hyde,South Dakota,SD,Hyde County,46069,44.537174,-99.472736
+Jackson,South Dakota,SD,Jackson County,46071,43.677506,-101.626323
+Jerauld,South Dakota,SD,Jerauld County,46073,44.06341,-98.62317
+Jones,South Dakota,SD,Jones County,46075,43.951991,-100.686138
+Kingsbury,South Dakota,SD,Kingsbury County,46077,44.362969,-97.499313
+Lake,South Dakota,SD,Lake County,46079,44.02845,-97.123223
+Lawrence,South Dakota,SD,Lawrence County,46081,44.348767,-103.804947
+Lincoln,South Dakota,SD,Lincoln County,46083,43.27942,-96.722286
+Lyman,South Dakota,SD,Lyman County,46085,43.894812,-99.841925
+Marshall,South Dakota,SD,McCook County,46087,43.680416,-97.358048
+McCook,South Dakota,SD,McPherson County,46089,45.784249,-99.211421
+McPherson,South Dakota,SD,Marshall County,46091,45.737044,-97.58087
+Meade,South Dakota,SD,Meade County,46093,44.605282,-102.714169
+Mellette,South Dakota,SD,Mellette County,46095,43.58469,-100.760955
+Miner,South Dakota,SD,Miner County,46097,44.021541,-97.608122
+Minnehaha,South Dakota,SD,Minnehaha County,46099,43.667472,-96.795726
+Moody,South Dakota,SD,Moody County,46101,44.012429,-96.676054
+Oglala Lakota,South Dakota,SD,Oglala Lakota County,46102,43.33358,-102.561686
+Pennington,South Dakota,SD,Pennington County,46103,44.002349,-102.823801
+Perkins,South Dakota,SD,Perkins County,46105,45.483387,-102.467995
+Potter,South Dakota,SD,Potter County,46107,45.052713,-99.962003
+Roberts,South Dakota,SD,Roberts County,46109,45.623397,-96.947551
+Sanborn,South Dakota,SD,Sanborn County,46111,44.018942,-98.091709
+Spink,South Dakota,SD,Spink County,46115,44.923772,-98.339615
+Stanley,South Dakota,SD,Stanley County,46117,44.415547,-100.749163
+Sully,South Dakota,SD,Sully County,46119,44.722325,-100.131399
+Todd,South Dakota,SD,Todd County,46121,43.208794,-100.707664
+Tripp,South Dakota,SD,Tripp County,46123,43.349729,-99.876219
+Turner,South Dakota,SD,Turner County,46125,43.30867,-97.150185
+Union,South Dakota,SD,Union County,46127,42.831106,-96.650829
+Walworth,South Dakota,SD,Walworth County,46129,45.427605,-100.027856
+Yankton,South Dakota,SD,Yankton County,46135,43.006603,-97.388361
+Ziebach,South Dakota,SD,Ziebach County,46137,44.989764,-101.660827
+Anderson,Tennessee,TN,Anderson County,47001,36.116731,-84.195418
+Bedford,Tennessee,TN,Bedford County,47003,35.51366,-86.458294
+Benton,Tennessee,TN,Benton County,47005,36.070948,-88.071232
+Bledsoe,Tennessee,TN,Bledsoe County,47007,35.593561,-85.20591
+Blount,Tennessee,TN,Blount County,47009,35.688185,-83.922973
+Bradley,Tennessee,TN,Bradley County,47011,35.153914,-84.859414
+Campbell,Tennessee,TN,Campbell County,47013,36.401592,-84.159249
+Cannon,Tennessee,TN,Cannon County,47015,35.808394,-86.062404
+Carroll,Tennessee,TN,Carroll County,47017,35.965748,-88.452379
+Carter,Tennessee,TN,Carter County,47019,36.284744,-82.126593
+Cheatham,Tennessee,TN,Cheatham County,47021,36.255169,-87.100808
+Chester,Tennessee,TN,Chester County,47023,35.420253,-88.611353
+Claiborne,Tennessee,TN,Claiborne County,47025,36.501572,-83.660698
+Clay,Tennessee,TN,Clay County,47027,36.545749,-85.545717
+Cocke,Tennessee,TN,Cocke County,47029,35.916198,-83.119224
+Coffee,Tennessee,TN,Coffee County,47031,35.488765,-86.078202
+Crockett,Tennessee,TN,Crockett County,47033,35.818795,-89.132494
+Cumberland,Tennessee,TN,Cumberland County,47035,35.952398,-84.994761
+Davidson,Tennessee,TN,Davidson County,47037,36.169129,-86.78479
+Decatur,Tennessee,TN,Decatur County,47039,35.603136,-88.110292
+DeKalb,Tennessee,TN,DeKalb County,47041,35.982219,-85.833596
+Dickson,Tennessee,TN,Dickson County,47043,36.145533,-87.364155
+Dyer,Tennessee,TN,Dyer County,47045,36.054196,-89.398306
+Fayette,Tennessee,TN,Fayette County,47047,35.196993,-89.413803
+Fentress,Tennessee,TN,Fentress County,47049,36.369892,-84.937764
+Franklin,Tennessee,TN,Franklin County,47051,35.155926,-86.099203
+Gibson,Tennessee,TN,Gibson County,47053,35.991632,-88.933812
+Giles,Tennessee,TN,Giles County,47055,35.202723,-87.035319
+Grainger,Tennessee,TN,Grainger County,47057,36.277509,-83.509546
+Greene,Tennessee,TN,Greene County,47059,36.179487,-82.847523
+Grundy,Tennessee,TN,Grundy County,47061,35.393386,-85.710379
+Hamblen,Tennessee,TN,Hamblen County,47063,36.218397,-83.266071
+Hamilton,Tennessee,TN,Hamilton County,47065,35.163472,-85.201843
+Hancock,Tennessee,TN,Hancock County,47067,36.521353,-83.227493
+Hardeman,Tennessee,TN,Hardeman County,47069,35.218785,-88.988697
+Hardin,Tennessee,TN,Hardin County,47071,35.201893,-88.185696
+Hawkins,Tennessee,TN,Hawkins County,47073,36.452089,-82.931485
+Haywood,Tennessee,TN,Haywood County,47075,35.586678,-89.282691
+Henderson,Tennessee,TN,Henderson County,47077,35.653994,-88.387674
+Henry,Tennessee,TN,Henry County,47079,36.325295,-88.300288
+Hickman,Tennessee,TN,Hickman County,47081,35.802327,-87.467116
+Houston,Tennessee,TN,Houston County,47083,36.285782,-87.705598
+Humphreys,Tennessee,TN,Humphreys County,47085,36.040822,-87.790453
+Jackson,Tennessee,TN,Jackson County,47087,36.35425,-85.674128
+Jefferson,Tennessee,TN,Jefferson County,47089,36.048338,-83.441143
+Johnson,Tennessee,TN,Johnson County,47091,36.453203,-81.861247
+Knox,Tennessee,TN,Knox County,47093,35.992726,-83.937721
+Lake,Tennessee,TN,Lake County,47095,36.333905,-89.485536
+Lauderdale,Tennessee,TN,Lauderdale County,47097,35.762951,-89.627732
+Lawrence,Tennessee,TN,Lawrence County,47099,35.220476,-87.396546
+Lewis,Tennessee,TN,Lewis County,47101,35.523244,-87.496983
+Lincoln,Tennessee,TN,Lincoln County,47103,35.142784,-86.593403
+Loudon,Tennessee,TN,Loudon County,47105,35.735085,-84.314085
+Macon,Tennessee,TN,McMinn County,47107,35.424472,-84.619949
+Madison,Tennessee,TN,McNairy County,47109,35.175375,-88.56374
+Marion,Tennessee,TN,Macon County,47111,36.537757,-86.00096
+Marshall,Tennessee,TN,Madison County,47113,35.606056,-88.833424
+Maury,Tennessee,TN,Marion County,47115,35.133422,-85.618399
+McMinn,Tennessee,TN,Marshall County,47117,35.468343,-86.765865
+McNairy,Tennessee,TN,Maury County,47119,35.615696,-87.077763
+Meigs,Tennessee,TN,Meigs County,47121,35.512203,-84.816102
+Monroe,Tennessee,TN,Monroe County,47123,35.447818,-84.249705
+Montgomery,Tennessee,TN,Montgomery County,47125,36.500354,-87.380887
+Moore,Tennessee,TN,Moore County,47127,35.288888,-86.358684
+Morgan,Tennessee,TN,Morgan County,47129,36.138697,-84.639262
+Obion,Tennessee,TN,Obion County,47131,36.357996,-89.150024
+Overton,Tennessee,TN,Overton County,47133,36.34485,-85.283076
+Perry,Tennessee,TN,Perry County,47135,35.663752,-87.869326
+Pickett,Tennessee,TN,Pickett County,47137,36.559364,-85.075741
+Polk,Tennessee,TN,Polk County,47139,35.109437,-84.541112
+Putnam,Tennessee,TN,Putnam County,47141,36.14094,-85.49618
+Rhea,Tennessee,TN,Rhea County,47143,35.60059,-84.949548
+Roane,Tennessee,TN,Roane County,47145,35.84725,-84.523929
+Robertson,Tennessee,TN,Robertson County,47147,36.527509,-86.869354
+Rutherford,Tennessee,TN,Rutherford County,47149,35.843369,-86.417213
+Scott,Tennessee,TN,Scott County,47151,36.435234,-84.50352
+Sequatchie,Tennessee,TN,Sequatchie County,47153,35.372336,-85.410082
+Sevier,Tennessee,TN,Sevier County,47155,35.795345,-83.518496
+Shelby,Tennessee,TN,Shelby County,47157,35.183794,-89.895397
+Smith,Tennessee,TN,Smith County,47159,36.256645,-85.941915
+Stewart,Tennessee,TN,Stewart County,47161,36.458464,-87.811889
+Sullivan,Tennessee,TN,Sullivan County,47163,36.509681,-82.301336
+Sumner,Tennessee,TN,Sumner County,47165,36.473443,-86.459798
+Tipton,Tennessee,TN,Tipton County,47167,35.500259,-89.766803
+Trousdale,Tennessee,TN,Trousdale County,47169,36.39303,-86.156691
+Unicoi,Tennessee,TN,Unicoi County,47171,36.100129,-82.418218
+Union,Tennessee,TN,Union County,47173,36.28414,-83.836088
+Unknown,Tennessee,TN,Van Buren County,47175,35.699234,-85.458409
+Van Buren,Tennessee,TN,Warren County,47177,35.67825,-85.777343
+Warren,Tennessee,TN,Washington County,47179,36.295665,-82.495037
+Washington,Tennessee,TN,Wayne County,47181,35.242847,-87.819843
+Wayne,Tennessee,TN,Weakley County,47183,36.303596,-88.721194
+Weakley,Tennessee,TN,White County,47185,35.927049,-85.455785
+White,Tennessee,TN,Williamson County,47187,35.894807,-86.898068
+Williamson,Tennessee,TN,Wilson County,47189,36.149527,-86.291242
+Wilson,Tennessee,TX,Anderson County,48001,31.841261,-95.661727
+Anderson,Texas,TX,Andrews County,48003,32.312258,-102.640206
+Andrews,Texas,TX,Angelina County,48005,31.251896,-94.611134
+Angelina,Texas,TX,Aransas County,48007,28.122621,-96.967501
+Aransas,Texas,TX,Archer County,48009,33.616305,-98.687267
+Archer,Texas,TX,Armstrong County,48011,34.964179,-101.356636
+Armstrong,Texas,TX,Atascosa County,48013,28.891478,-98.535381
+Atascosa,Texas,TX,Austin County,48015,29.891901,-96.27017
+Austin,Texas,TX,Bailey County,48017,34.067521,-102.830345
+Bailey,Texas,TX,Bandera County,48019,29.756389,-99.248285
+Bandera,Texas,TX,Bastrop County,48021,30.100772,-97.310639
+Bastrop,Texas,TX,Baylor County,48023,33.618802,-99.208189
+Baylor,Texas,TX,Bee County,48025,28.416077,-97.742586
+Bee,Texas,TX,Bell County,48027,31.042748,-97.48127
+Bell,Texas,TX,Bexar County,48029,29.448671,-98.520147
+Bexar,Texas,TX,Blanco County,48031,30.266456,-98.399217
+Blanco,Texas,TX,Borden County,48033,32.73859,-101.439199
+Bosque,Texas,TX,Bosque County,48035,31.900819,-97.637641
+Bowie,Texas,TX,Bowie County,48037,33.446065,-94.422393
+Brazoria,Texas,TX,Brazoria County,48039,29.167817,-95.434647
+Brazos,Texas,TX,Brazos County,48041,30.656713,-96.302394
+Brewster,Texas,TX,Brewster County,48043,29.808997,-103.252458
+Briscoe,Texas,TX,Briscoe County,48045,34.525172,-101.205893
+Brooks,Texas,TX,Brooks County,48047,27.034994,-98.215276
+Brown,Texas,TX,Brown County,48049,31.764137,-98.998456
+Burleson,Texas,TX,Burleson County,48051,30.493487,-96.622091
+Burnet,Texas,TX,Burnet County,48053,30.78963,-98.201187
+Caldwell,Texas,TX,Caldwell County,48055,29.832399,-97.628141
+Calhoun,Texas,TX,Calhoun County,48057,28.441719,-96.579574
+Callahan,Texas,TX,Callahan County,48059,32.29315,-99.372249
+Cameron,Texas,TX,Cameron County,48061,26.102923,-97.478958
+Camp,Texas,TX,Camp County,48063,32.974581,-94.979085
+Carson,Texas,TX,Carson County,48065,35.405496,-101.355356
+Cass,Texas,TX,Cass County,48067,33.083698,-94.357579
+Castro,Texas,TX,Castro County,48069,34.533621,-102.258786
+Chambers,Texas,TX,Chambers County,48071,29.696374,-94.669445
+Cherokee,Texas,TX,Cherokee County,48073,31.843881,-95.156343
+Childress,Texas,TX,Childress County,48075,34.524624,-100.208166
+Clay,Texas,TX,Clay County,48077,33.785904,-98.212917
+Cochran,Texas,TX,Cochran County,48079,33.60844,-102.830449
+Coke,Texas,TX,Coke County,48081,31.87711,-100.635231
+Coleman,Texas,TX,Coleman County,48083,31.914205,-99.346622
+Collin,Texas,TX,Collin County,48085,33.194532,-96.579444
+Collingsworth,Texas,TX,Collingsworth County,48087,34.963358,-100.272135
+Colorado,Texas,TX,Colorado County,48089,29.596296,-96.508935
+Comal,Texas,TX,Comal County,48091,29.805491,-98.260544
+Comanche,Texas,TX,Comanche County,48093,31.951645,-98.549617
+Concho,Texas,TX,Concho County,48095,31.318883,-99.863649
+Cooke,Texas,TX,Cooke County,48097,33.639196,-97.210343
+Coryell,Texas,TX,Coryell County,48099,31.391177,-97.798022
+Cottle,Texas,TX,Cottle County,48101,34.091906,-100.276442
+Crane,Texas,TX,Crane County,48103,31.422796,-102.487774
+Crockett,Texas,TX,Crockett County,48105,30.717532,-101.404211
+Crosby,Texas,TX,Crosby County,48107,33.609144,-101.29871
+Culberson,Texas,TX,Culberson County,48109,31.445908,-104.526945
+Dallam,Texas,TX,Dallam County,48111,36.28637,-102.59402
+Dallas,Texas,TX,Dallas County,48113,32.766987,-96.778424
+Dawson,Texas,TX,Dawson County,48115,32.742528,-101.948771
+Deaf Smith,Texas,TX,Deaf Smith County,48117,34.940766,-102.607564
+Delta,Texas,TX,Delta County,48119,33.385933,-95.67335
+Denton,Texas,TX,Denton County,48121,33.205132,-97.12114
+DeWitt,Texas,TX,DeWitt County,48123,29.082346,-97.361654
+Dickens,Texas,TX,Dickens County,48125,33.615363,-100.787617
+Dimmit,Texas,TX,Dimmit County,48127,28.423587,-99.765871
+Donley,Texas,TX,Donley County,48129,34.955036,-100.815846
+Duval,Texas,TX,Duval County,48131,27.681123,-98.497393
+Eastland,Texas,TX,Eastland County,48133,32.324645,-98.83656
+Ector,Texas,TX,Ector County,48135,31.865301,-102.542507
+Edwards,Texas,TX,Edwards County,48137,29.985877,-100.307373
+Ellis,Texas,TX,Ellis County,48139,32.346878,-96.79694
+El Paso,Texas,TX,El Paso County,48141,31.76648,-106.241424
+Erath,Texas,TX,Erath County,48143,32.236661,-98.220507
+Falls,Texas,TX,Falls County,48145,31.25193,-96.934127
+Fannin,Texas,TX,Fannin County,48147,33.591161,-96.104988
+Fayette,Texas,TX,Fayette County,48149,29.877886,-96.921231
+Fisher,Texas,TX,Fisher County,48151,32.740473,-100.40312
+Floyd,Texas,TX,Floyd County,48153,34.07373,-101.303274
+Foard,Texas,TX,Foard County,48155,33.963306,-99.816828
+Fort Bend,Texas,TX,Fort Bend County,48157,29.526602,-95.771015
+Franklin,Texas,TX,Franklin County,48159,33.175846,-95.219066
+Freestone,Texas,TX,Freestone County,48161,31.701749,-96.144957
+Frio,Texas,TX,Frio County,48163,28.869334,-99.108788
+Gaines,Texas,TX,Gaines County,48165,32.743942,-102.631561
+Galveston,Texas,TX,Galveston County,48167,29.233453,-94.888456
+Garza,Texas,TX,Garza County,48169,33.183792,-101.301134
+Gillespie,Texas,TX,Gillespie County,48171,30.325091,-98.941851
+Glasscock,Texas,TX,Glasscock County,48173,31.868006,-101.521494
+Goliad,Texas,TX,Goliad County,48175,28.6607,-97.430415
+Gonzales,Texas,TX,Gonzales County,48177,29.461912,-97.49192
+Gray,Texas,TX,Gray County,48179,35.402542,-100.812374
+Grayson,Texas,TX,Grayson County,48181,33.624524,-96.675693
+Gregg,Texas,TX,Gregg County,48183,32.486397,-94.816276
+Grimes,Texas,TX,Grimes County,48185,30.543231,-95.988082
+Guadalupe,Texas,TX,Guadalupe County,48187,29.583532,-97.946771
+Hale,Texas,TX,Hale County,48189,34.068436,-101.822888
+Hall,Texas,TX,Hall County,48191,34.655623,-100.763893
+Hamilton,Texas,TX,Hamilton County,48193,31.707342,-98.111756
+Hansford,Texas,TX,Hansford County,48195,36.272847,-101.35693
+Hardeman,Texas,TX,Hardeman County,48197,34.289904,-99.745697
+Hardin,Texas,TX,Hardin County,48199,30.329648,-94.393178
+Harris,Texas,TX,Harris County,48201,29.857273,-95.393037
+Harrison,Texas,TX,Harrison County,48203,32.547991,-94.374434
+Hartley,Texas,TX,Hartley County,48205,35.840244,-102.610047
+Haskell,Texas,TX,Haskell County,48207,33.175964,-99.730774
+Hays,Texas,TX,Hays County,48209,30.061225,-98.029267
+Hemphill,Texas,TX,Hemphill County,48211,35.815956,-100.27921
+Henderson,Texas,TX,Henderson County,48213,32.211633,-95.853418
+Hidalgo,Texas,TX,Hidalgo County,48215,26.396384,-98.18099
+Hill,Texas,TX,Hill County,48217,31.982681,-97.130668
+Hockley,Texas,TX,Hockley County,48219,33.605932,-102.343398
+Hood,Texas,TX,Hood County,48221,32.430149,-97.831677
+Hopkins,Texas,TX,Hopkins County,48223,33.148967,-95.565434
+Houston,Texas,TX,Houston County,48225,31.323036,-95.4216
+Howard,Texas,TX,Howard County,48227,32.30343,-101.438721
+Hudspeth,Texas,TX,Hudspeth County,48229,31.450868,-105.377549
+Hunt,Texas,TX,Hunt County,48231,33.123308,-96.08423
+Hutchinson,Texas,TX,Hutchinson County,48233,35.837047,-101.362746
+Irion,Texas,TX,Irion County,48235,31.303424,-100.981304
+Jack,Texas,TX,Jack County,48237,33.232161,-98.171176
+Jackson,Texas,TX,Jackson County,48239,28.959802,-96.58908
+Jasper,Texas,TX,Jasper County,48241,30.752932,-94.022294
+Jeff Davis,Texas,TX,Jeff Davis County,48243,30.625357,-104.191873
+Jefferson,Texas,TX,Jefferson County,48245,29.854,-94.149331
+Jim Hogg,Texas,TX,Jim Hogg County,48247,27.053231,-98.747571
+Jim Wells,Texas,TX,Jim Wells County,48249,27.733516,-98.090814
+Johnson,Texas,TX,Johnson County,48251,32.379821,-97.364959
+Jones,Texas,TX,Jones County,48253,32.743709,-99.87443
+Karnes,Texas,TX,Karnes County,48255,28.908996,-97.852205
+Kaufman,Texas,TX,Kaufman County,48257,32.598944,-96.288377
+Kendall,Texas,TX,Kendall County,48259,29.943525,-98.709269
+Kenedy,Texas,TX,Kenedy County,48261,26.890213,-97.591143
+Kent,Texas,TX,Kent County,48263,33.18478,-100.76972
+Kerr,Texas,TX,Kerr County,48265,30.059953,-99.353339
+Kimble,Texas,TX,Kimble County,48267,30.479472,-99.746396
+Kinney,Texas,TX,King County,48269,33.614268,-100.245345
+Kleberg,Texas,TX,Kinney County,48271,29.347086,-100.4177
+Knox,Texas,TX,Kleberg County,48273,27.438735,-97.66062
+Lamar,Texas,TX,Knox County,48275,33.61189,-99.730356
+Lamb,Texas,TX,Lamar County,48277,33.667263,-95.570348
+Lampasas,Texas,TX,Lamb County,48279,34.068861,-102.348018
+La Salle,Texas,TX,Lampasas County,48281,31.196731,-98.240889
+Lavaca,Texas,TX,La Salle County,48283,28.351098,-99.096774
+Lee,Texas,TX,Lavaca County,48285,29.382578,-96.923633
+Leon,Texas,TX,Lee County,48287,30.321498,-96.976823
+Liberty,Texas,TX,Leon County,48289,31.300493,-95.995622
+Limestone,Texas,TX,Liberty County,48291,30.158508,-94.844061
+Lipscomb,Texas,TX,Limestone County,48293,31.547543,-96.593623
+Live Oak,Texas,TX,Lipscomb County,48295,36.2802,-100.272683
+Llano,Texas,TX,Live Oak County,48297,28.351535,-98.126961
+Lubbock,Texas,TX,Llano County,48299,30.707584,-98.68469
+Lynn,Texas,TX,Loving County,48301,31.844936,-103.561229
+Madison,Texas,TX,Lubbock County,48303,33.611469,-101.819944
+Marion,Texas,TX,Lynn County,48305,33.178412,-101.818493
+Martin,Texas,TX,McCulloch County,48307,31.205477,-99.359856
+Mason,Texas,TX,McLennan County,48309,31.549596,-97.201511
+Matagorda,Texas,TX,McMullen County,48311,28.384922,-98.578853
+Maverick,Texas,TX,Madison County,48313,30.966878,-95.930372
+McCulloch,Texas,TX,Marion County,48315,32.798182,-94.356853
+McLennan,Texas,TX,Martin County,48317,32.30983,-101.961836
+McMullen,Texas,TX,Mason County,48319,30.703916,-99.237302
+Medina,Texas,TX,Matagorda County,48321,28.77476,-96.001532
+Menard,Texas,TX,Maverick County,48323,28.729787,-100.316678
+Midland,Texas,TX,Medina County,48325,29.353661,-99.111085
+Milam,Texas,TX,Menard County,48327,30.885268,-99.858861
+Mills,Texas,TX,Midland County,48329,31.814269,-102.002454
+Mitchell,Texas,TX,Milam County,48331,30.791242,-96.984395
+Montague,Texas,TX,Mills County,48333,31.494888,-98.594623
+Montgomery,Texas,TX,Mitchell County,48335,32.304117,-100.924392
+Moore,Texas,TX,Montague County,48337,33.678356,-97.725014
+Morris,Texas,TX,Montgomery County,48339,30.298801,-95.50295
+Motley,Texas,TX,Moore County,48341,35.835676,-101.890502
+Nacogdoches,Texas,TX,Morris County,48343,33.116466,-94.731265
+Navarro,Texas,TX,Motley County,48345,34.057899,-100.793152
+Newton,Texas,TX,Nacogdoches County,48347,31.62056,-94.62025
+Nolan,Texas,TX,Navarro County,48349,32.048448,-96.476909
+Nueces,Texas,TX,Newton County,48351,30.786718,-93.73925
+Ochiltree,Texas,TX,Nolan County,48353,32.312338,-100.418108
+Oldham,Texas,TX,Nueces County,48355,27.740032,-97.516214
+Orange,Texas,TX,Ochiltree County,48357,36.278744,-100.815864
+Palo Pinto,Texas,TX,Oldham County,48359,35.401921,-102.59762
+Panola,Texas,TX,Orange County,48361,30.122323,-93.8941
+Parker,Texas,TX,Palo Pinto County,48363,32.752204,-98.317967
+Parmer,Texas,TX,Panola County,48365,32.163978,-94.305156
+Pecos,Texas,TX,Parker County,48367,32.777096,-97.805905
+Polk,Texas,TX,Parmer County,48369,34.532163,-102.784853
+Potter,Texas,TX,Pecos County,48371,30.773298,-102.718153
+Presidio,Texas,TX,Polk County,48373,30.784553,-94.837338
+Rains,Texas,TX,Potter County,48375,35.398675,-101.893804
+Randall,Texas,TX,Presidio County,48377,30.005891,-104.261619
+Reagan,Texas,TX,Rains County,48379,32.87058,-95.79544
+Real,Texas,TX,Randall County,48381,34.962529,-101.895547
+Red River,Texas,TX,Reagan County,48383,31.375191,-101.514395
+Reeves,Texas,TX,Real County,48385,29.830097,-99.812549
+Refugio,Texas,TX,Red River County,48387,33.619625,-95.048429
+Roberts,Texas,TX,Reeves County,48389,31.308366,-103.712706
+Robertson,Texas,TX,Refugio County,48391,28.322116,-97.162472
+Rockwall,Texas,TX,Roberts County,48393,35.838596,-100.836682
+Runnels,Texas,TX,Robertson County,48395,31.025481,-96.514941
+Rusk,Texas,TX,Rockwall County,48397,32.898677,-96.404402
+Sabine,Texas,TX,Runnels County,48399,31.845119,-99.982715
+San Augustine,Texas,TX,Rusk County,48401,32.109423,-94.756382
+San Jacinto,Texas,TX,Sabine County,48403,31.3433,-93.851913
+San Patricio,Texas,TX,San Augustine County,48405,31.382449,-94.16318
+San Saba,Texas,TX,San Jacinto County,48407,30.574388,-95.163136
+Schleicher,Texas,TX,San Patricio County,48409,28.011794,-97.517157
+Scurry,Texas,TX,San Saba County,48411,31.155138,-98.819292
+Shackelford,Texas,TX,Schleicher County,48413,30.896233,-100.527216
+Shelby,Texas,TX,Scurry County,48415,32.744353,-100.913346
+Sherman,Texas,TX,Shackelford County,48417,32.74382,-99.347005
+Smith,Texas,TX,Shelby County,48419,31.790139,-94.142579
+Somervell,Texas,TX,Sherman County,48421,36.278593,-101.899265
+Starr,Texas,TX,Smith County,48423,32.377016,-95.270041
+Stephens,Texas,TX,Somervell County,48425,32.218071,-97.769217
+Sterling,Texas,TX,Starr County,48427,26.530903,-98.740235
+Stonewall,Texas,TX,Stephens County,48429,32.738052,-98.839344
+Sutton,Texas,TX,Sterling County,48431,31.835773,-101.054911
+Swisher,Texas,TX,Stonewall County,48433,33.17958,-100.253807
+Tarrant,Texas,TX,Sutton County,48435,30.522185,-100.513359
+Taylor,Texas,TX,Swisher County,48437,34.526319,-101.743865
+Terrell,Texas,TX,Tarrant County,48439,32.772119,-97.291224
+Terry,Texas,TX,Taylor County,48441,32.297126,-99.89043
+Throckmorton,Texas,TX,Terrell County,48443,30.232343,-102.072513
+Titus,Texas,TX,Terry County,48445,33.171229,-102.339284
+Tom Green,Texas,TX,Throckmorton County,48447,33.170695,-99.205796
+Travis,Texas,TX,Titus County,48449,33.214599,-94.966783
+Trinity,Texas,TX,Tom Green County,48451,31.398823,-100.463788
+Tyler,Texas,TX,Travis County,48453,30.239513,-97.69127
+Upshur,Texas,TX,Trinity County,48455,31.096675,-95.151687
+Upton,Texas,TX,Tyler County,48457,30.769295,-94.375656
+Uvalde,Texas,TX,Upshur County,48459,32.735349,-94.941184
+Val Verde,Texas,TX,Upton County,48461,31.353816,-102.041546
+Van Zandt,Texas,TX,Uvalde County,48463,29.350308,-99.768427
+Victoria,Texas,TX,Val Verde County,48465,29.875285,-101.143324
+Walker,Texas,TX,Van Zandt County,48467,32.558787,-95.836906
+Waller,Texas,TX,Victoria County,48469,28.79637,-96.971198
+Ward,Texas,TX,Walker County,48471,30.743163,-95.569825
+Washington,Texas,TX,Waller County,48473,30.01359,-95.982149
+Webb,Texas,TX,Ward County,48475,31.513069,-103.105113
+Wharton,Texas,TX,Washington County,48477,30.215075,-96.410272
+Wheeler,Texas,TX,Webb County,48479,27.760799,-99.340752
+Wichita,Texas,TX,Wharton County,48481,29.27848,-96.229674
+Wilbarger,Texas,TX,Wheeler County,48483,35.392593,-100.253107
+Willacy,Texas,TX,Wichita County,48485,33.988212,-98.70801
+Williamson,Texas,TX,Wilbarger County,48487,34.08492,-99.24244
+Wilson,Texas,TX,Willacy County,48489,26.481861,-97.594731
+Winkler,Texas,TX,Williamson County,48491,30.649082,-97.605065
+Wise,Texas,TX,Wilson County,48493,29.173883,-98.086734
+Wood,Texas,TX,Winkler County,48495,31.832862,-103.054925
+Yoakum,Texas,TX,Wise County,48497,33.219095,-97.653997
+Young,Texas,TX,Wood County,48499,32.783588,-95.382166
+Zapata,Texas,TX,Yoakum County,48501,33.162398,-102.832242
+Zavala,Texas,TX,Young County,48503,33.158778,-98.67839
+Beaver,Utah,TX,Zapata County,48505,26.996981,-99.182603
+Box Elder,Utah,TX,Zavala County,48507,28.864652,-99.75983
+Cache,Utah,UT,Beaver County,49001,38.357535,-113.238948
+Carbon,Utah,UT,Box Elder County,49003,41.276061,-113.126226
+Davis,Utah,UT,Cache County,49005,41.734117,-111.745399
+Duchesne,Utah,UT,Carbon County,49007,39.673284,-110.588484
+Emery,Utah,UT,Daggett County,49009,40.890099,-109.505785
+Garfield,Utah,UT,Davis County,49011,41.037559,-112.201943
+Grand,Utah,UT,Duchesne County,49013,40.289393,-110.429584
+Iron,Utah,UT,Emery County,49015,39.009025,-110.7211
+Juab,Utah,UT,Garfield County,49017,37.831664,-111.450908
+Kane,Utah,UT,Grand County,49019,38.974326,-109.57345
+Millard,Utah,UT,Iron County,49021,37.909304,-113.30674
+Morgan,Utah,UT,Juab County,49023,39.71412,-112.790471
+Piute,Utah,UT,Kane County,49025,37.275089,-111.815329
+Rich,Utah,UT,Millard County,49027,38.956744,-113.133092
+Salt Lake,Utah,UT,Morgan County,49029,41.091027,-111.577885
+San Juan,Utah,UT,Piute County,49031,38.335881,-112.129375
+Sanpete,Utah,UT,Rich County,49033,41.627598,-111.240227
+Sevier,Utah,UT,Salt Lake County,49035,40.667883,-111.92424
+Summit,Utah,UT,San Juan County,49037,37.602633,-109.791574
+Tooele,Utah,UT,Sanpete County,49039,39.382531,-111.572883
+Uintah,Utah,UT,Sevier County,49041,38.746824,-111.81193
+Unknown,Utah,UT,Summit County,49043,40.87206,-110.968486
+Utah,Utah,UT,Tooele County,49045,40.467753,-113.123979
+Wasatch,Utah,UT,Uintah County,49047,40.125887,-109.517748
+Washington,Utah,UT,Utah County,49049,40.120425,-111.668508
+Wayne,Utah,UT,Wasatch County,49051,40.334884,-111.161568
+Weber,Utah,UT,Washington County,49053,37.262531,-113.4878
+Addison,Vermont,UT,Wayne County,49055,38.25984,-110.990877
+Bennington,Vermont,UT,Weber County,49057,41.270325,-111.876883
+Caledonia,Vermont,VT,Addison County,50001,44.031248,-73.141581
+Chittenden,Vermont,VT,Bennington County,50003,43.035325,-73.11146
+Essex,Vermont,VT,Caledonia County,50005,44.468791,-72.112168
+Franklin,Vermont,VT,Chittenden County,50007,44.463329,-73.06941
+Grand Isle,Vermont,VT,Essex County,50009,44.724021,-71.732736
+Lamoille,Vermont,VT,Franklin County,50011,44.858964,-72.909402
+Orange,Vermont,VT,Grand Isle County,50013,44.801787,-73.300759
+Orleans,Vermont,VT,Lamoille County,50015,44.603704,-72.638922
+Rutland,Vermont,VT,Orange County,50017,44.003392,-72.369687
+Unknown,Vermont,VT,Orleans County,50019,44.828442,-72.25163
+Washington,Vermont,VT,Rutland County,50021,43.580858,-73.038202
+Windham,Vermont,VT,Washington County,50023,44.274988,-72.609514
+Windsor,Vermont,VT,Windham County,50025,42.995335,-72.721955
+Accomack,Virginia,VT,Windsor County,50027,43.572685,-72.598821
+Albemarle,Virginia,VA,Accomack County,51001,37.765944,-75.757807
+Alexandria city,Virginia,VA,Albemarle County,51003,38.024184,-78.553506
+Alleghany,Virginia,VA,Alleghany County,51005,37.787905,-80.008669
+Amelia,Virginia,VA,Amelia County,51007,37.331927,-77.977462
+Amherst,Virginia,VA,Amherst County,51009,37.629304,-79.154667
+Appomattox,Virginia,VA,Appomattox County,51011,37.370725,-78.81094
+Arlington,Virginia,VA,Arlington County,51013,38.878337,-77.100703
+Augusta,Virginia,VA,Augusta County,51015,38.171911,-79.147557
+Bath,Virginia,VA,Bath County,51017,38.068368,-79.731203
+Bedford,Virginia,VA,Bedford County,51019,37.312257,-79.527223
+Bland,Virginia,VA,Bland County,51021,37.130612,-81.125853
+Botetourt,Virginia,VA,Botetourt County,51023,37.565482,-79.797546
+Bristol city,Virginia,VA,Brunswick County,51025,36.764204,-77.861483
+Brunswick,Virginia,VA,Buchanan County,51027,37.26812,-82.038151
+Buchanan,Virginia,VA,Buckingham County,51029,37.573928,-78.529169
+Buckingham,Virginia,VA,Campbell County,51031,37.210152,-79.095428
+Buena Vista city,Virginia,VA,Caroline County,51033,38.030319,-77.352348
+Campbell,Virginia,VA,Carroll County,51035,36.731963,-80.727831
+Caroline,Virginia,VA,Charles City County,51036,37.361054,-77.05417
+Carroll,Virginia,VA,Charlotte County,51037,37.009042,-78.658568
+Charles City,Virginia,VA,Chesterfield County,51041,37.378434,-77.585847
+Charlotte,Virginia,VA,Clarke County,51043,39.115307,-77.990748
+Charlottesville city,Virginia,VA,Craig County,51045,37.473603,-80.231051
+Chesapeake city,Virginia,VA,Culpeper County,51047,38.48593,-77.956476
+Chesterfield,Virginia,VA,Cumberland County,51049,37.520189,-78.252836
+Clarke,Virginia,VA,Dickenson County,51051,37.136701,-82.34922
+Colonial Heights city,Virginia,VA,Dinwiddie County,51053,37.073498,-77.635492
+Covington city,Virginia,VA,Essex County,51057,37.93948,-76.941871
+Craig,Virginia,VA,Fairfax County,51059,38.82952,-77.273252
+Culpeper,Virginia,VA,Fauquier County,51061,38.744096,-77.8215
+Cumberland,Virginia,VA,Floyd County,51063,36.931433,-80.350266
+Danville city,Virginia,VA,Fluvanna County,51065,37.830584,-78.283494
+Dickenson,Virginia,VA,Franklin County,51067,36.991186,-79.882715
+Dinwiddie,Virginia,VA,Frederick County,51069,39.20366,-78.263829
+Emporia city,Virginia,VA,Giles County,51071,37.318072,-80.698321
+Essex,Virginia,VA,Gloucester County,51073,37.403541,-76.523505
+Fairfax,Virginia,VA,Goochland County,51075,37.718814,-77.917626
+Fairfax city,Virginia,VA,Grayson County,51077,36.652229,-81.215324
+Falls Church city,Virginia,VA,Greene County,51079,38.297981,-78.470163
+Fauquier,Virginia,VA,Greensville County,51081,36.680336,-77.560277
+Floyd,Virginia,VA,Halifax County,51083,36.766461,-78.939614
+Fluvanna,Virginia,VA,Hanover County,51085,37.760215,-77.491317
+Franklin,Virginia,VA,Henrico County,51087,37.631269,-77.651922
+Franklin city,Virginia,VA,Henry County,51089,36.781479,-79.759231
+Frederick,Virginia,VA,Highland County,51091,38.366243,-79.564472
+Fredericksburg city,Virginia,VA,Isle of Wight County,51093,36.901418,-76.707569
+Galax city,Virginia,VA,James City County,51095,37.324837,-76.777888
+Giles,Virginia,VA,King and Queen County,51097,37.717772,-76.905581
+Gloucester,Virginia,VA,King George County,51099,38.27718,-77.162636
+Goochland,Virginia,VA,King William County,51101,37.70826,-77.091054
+Grayson,Virginia,VA,Lancaster County,51103,37.704843,-76.412663
+Greene,Virginia,VA,Lee County,51105,36.701721,-83.130112
+Greensville,Virginia,VA,Loudoun County,51107,39.0812,-77.638898
+Halifax,Virginia,VA,Louisa County,51109,37.972704,-77.959795
+Hampton city,Virginia,VA,Lunenburg County,51111,36.945555,-78.240528
+Hanover,Virginia,VA,Madison County,51113,38.412059,-78.276961
+Harrisonburg city,Virginia,VA,Mathews County,51115,37.425348,-76.268808
+Henrico,Virginia,VA,Mecklenburg County,51117,36.687256,-78.368959
+Henry,Virginia,VA,Middlesex County,51119,37.606975,-76.528082
+Highland,Virginia,VA,Montgomery County,51121,37.175534,-80.387791
+Hopewell city,Virginia,VA,Nelson County,51125,37.789079,-78.88344
+Isle of Wight,Virginia,VA,New Kent County,51127,37.510158,-76.999326
+James City,Virginia,VA,Northampton County,51131,37.302775,-75.924018
+King and Queen,Virginia,VA,Northumberland County,51133,37.856974,-76.379687
+King George,Virginia,VA,Nottoway County,51135,37.141167,-78.053866
+King William,Virginia,VA,Orange County,51137,38.250193,-78.009622
+Lancaster,Virginia,VA,Page County,51139,38.623209,-78.491872
+Lee,Virginia,VA,Patrick County,51141,36.667138,-80.286413
+Lexington city,Virginia,VA,Pittsylvania County,51143,36.821721,-79.398502
+Loudoun,Virginia,VA,Powhatan County,51145,37.549404,-77.912855
+Louisa,Virginia,VA,Prince Edward County,51147,37.224881,-78.432957
+Lunenburg,Virginia,VA,Prince George County,51149,37.187325,-77.220993
+Lynchburg city,Virginia,VA,Prince William County,51153,38.701119,-77.479579
+Madison,Virginia,VA,Pulaski County,51155,37.063385,-80.713444
+Manassas city,Virginia,VA,Rappahannock County,51157,38.684522,-78.168824
+Manassas Park city,Virginia,VA,Richmond County,51159,37.942894,-76.730561
+Martinsville city,Virginia,VA,Roanoke County,51161,37.343588,-79.943996
+Mathews,Virginia,VA,Rockbridge County,51163,37.814517,-79.447754
+Mecklenburg,Virginia,VA,Rockingham County,51165,38.507585,-78.885321
+Middlesex,Virginia,VA,Russell County,51167,36.93342,-82.095934
+Montgomery,Virginia,VA,Scott County,51169,36.712776,-82.613624
+Nelson,Virginia,VA,Shenandoah County,51171,38.856204,-78.573987
+New Kent,Virginia,VA,Smyth County,51173,36.842318,-81.539786
+Newport News city,Virginia,VA,Southampton County,51175,36.720068,-77.103813
+Norfolk city,Virginia,VA,Spotsylvania County,51177,38.182431,-77.657226
+Northampton,Virginia,VA,Stafford County,51179,38.413261,-77.451334
+Northumberland,Virginia,VA,Surry County,51181,37.119761,-76.880172
+Norton city,Virginia,VA,Sussex County,51183,36.926645,-77.259732
+Nottoway,Virginia,VA,Tazewell County,51185,37.125395,-81.562924
+Orange,Virginia,VA,Warren County,51187,38.908221,-78.207594
+Page,Virginia,VA,Washington County,51191,36.747814,-81.950322
+Patrick,Virginia,VA,Westmoreland County,51193,38.109311,-76.803933
+Petersburg city,Virginia,VA,Wise County,51195,36.974561,-82.62156
+Pittsylvania,Virginia,VA,Wythe County,51197,36.899867,-81.083001
+Poquoson city,Virginia,VA,York County,51199,37.219081,-76.561648
+Portsmouth city,Virginia,VA,Alexandria city,51510,38.819251,-77.08367
+Powhatan,Virginia,VA,Bristol city,51520,36.616954,-82.157564
+Prince Edward,Virginia,VA,Buena Vista city,51530,37.729345,-79.358134
+Prince George,Virginia,VA,Charlottesville city,51540,38.037658,-78.485381
+Prince William,Virginia,VA,Chesapeake city,51550,36.679376,-76.301788
+Pulaski,Virginia,VA,Colonial Heights city,51570,37.261685,-77.396804
+Radford city,Virginia,VA,Covington city,51580,37.78106,-79.985434
+Rappahannock,Virginia,VA,Danville city,51590,36.583334,-79.408071
+Richmond,Virginia,VA,Emporia city,51595,36.696182,-77.535975
+Richmond city,Virginia,VA,Fairfax city,51600,38.853183,-77.299025
+Roanoke,Virginia,VA,Falls Church city,51610,38.884722,-77.175603
+Roanoke city,Virginia,VA,Franklin city,51620,36.684014,-76.941396
+Rockbridge,Virginia,VA,Fredericksburg city,51630,38.299272,-77.486658
+Rockingham,Virginia,VA,Galax city,51640,36.66564,-80.914308
+Russell,Virginia,VA,Hampton city,51650,37.047961,-76.297293
+Salem city,Virginia,VA,Harrisonburg city,51660,38.436255,-78.873303
+Scott,Virginia,VA,Hopewell city,51670,37.29101,-77.298944
+Shenandoah,Virginia,VA,Lexington city,51678,37.782332,-79.44432
+Smyth,Virginia,VA,Lynchburg city,51680,37.399016,-79.195458
+Southampton,Virginia,VA,Manassas city,51683,38.746808,-77.482633
+Spotsylvania,Virginia,VA,Manassas Park city,51685,38.768945,-77.448767
+Stafford,Virginia,VA,Martinsville city,51690,36.683527,-79.863647
+Staunton city,Virginia,VA,Newport News city,51700,37.076136,-76.52198
+Suffolk city,Virginia,VA,Norfolk city,51710,36.923015,-76.244641
+Surry,Virginia,VA,Norton city,51720,36.931549,-82.625996
+Sussex,Virginia,VA,Petersburg city,51730,37.20473,-77.392368
+Tazewell,Virginia,VA,Poquoson city,51735,37.12836,-76.303534
+Virginia Beach city,Virginia,VA,Portsmouth city,51740,36.859339,-76.356973
+Warren,Virginia,VA,Radford city,51750,37.120119,-80.559147
+Washington,Virginia,VA,Richmond city,51760,37.531399,-77.476009
+Waynesboro city,Virginia,VA,Roanoke city,51770,37.278458,-79.958174
+Westmoreland,Virginia,VA,Salem city,51775,37.285333,-80.055241
+Williamsburg city,Virginia,VA,Staunton city,51790,38.157978,-79.061876
+Winchester city,Virginia,VA,Suffolk city,51800,36.697157,-76.634781
+Wise,Virginia,VA,Virginia Beach city,51810,36.779985,-76.025208
+Wythe,Virginia,VA,Waynesboro city,51820,38.067157,-78.90142
+York,Virginia,VA,Williamsburg city,51830,37.269481,-76.708193
+Adams,Washington,VA,Winchester city,51840,39.173869,-78.176356
+Asotin,Washington,WA,Adams County,53001,47.011238,-118.512861
+Benton,Washington,WA,Asotin County,53003,46.181861,-117.227781
+Chelan,Washington,WA,Benton County,53005,46.228125,-119.516659
+Clallam,Washington,WA,Chelan County,53007,47.860974,-120.619041
+Clark,Washington,WA,Clallam County,53009,48.110903,-123.88986
+Columbia,Washington,WA,Clark County,53011,45.77173,-122.485953
+Cowlitz,Washington,WA,Columbia County,53013,46.29285,-117.911634
+Douglas,Washington,WA,Cowlitz County,53015,46.196785,-122.67846
+Ferry,Washington,WA,Douglas County,53017,47.741763,-119.694622
+Franklin,Washington,WA,Ferry County,53019,48.473256,-118.533589
+Garfield,Washington,WA,Franklin County,53021,46.53458,-118.906944
+Grant,Washington,WA,Garfield County,53023,46.429478,-117.536711
+Grays Harbor,Washington,WA,Grant County,53025,47.213633,-119.467788
+Island,Washington,WA,Grays Harbor County,53027,47.113732,-123.826735
+Jefferson,Washington,WA,Island County,53029,48.158554,-122.670649
+King,Washington,WA,Jefferson County,53031,47.805708,-123.527057
+Kitsap,Washington,WA,King County,53033,47.490599,-121.833996
+Kittitas,Washington,WA,Kitsap County,53035,47.639595,-122.649634
+Klickitat,Washington,WA,Kittitas County,53037,47.124441,-120.676709
+Lewis,Washington,WA,Klickitat County,53039,45.870446,-120.779305
+Lincoln,Washington,WA,Lewis County,53041,46.580071,-122.377444
+Mason,Washington,WA,Lincoln County,53043,47.582743,-118.417692
+Okanogan,Washington,WA,Mason County,53045,47.354126,-123.17385
+Pacific,Washington,WA,Okanogan County,53047,48.548453,-119.742235
+Pend Oreille,Washington,WA,Pacific County,53049,46.556587,-123.782419
+Pierce,Washington,WA,Pend Oreille County,53051,48.543825,-117.232191
+San Juan,Washington,WA,Pierce County,53053,47.051413,-122.15324
+Skagit,Washington,WA,San Juan County,53055,48.50719,-123.103769
+Skamania,Washington,WA,Skagit County,53057,48.493292,-121.81577
+Snohomish,Washington,WA,Skamania County,53059,46.024785,-121.953232
+Spokane,Washington,WA,Snohomish County,53061,48.070464,-121.936784
+Stevens,Washington,WA,Spokane County,53063,47.620375,-117.403371
+Thurston,Washington,WA,Stevens County,53065,48.388727,-117.854454
+Unknown,Washington,WA,Thurston County,53067,46.935822,-122.830152
+Wahkiakum,Washington,WA,Wahkiakum County,53069,46.294638,-123.424458
+Walla Walla,Washington,WA,Walla Walla County,53071,46.254606,-118.48037
+Whatcom,Washington,WA,Whatcom County,53073,48.842653,-121.836432
+Whitman,Washington,WA,Whitman County,53075,46.905944,-117.53539
+Yakima,Washington,WA,Yakima County,53077,46.456558,-120.740145
+Barbour,West Virginia,WV,Barbour County,54001,39.139725,-79.996947
+Berkeley,West Virginia,WV,Berkeley County,54003,39.447938,-78.037754
+Boone,West Virginia,WV,Boone County,54005,38.022814,-81.713538
+Braxton,West Virginia,WV,Braxton County,54007,38.69933,-80.73166
+Brooke,West Virginia,WV,Brooke County,54009,40.272645,-80.578691
+Cabell,West Virginia,WV,Cabell County,54011,38.419578,-82.243397
+Calhoun,West Virginia,WV,Calhoun County,54013,38.844159,-81.115478
+Clay,West Virginia,WV,Clay County,54015,38.459826,-81.081866
+Doddridge,West Virginia,WV,Doddridge County,54017,39.26348,-80.701232
+Fayette,West Virginia,WV,Fayette County,54019,38.030933,-81.086051
+Gilmer,West Virginia,WV,Gilmer County,54021,38.915867,-80.849413
+Grant,West Virginia,WV,Grant County,54023,39.105988,-79.195064
+Greenbrier,West Virginia,WV,Greenbrier County,54025,37.924418,-80.45059
+Hampshire,West Virginia,WV,Hampshire County,54027,39.312139,-78.611989
+Hancock,West Virginia,WV,Hancock County,54029,40.516958,-80.570164
+Hardy,West Virginia,WV,Hardy County,54031,39.011361,-78.841729
+Harrison,West Virginia,WV,Harrison County,54033,39.279182,-80.386498
+Jackson,West Virginia,WV,Jackson County,54035,38.834234,-81.677717
+Jefferson,West Virginia,WV,Jefferson County,54037,39.307398,-77.86322
+Kanawha,West Virginia,WV,Kanawha County,54039,38.328068,-81.523516
+Lewis,West Virginia,WV,Lewis County,54041,38.988877,-80.495477
+Lincoln,West Virginia,WV,Lincoln County,54043,38.17177,-82.077623
+Logan,West Virginia,WV,Logan County,54045,37.830591,-81.940853
+Marion,West Virginia,WV,McDowell County,54047,37.382727,-81.658183
+Marshall,West Virginia,WV,Marion County,54049,39.505839,-80.243402
+Mason,West Virginia,WV,Marshall County,54051,39.854426,-80.671794
+McDowell,West Virginia,WV,Mason County,54053,38.770914,-82.029007
+Mercer,West Virginia,WV,Mercer County,54055,37.403448,-81.106456
+Mineral,West Virginia,WV,Mineral County,54057,39.404781,-78.95669
+Mingo,West Virginia,WV,Mingo County,54059,37.721161,-82.158989
+Monongalia,West Virginia,WV,Monongalia County,54061,39.633645,-80.059074
+Monroe,West Virginia,WV,Monroe County,54063,37.554062,-80.550329
+Morgan,West Virginia,WV,Morgan County,54065,39.555002,-78.257345
+Nicholas,West Virginia,WV,Nicholas County,54067,38.291432,-80.797515
+Ohio,West Virginia,WV,Ohio County,54069,40.098932,-80.620728
+Pendleton,West Virginia,WV,Pendleton County,54071,38.67445,-79.340617
+Pleasants,West Virginia,WV,Pleasants County,54073,39.368133,-81.161172
+Pocahontas,West Virginia,WV,Pocahontas County,54075,38.332606,-80.010121
+Preston,West Virginia,WV,Preston County,54077,39.46903,-79.668865
+Putnam,West Virginia,WV,Putnam County,54079,38.510513,-81.906109
+Raleigh,West Virginia,WV,Raleigh County,54081,37.762469,-81.264672
+Randolph,West Virginia,WV,Randolph County,54083,38.781095,-79.867788
+Ritchie,West Virginia,WV,Ritchie County,54085,39.177112,-81.066317
+Roane,West Virginia,WV,Roane County,54087,38.74295,-81.354494
+Summers,West Virginia,WV,Summers County,54089,37.655999,-80.856325
+Taylor,West Virginia,WV,Taylor County,54091,39.332478,-80.046554
+Tucker,West Virginia,WV,Tucker County,54093,39.111175,-79.559968
+Tyler,West Virginia,WV,Tyler County,54095,39.465634,-80.877219
+Upshur,West Virginia,WV,Upshur County,54097,38.90253,-80.231606
+Wayne,West Virginia,WV,Wayne County,54099,38.143642,-82.422666
+Webster,West Virginia,WV,Webster County,54101,38.483459,-80.449052
+Wetzel,West Virginia,WV,Wetzel County,54103,39.59818,-80.635399
+Wirt,West Virginia,WV,Wirt County,54105,39.020034,-81.382975
+Wood,West Virginia,WV,Wood County,54107,39.211602,-81.516234
+Wyoming,West Virginia,WV,Wyoming County,54109,37.60366,-81.549032
+Adams,Wisconsin,WI,Adams County,55001,43.973757,-89.767228
+Ashland,Wisconsin,WI,Ashland County,55003,46.544424,-90.679691
+Barron,Wisconsin,WI,Barron County,55005,45.437192,-91.852892
+Bayfield,Wisconsin,WI,Bayfield County,55007,46.634199,-91.177282
+Brown,Wisconsin,WI,Brown County,55009,44.474024,-87.99613
+Buffalo,Wisconsin,WI,Buffalo County,55011,44.385633,-91.761294
+Burnett,Wisconsin,WI,Burnett County,55013,45.866897,-92.37573
+Calumet,Wisconsin,WI,Calumet County,55015,44.07841,-88.212132
+Chippewa,Wisconsin,WI,Chippewa County,55017,45.069092,-91.283505
+Clark,Wisconsin,WI,Clark County,55019,44.739346,-90.609953
+Columbia,Wisconsin,WI,Columbia County,55021,43.471882,-89.330472
+Crawford,Wisconsin,WI,Crawford County,55023,43.24991,-90.95123
+Dane,Wisconsin,WI,Dane County,55025,43.067468,-89.417852
+Dodge,Wisconsin,WI,Dodge County,55027,43.429628,-88.701939
+Door,Wisconsin,WI,Door County,55029,45.093417,-87.048683
+Douglas,Wisconsin,WI,Douglas County,55031,46.463218,-91.892477
+Dunn,Wisconsin,WI,Dunn County,55033,44.947751,-91.897645
+Eau Claire,Wisconsin,WI,Eau Claire County,55035,44.726355,-91.286414
+Florence,Wisconsin,WI,Florence County,55037,45.871828,-88.406988
+Fond du Lac,Wisconsin,WI,Fond du Lac County,55039,43.754722,-88.493284
+Forest,Wisconsin,WI,Forest County,55041,45.666881,-88.773326
+Grant,Wisconsin,WI,Grant County,55043,42.870028,-90.694229
+Green,Wisconsin,WI,Green County,55045,42.675522,-89.605074
+Green Lake,Wisconsin,WI,Green Lake County,55047,43.780247,-88.97038
+Iowa,Wisconsin,WI,Iowa County,55049,43.001021,-90.133691
+Iron,Wisconsin,WI,Iron County,55051,46.32655,-90.261298
+Jackson,Wisconsin,WI,Jackson County,55053,44.32459,-90.79951
+Jefferson,Wisconsin,WI,Jefferson County,55055,43.013804,-88.773985
+Juneau,Wisconsin,WI,Juneau County,55057,43.932836,-90.113984
+Kenosha,Wisconsin,WI,Kenosha County,55059,42.579703,-87.425005
+Kewaunee,Wisconsin,WI,Kewaunee County,55061,44.501032,-87.163304
+La Crosse,Wisconsin,WI,La Crosse County,55063,43.908222,-91.111758
+Lafayette,Wisconsin,WI,Lafayette County,55065,42.655578,-90.130292
+Langlade,Wisconsin,WI,Langlade County,55067,45.262381,-89.067725
+Lincoln,Wisconsin,WI,Lincoln County,55069,45.338417,-89.742309
+Manitowoc,Wisconsin,WI,Manitowoc County,55071,44.156137,-87.577352
+Marathon,Wisconsin,WI,Marathon County,55073,44.898036,-89.757823
+Marinette,Wisconsin,WI,Marinette County,55075,45.346899,-87.991198
+Marquette,Wisconsin,WI,Marquette County,55077,43.826053,-89.409095
+Menominee,Wisconsin,WI,Menominee County,55078,44.991304,-88.669251
+Milwaukee,Wisconsin,WI,Milwaukee County,55079,43.01766,-87.481554
+Monroe,Wisconsin,WI,Monroe County,55081,43.945175,-90.619969
+Oconto,Wisconsin,WI,Oconto County,55083,44.996575,-88.206516
+Oneida,Wisconsin,WI,Oneida County,55085,45.716176,-89.534533
+Outagamie,Wisconsin,WI,Outagamie County,55087,44.418226,-88.464988
+Ozaukee,Wisconsin,WI,Ozaukee County,55089,43.360752,-87.499304
+Pepin,Wisconsin,WI,Pepin County,55091,44.627436,-91.83489
+Pierce,Wisconsin,WI,Pierce County,55093,44.725336,-92.426279
+Polk,Wisconsin,WI,Polk County,55095,45.462041,-92.447066
+Portage,Wisconsin,WI,Portage County,55097,44.476246,-89.49807
+Price,Wisconsin,WI,Price County,55099,45.679072,-90.35965
+Racine,Wisconsin,WI,Racine County,55101,42.754122,-87.420877
+Richland,Wisconsin,WI,Richland County,55103,43.376199,-90.435693
+Rock,Wisconsin,WI,Rock County,55105,42.66988,-89.075284
+Rusk,Wisconsin,WI,Rusk County,55107,45.472734,-91.136745
+Sauk,Wisconsin,WI,St. Croix County,55109,45.028959,-92.447284
+Sawyer,Wisconsin,WI,Sauk County,55111,43.428001,-89.943318
+Shawano,Wisconsin,WI,Sawyer County,55113,45.864913,-91.14713
+Sheboygan,Wisconsin,WI,Shawano County,55115,44.789641,-88.755813
+St. Croix,Wisconsin,WI,Sheboygan County,55117,43.741232,-87.731516
+Taylor,Wisconsin,WI,Taylor County,55119,45.211656,-90.504853
+Trempealeau,Wisconsin,WI,Trempealeau County,55121,44.30305,-91.358867
+Unknown,Wisconsin,WI,Vernon County,55123,43.599366,-90.821983
+Vernon,Wisconsin,WI,Vilas County,55125,46.049848,-89.501254
+Vilas,Wisconsin,WI,Walworth County,55127,42.66811,-88.541731
+Walworth,Wisconsin,WI,Washburn County,55129,45.892489,-91.796422
+Washburn,Wisconsin,WI,Washington County,55131,43.391156,-88.232917
+Washington,Wisconsin,WI,Waukesha County,55133,43.018368,-88.30424
+Waukesha,Wisconsin,WI,Waupaca County,55135,44.478004,-88.967005
+Waupaca,Wisconsin,WI,Waushara County,55137,44.112823,-89.239786
+Waushara,Wisconsin,WI,Winnebago County,55139,44.085707,-88.668149
+Winnebago,Wisconsin,WI,Wood County,55141,44.461413,-90.038825
+Wood,Wisconsin,WY,Albany County,56001,41.665514,-105.721883
+Albany,Wyoming,WY,Big Horn County,56003,44.525117,-107.994848
+Big Horn,Wyoming,WY,Campbell County,56005,44.191999,-105.517014
+Campbell,Wyoming,WY,Carbon County,56007,41.70359,-106.933153
+Carbon,Wyoming,WY,Converse County,56009,42.984623,-105.524752
+Converse,Wyoming,WY,Crook County,56011,44.589266,-104.567298
+Crook,Wyoming,WY,Fremont County,56013,43.054831,-108.608935
+Fremont,Wyoming,WY,Goshen County,56015,42.089455,-104.35354
+Goshen,Wyoming,WY,Hot Springs County,56017,43.720209,-108.435076
+Hot Springs,Wyoming,WY,Johnson County,56019,44.044048,-106.588541
+Johnson,Wyoming,WY,Laramie County,56021,41.29283,-104.660395
+Laramie,Wyoming,WY,Lincoln County,56023,42.229993,-110.682961
+Lincoln,Wyoming,WY,Natrona County,56025,42.977645,-106.768219
+Natrona,Wyoming,WY,Niobrara County,56027,43.062159,-104.468373
+Niobrara,Wyoming,WY,Park County,56029,44.492387,-109.593597
+Park,Wyoming,WY,Platte County,56031,42.131593,-104.953963
+Platte,Wyoming,WY,Sheridan County,56033,44.781369,-106.881211
+Sheridan,Wyoming,WY,Sublette County,56035,42.767928,-109.91617
+Sublette,Wyoming,WY,Sweetwater County,56037,41.660328,-108.875677
+Sweetwater,Wyoming,WY,Teton County,56039,44.048662,-110.426087
+Teton,Wyoming,WY,Uinta County,56041,41.284726,-110.558947
+Uinta,Wyoming,WY,Washakie County,56043,43.878831,-107.669052
+Washakie,Wyoming,WY,Weston County,56045,43.846213,-104.57002
+Weston,Wyoming,,,,,
