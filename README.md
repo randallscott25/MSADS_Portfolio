@@ -1,4 +1,5 @@
-# Randall Scott Taylor
+# Randall Scott Taylor 
+>  *Summer 2020*
 # Graduate Student - Portfolio Milestone Repository
 
 
