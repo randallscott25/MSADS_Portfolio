@@ -19,6 +19,6 @@ The intent of this Portfolio Milestone is for the student to assemble evidence a
 
 Links to details about my Portfolio and the video narrated presentation:
 
-[Learning Goals]
-[Presentation, with narrative]
-[Presentation, without narrative]
+[Learning Goals](https://github.com/randallscott25/MSADS_Portfolio/blob/master/RandallTaylorPortfolioMilestone_final.pdf)
+[Presentation, with narrative](https://github.com/randallscott25/MSADS_Portfolio/blob/master/zoom%20presentation/audio_only.m4a)
+[Presentation, without narrative](https://github.com/randallscott25/MSADS_Portfolio/blob/master/RandallTaylorPortfolioMilestone_presentation.pdf)
